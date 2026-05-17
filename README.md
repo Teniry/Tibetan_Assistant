@@ -79,7 +79,7 @@
     * **相似度阈值**：`0.05`
     * **关键字权重**：`0.7`
     * **Top-N**：`30`
-    * **Rerank 模型**：选择 `gte-rerank`（若显存/条件允许，强烈推荐使用 `BAAI/bge-reranker-v2-m3`）。
+    * **Rerank 模型**：选择 `gte-rerank`（若显存/条件允许，推荐使用 `BAAI/bge-reranker-v2-m3`）。
 保存配置后，即可在聊天界面与藏语 AI 助手进行交互！
 
 ---
