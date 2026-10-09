@@ -1,0 +1,9 @@
+﻿PID=7904 ppid=16488 CMD="C:\Users\小腾同学\.workbuddy\binaries\node\versions\22.22.2\node.exe" node_modules\tsx\dist\cli.mjs watch server\index.ts 
+PID=9948 ppid=24040 CMD=C:\Users\小腾同学\.workbuddy\binaries\node\versions\22.22.2\node.exe --require E:\AIAgent\三智能体\木雅语助手-AutoDL-RAGFlow版\node_modules\tsx\dist\preflight.cjs --import file:///E:/AIAgent/%E4%B8%89%E6%99%BA%E8%83%BD%E4%BD%93/%E6%9C%A8%E9%9B%85%E8%AF%AD%E5%8A%A9%E6%89%8B-AutoDL-RAGFlow%E7%89%88/node_modules/tsx/dist/loader.mjs server/index.ts
+PID=20960 ppid=21076 CMD="C:\Users\小腾同学\.workbuddy\binaries\node\versions\22.22.2\node.exe" node_modules\vite\bin\vite.js --host 0.0.0.0 --port 5173 
+PID=24040 ppid=24000 CMD=C:\Users\小腾同学\.workbuddy\binaries\node\versions\22.22.2\node.exe node_modules/tsx/dist/cli.mjs watch server/index.ts
+PID=24840 ppid=16488 CMD="C:\Users\小腾同学\.workbuddy\binaries\node\versions\22.22.2\node.exe" node_modules\vite\bin\vite.js --host 0.0.0.0 --port 5173 
+PID=24968 ppid=21776 CMD="C:\Users\小腾同学\.workbuddy\binaries\node\versions\22.22.2\node.exe"  "C:\Users\小腾同学\.workbuddy\plugins\cache\workbuddy-builtin\weixinpay\1.5.111/dist/mcp-server.mjs"
+PID=25604 ppid=10172 CMD=C:\Users\小腾同学\.workbuddy\binaries\node\versions\22.22.2\node.exe node_modules/vite/bin/vite.js --host 0.0.0.0 --port 5173
+PID=26684 ppid=21076 CMD="C:\Users\小腾同学\.workbuddy\binaries\node\versions\22.22.2\node.exe" node_modules\vite\bin\vite.js --host 0.0.0.0 --port 5173 
+

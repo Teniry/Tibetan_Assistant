@@ -1,0 +1,9 @@
+﻿=== 3001 ===
+PID=9948
+=== 5173 ===
+PID=25604
+=== launcher GUI (muya-launcher) ===
+PID=21076 ppid=12616
+PID=16488 ppid=7628
+PID=24316 ppid=26692
+

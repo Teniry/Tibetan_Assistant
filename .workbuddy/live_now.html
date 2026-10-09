@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>木雅藏语AI助手</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23000'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23fff'/%3E%3C/svg%3E" />
+  <!-- __PATH_AWARE_BOOT__ -->
+<script>
+  (function () {
+    try {
+      var p = location.pathname;
+      var isLanding = p === '/' || p === '/index.html' || p === '';
+      var s = document.createElement('style');
+      if (isLanding) {
+        s.textContent = 'html,body{background-color:#f8f5f0!important}#boot-screen{opacity:1!important;visibility:visible!important}';
+      } else {
+        s.textContent = 'html,body{background-color:#0a0e27!important}#boot-screen{display:none!important}';
+      }
+      (document.head || document.documentElement).appendChild(s);
+    } catch (e) {}
+  })();
+</script>
+<style>
+    /* ===== 静态启动屏：在 React bundle 下载期间立即显示，挂载后自动被替换 ===== */
+    #boot-screen {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #f8f5f0;
+      font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+      z-index: 2147483647;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.18s ease;
+    }
+    #boot-screen.is-visible {
+      opacity: 1;
+      visibility: visible;
+    }
+    #boot-screen .boot-ring {
+      position: relative;
+      width: 96px;
+      height: 96px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #boot-screen .boot-ring::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      border: 3px solid rgba(154, 59, 28, 0.15);
+      border-top-color: #9a3b1c;
+      animation: bootSpin 1.1s linear infinite;
+    }
+    #boot-screen .boot-logo {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      background: #9a3b1c;
+      color: #fff;
+      font-size: 24px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 16px rgba(154, 59, 28, 0.35);
+    }
+    #boot-screen .boot-title {
+      margin-top: 22px;
+      font-size: 20px;
+      font-weight: 700;
+      color: #2c1810;
+      letter-spacing: 1px;
+    }
+    #boot-screen .boot-status {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #8b7355;
+      transition: color 0.4s;
+    }
+    #boot-screen .boot-bar {
+      margin-top: 24px;
+      width: min(300px, 70vw);
+      height: 6px;
+      border-radius: 999px;
+      background: rgba(0, 0, 0, 0.06);
+      overflow: hidden;
+    }
+    #boot-screen .boot-bar-inner {
+      height: 100%;
+      width: 40%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #9a3b1c, #c4a882);
+      animation: bootSlide 1.4s ease-in-out infinite;
+    }
+    @keyframes bootSpin { to { transform: rotate(360deg); } }
+    @keyframes bootSlide {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(250%); }
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-Bvh3P8rS.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CUsS85Pg.css">
+</head>
+<body>
+  <div id="root">
+    <div id="boot-screen">
+      <div class="boot-ring">
+        <div class="boot-logo">木</div>
+      </div>
+      <div class="boot-title">木雅藏语AI助手</div>
+      <div class="boot-status" id="boot-status">正在加载应用…</div>
+      <div class="boot-bar"><div class="boot-bar-inner"></div></div>
+    </div>
+  </div>
+  <script>
+    // 快速刷新时不显示启动屏，避免页面先闪一下；只有资源加载超过 700ms
+    // 才显示完整加载提示，兼顾弱网情况下的可感知反馈。
+    window.setTimeout(function () {
+      var screen = document.getElementById('boot-screen');
+      if (screen) screen.classList.add('is-visible');
+    }, 700);
+    // 弱网提示：bundle 下载超过 10 秒仍未完成时，告知用户可能是网络/隧道慢，
+    // 避免用户面对白屏/静默加载屏不知发生了什么。
+    window.setTimeout(function () {
+      var el = document.getElementById('boot-status');
+      if (el) {
+        el.textContent = '网络较慢，正在努力加载…若长时间无响应，请检查网络或服务器是否正常';
+        el.style.color = '#b45309';
+      }
+    }, 10000);
+  </script>
+</body>
+</html>

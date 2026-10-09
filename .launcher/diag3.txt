@@ -1,0 +1,15 @@
+﻿PORTS:
+3001 PID=9948
+5173 PID=25604
+POWERSHELL:
+PID=6552
+NODE:
+PID=7904 Name=node
+PID=9948 Name=node
+PID=20960 Name=node
+PID=24040 Name=node
+PID=24840 Name=node
+PID=24968 Name=node
+PID=25604 Name=node
+PID=26684 Name=node
+
