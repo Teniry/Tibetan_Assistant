@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#1a3a6a"/>
+      <stop offset="60%" stop-color="#0a1a3a"/>
+      <stop offset="100%" stop-color="#020816"/>
+    </radialGradient>
+    <linearGradient id="terrain" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3d5d4a"/>
+      <stop offset="100%" stop-color="#1a2a20"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0e2a4a"/>
+      <stop offset="100%" stop-color="#06182a"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- 背景天空 -->
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+
+  <!-- 远景雪山（3D 倾斜感） -->
+  <g transform="translate(0,80)">
+    <polygon points="100,500 250,200 380,350 500,180 650,330 800,150 950,290 1100,170 1250,310 1400,200 1550,360 1700,260 1820,440 1820,1080 100,1080"
+             fill="#5b6b7a" opacity="0.55"/>
+    <polygon points="100,500 250,200 380,350 500,180 650,330 800,150 950,290 1100,170 1250,310 1400,200 1550,360 1700,260 1820,440 1820,1080 100,1080"
+             fill="url(#terrain)" opacity="0.45"/>
+  </g>
+
+  <!-- 岛屿轮廓（3D 立体） -->
+  <g transform="translate(0,0)">
+    <!-- 阴影 -->
+    <ellipse cx="960" cy="900" rx="900" ry="60" fill="#000" opacity="0.55"/>
+    <!-- 岛屿侧面（暗色） -->
+    <path d="M 200 700 Q 300 600, 500 580 T 900 520 T 1400 580 T 1720 700 L 1720 1080 L 200 1080 Z"
+          fill="#0e1a2a" opacity="0.85"/>
+    <!-- 岛屿顶面 -->
+    <path d="M 200 700 Q 300 600, 500 580 T 900 520 T 1400 580 T 1720 700
+             Q 1600 660, 1400 660 T 900 600 T 500 660 T 200 700 Z"
+          fill="url(#terrain)"/>
+    <!-- 顶部绿色 -->
+    <path d="M 300 670 Q 500 620, 700 620 T 1100 600 T 1500 640 Q 1300 620, 1100 620 T 700 640 T 300 670 Z"
+          fill="#4a7a4a" opacity="0.7"/>
+  </g>
+
+  <!-- 海面波光 -->
+  <g opacity="0.6">
+    <path d="M 0 900 Q 480 880, 960 900 T 1920 900" stroke="#3aa6c9" stroke-width="1.5" fill="none" filter="url(#glow)"/>
+    <path d="M 0 950 Q 480 930, 960 950 T 1920 950" stroke="#3aa6c9" stroke-width="1.5" fill="none" filter="url(#glow)"/>
+    <path d="M 0 1000 Q 480 980, 960 1000 T 1920 1000" stroke="#3aa6c9" stroke-width="1.5" fill="none" filter="url(#glow)"/>
+  </g>
+
+  <!-- 顶部 3D 标识 -->
+  <text x="960" y="50" text-anchor="middle"
+        font-family="-apple-system, 'Microsoft YaHei', sans-serif"
+        font-size="20" fill="#ffffff" opacity="0.55" letter-spacing="6">
+    3D 藏语空间
+  </text>
+
+  <!-- 中心发射光 -->
+  <circle cx="960" cy="600" r="200" fill="#409eff" opacity="0.05"/>
+  <circle cx="960" cy="600" r="120" fill="#409eff" opacity="0.08"/>
+
+  <!-- 底部水印 -->
+  <text x="60" y="1040" font-family="-apple-system, sans-serif" font-size="12" fill="#ffffff" opacity="0.35">
+    METaverse · MUYA · 默认 3D 背景
+  </text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3540"/>
+      <stop offset="100%" stop-color="#1a1620"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2530"/>
+      <stop offset="100%" stop-color="#16131c"/>
+    </linearGradient>
+    <linearGradient id="ceil" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1820"/>
+      <stop offset="100%" stop-color="#0e0c14"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 天花板 -->
+  <rect width="1920" height="200" fill="url(#ceil)"/>
+  <!-- 顶部灯带 -->
+  <g opacity="0.7">
+    <rect x="100" y="180" width="1720" height="3" fill="#ffb84d"/>
+    <rect x="200" y="220" width="1520" height="2" fill="#ffb84d" opacity="0.6"/>
+    <rect x="300" y="260" width="1320" height="2" fill="#ffb84d" opacity="0.5"/>
+  </g>
+  <!-- 远墙 -->
+  <rect x="0" y="200" width="1920" height="500" fill="url(#wall)"/>
+  <!-- 黑板 -->
+  <rect x="700" y="350" width="900" height="280" rx="8" fill="#0e2030" stroke="#3aa6c9" stroke-width="2" opacity="0.9"/>
+  <rect x="700" y="350" width="900" height="280" rx="8" fill="none" stroke="#3aa6c9" stroke-width="2" opacity="0.5"/>
+  <!-- 黑板装饰 -->
+  <g opacity="0.6">
+    <rect x="1300" y="380" width="280" height="60" rx="4" fill="none" stroke="#ffb84d" stroke-width="2"/>
+    <rect x="1300" y="460" width="280" height="60" rx="4" fill="none" stroke="#3aa6c9" stroke-width="2"/>
+    <rect x="1300" y="540" width="280" height="60" rx="4" fill="none" stroke="#ffb84d" stroke-width="2"/>
+    <circle cx="1800" cy="500" r="50" fill="none" stroke="#3aa6c9" stroke-width="2"/>
+  </g>
+  <!-- 地板 -->
+  <rect x="0" y="700" width="1920" height="380" fill="url(#floor)"/>
+  <!-- 地板反光 -->
+  <g opacity="0.3">
+    <line x1="100" y1="800" x2="1820" y2="800" stroke="#3aa6c9" stroke-width="1"/>
+    <line x1="100" y1="850" x2="1820" y2="850" stroke="#3aa6c9" stroke-width="1"/>
+    <line x1="100" y1="900" x2="1820" y2="900" stroke="#3aa6c9" stroke-width="1"/>
+  </g>
+  <!-- 桌椅 -->
+  <g opacity="0.6">
+    <rect x="300" y="750" width="120" height="80" rx="4" fill="#3a3540"/>
+    <rect x="500" y="750" width="120" height="80" rx="4" fill="#3a3540"/>
+    <rect x="700" y="750" width="120" height="80" rx="4" fill="#3a3540"/>
+    <rect x="900" y="750" width="120" height="80" rx="4" fill="#3a3540"/>
+    <rect x="1100" y="750" width="120" height="80" rx="4" fill="#3a3540"/>
+    <rect x="1300" y="750" width="120" height="80" rx="4" fill="#3a3540"/>
+    <rect x="1500" y="750" width="120" height="80" rx="4" fill="#3a3540"/>
+  </g>
+
+  <!-- 标题 -->
+  <text x="960" y="1050" text-anchor="middle"
+        font-family="-apple-system, 'Microsoft YaHei', sans-serif"
+        font-size="14" fill="#ffffff" opacity="0.45" letter-spacing="4">
+    METaverse · 默认虚拟教室
+  </text>
+</svg>

@@ -1,0 +1,409 @@
+{
+  "version": 1,
+  "homeBg": "/uploads/home_bg/1787158253041_wy7o8s.webp",
+  "homeTitle": "木雅藏语AI助手",
+  "homeSubtitle": "助力培养“国家通用语言文字+少数民族语言”双语人才",
+  "defaultPortalBg": "/default-portal-bg.svg",
+  "ragflow": {
+    "apiKey": "",
+    "baseUrl": "http://127.0.0.1:9380",
+    "datasetName": "muya",
+    "model": "deepseek-v3"
+  },
+  "llm": {
+    "enabled": true,
+    "apiKey": "sk-4aa184d706044bbbb40e062c2c174379",
+    "model": "deepseek-v3",
+    "systemPrompt": "你是\"{persona}\"，一个亲切专业的藏语（木雅方言）教学助手，同时也具备通用知识问答能力。请用简体中文回答，条理清晰，涉及词汇或语法时给出示例。",
+    "temperature": 0.7
+  },
+  "webSearch": {
+    "enabled": false,
+    "provider": "tavily",
+    "apiKey": "",
+    "trustedDomains": [
+      "gov.cn",
+      "baike.baidu.com",
+      "edu.cn",
+      "cas.cn",
+      "gzz.gov.cn",
+      "kangding.gov.cn"
+    ],
+    "maxResults": 5
+  },
+  "points": [
+    {
+      "id": "muxiaoce",
+      "name": "木雅语测评智能体",
+      "label": "",
+      "subtitle": "",
+      "homeLabelPosition": "bottom",
+      "homeLabelStyle": "bubble",
+      "labelOffsetY": -20,
+      "gifUrl": "/uploads/gif/1786865492711_9lpt03_webp.webp",
+      "waveGifUrl": "/uploads/gif/1786941447798_bpkjm9.webp",
+      "pageTitle": "3D 空间 · 木小测",
+      "topBarTitle": "",
+      "topBarColor": "#C8362D",
+      "topBarTextColor": "#FFFFFF",
+      "topBarTools": [
+        {
+          "id": "tool_x0bo13",
+          "icon": "audio",
+          "label": "语音讲解",
+          "enabled": true,
+          "type": "audio"
+        },
+        {
+          "id": "tool_x0bz2v",
+          "icon": "info",
+          "label": "系统信息",
+          "enabled": false,
+          "type": "info"
+        }
+      ],
+      "homePosition": {
+        "x": 10.210795686910268,
+        "y": 71.0975923936809
+      },
+      "portalPosition": {
+        "x": 14,
+        "y": 60
+      },
+      "portalBg": "/muxiaoce-bg.webp",
+      "size": 380,
+      "portalSize": 600,
+      "ragflow": {
+        "enabled": true,
+        "welcomeMessage": "你好，我是木小测，看看你的学习成果～",
+        "title": "木小测"
+      },
+      "enabled": true,
+      "order": 0,
+      "chatHeight": 800,
+      "chatWidth": 780,
+      "chatFontSize": 16,
+      "resources": [],
+      "topBarButtonColor": "#c29b78",
+      "resourcesBtnSize": 60,
+      "actionButtons": [
+        {
+          "id": "btn_mswnknjb_1bo6",
+          "icon": "Paperclip",
+          "label": "新按钮",
+          "enabled": true,
+          "size": 52,
+          "position": {
+            "x": 96,
+            "y": 50
+          },
+          "action": "resources",
+          "files": [
+            {
+              "id": "res_msw1m2r9_0o55",
+              "name": "木雅语单项选择题专项卷.pdf",
+              "type": "document",
+              "url": "/uploads/resources/1786899142767_6yxjt8.pdf",
+              "fileName": "1786899142767_6yxjt8.pdf",
+              "fileSize": 197090,
+              "mimeType": "application/pdf",
+              "createdAt": 1786899142773
+            },
+            {
+              "id": "res_msw1m57m_dmwh",
+              "name": "木雅语单项选择题专项卷_参考答案.pdf",
+              "type": "document",
+              "url": "/uploads/resources/1786899145947_drsmjo.pdf",
+              "fileName": "1786899145947_drsmjo.pdf",
+              "fileSize": 81071,
+              "mimeType": "application/pdf",
+              "createdAt": 1786899145954
+            },
+            {
+              "id": "res_mswnz3ev_ihp0",
+              "name": "木雅语词汇巩固测试_A卷.pdf",
+              "type": "document",
+              "url": "/uploads/resources/1786936701693_kxmxyj.pdf",
+              "fileName": "1786936701693_kxmxyj.pdf",
+              "fileSize": 147911,
+              "mimeType": "application/pdf",
+              "createdAt": 1786936701703
+            },
+            {
+              "id": "res_mswnz60h_yy8f",
+              "name": "木雅语词汇巩固测试_B卷.pdf",
+              "type": "document",
+              "url": "/uploads/resources/1786936705067_ad4eio.pdf",
+              "fileName": "1786936705067_ad4eio.pdf",
+              "fileSize": 145751,
+              "mimeType": "application/pdf",
+              "createdAt": 1786936705073
+            },
+            {
+              "id": "res_mswnz9b5_xdnw",
+              "name": "木雅语词汇巩固测试_参考答案.pdf",
+              "type": "document",
+              "url": "/uploads/resources/1786936709336_ph3tfw.pdf",
+              "fileName": "1786936709336_ph3tfw.pdf",
+              "fileSize": 149003,
+              "mimeType": "application/pdf",
+              "createdAt": 1786936709345
+            }
+          ]
+        },
+        {
+          "id": "btn_video_muxiaoce",
+          "icon": "Video",
+          "label": "播放视频",
+          "enabled": true,
+          "size": 56,
+          "position": {
+            "x": 96,
+            "y": 68
+          },
+          "action": "video",
+          "bgColor": "rgba(10,14,26,0.85)",
+          "iconColor": "#FFFFFF",
+          "borderColor": "rgba(255,255,255,0.35)",
+          "files": []
+        }
+      ],
+      "showTopBar": true,
+      "speakScale": 0.85,
+      "waveOffsetY": 18,
+      "speakOffsetY": 35
+    },
+    {
+      "id": "muxiaowen",
+      "name": "木雅语学习智能体",
+      "label": "",
+      "subtitle": "",
+      "homeLabelPosition": "bottom",
+      "homeLabelStyle": "bubble",
+      "labelOffsetY": -10,
+      "gifUrl": "/uploads/gif/1786865513096_0c0dgu.webp",
+      "waveGifUrl": "/uploads/gif/1786865510495_saneli.webp",
+      "pageTitle": "3D 空间 · 木小文",
+      "topBarTitle": "",
+      "topBarColor": "#C8362D",
+      "topBarTextColor": "#FFFFFF",
+      "topBarTools": [
+        {
+          "id": "audio",
+          "icon": "audio",
+          "label": "语音讲解",
+          "enabled": true,
+          "type": "audio"
+        },
+        {
+          "id": "info",
+          "icon": "info",
+          "label": "场景信息",
+          "enabled": false,
+          "type": "info"
+        }
+      ],
+      "homePosition": {
+        "x": 39.2226365174299,
+        "y": 71.11076778140945
+      },
+      "portalPosition": {
+        "x": 14,
+        "y": 64
+      },
+      "portalBg": "/muxiaowen-bg.webp",
+      "size": 380,
+      "portalSize": 600,
+      "ragflow": {
+        "enabled": true,
+        "welcomeMessage": "hello！我是木小文，让我带你走进木雅语的世界～",
+        "title": "木小文"
+      },
+      "enabled": true,
+      "order": 1,
+      "chatHeight": 800,
+      "chatWidth": 780,
+      "chatFontSize": 16,
+      "systemPrompt": "你是一个木雅语方面的专家，你的回答需先依据知识库里的内容，并且回答输出需有对应中文，藏语，木雅语，音标以及英文这五种语音。",
+      "actionButtons": [
+        {
+          "id": "btn_msx0xvrn_rz2f",
+          "icon": "Video",
+          "label": "讲解",
+          "enabled": true,
+          "size": 60,
+          "position": {
+            "x": 96,
+            "y": 48
+          },
+          "action": "resources"
+        }
+      ],
+      "showTopBar": true,
+      "speakScale": 0.9,
+      "waveOffsetY": -36,
+      "quickPrompts": [
+        "“石头”的藏语怎么说"
+      ]
+    },
+    {
+      "id": "muxiaozhi",
+      "name": "木雅知识智能体",
+      "label": "",
+      "subtitle": "",
+      "homeLabelPosition": "bottom",
+      "homeLabelStyle": "bubble",
+      "labelOffsetY": -24,
+      "gifUrl": "/uploads/gif/1786865520669_t24cld.webp",
+      "waveGifUrl": "/uploads/gif/1786865518598_y9tajm.webp",
+      "pageTitle": "3D 空间 · 木小知",
+      "topBarTitle": "",
+      "topBarColor": "#C8362D",
+      "topBarTextColor": "#FFFFFF",
+      "topBarTools": [
+        {
+          "id": "audio",
+          "icon": "audio",
+          "label": "语音讲解",
+          "enabled": true,
+          "type": "audio"
+        },
+        {
+          "id": "info",
+          "icon": "info",
+          "label": "场景信息",
+          "enabled": false,
+          "type": "info"
+        }
+      ],
+      "homePosition": {
+        "x": 68.20611437208353,
+        "y": 71.61143149766019
+      },
+      "portalPosition": {
+        "x": 14,
+        "y": 64
+      },
+      "portalBg": "/muxiaozhi-bg.webp",
+      "size": 400,
+      "portalSize": 600,
+      "ragflow": {
+        "enabled": true,
+        "welcomeMessage": "嗨，今天想了解点什么？跟着木小知一起看看这片土地的故事～",
+        "title": "木小知"
+      },
+      "enabled": true,
+      "order": 2,
+      "chatWidth": 780,
+      "chatHeight": 800,
+      "chatFontSize": 16,
+      "resources": [],
+      "actionButtons": [
+        {
+          "id": "btn_video_muxiaozhi",
+          "icon": "Video",
+          "label": "播放视频",
+          "enabled": true,
+          "size": 56,
+          "position": {
+            "x": 96,
+            "y": 50
+          },
+          "action": "video",
+          "bgColor": "rgba(10,14,26,0.85)",
+          "iconColor": "#FFFFFF",
+          "borderColor": "rgba(255,255,255,0.35)",
+          "files": [
+            {
+              "id": "f_msxlrd3s_95wv",
+              "name": "1.mp4",
+              "type": "video",
+              "url": "/uploads/resources/1786993447925_j87e5a.mp4",
+              "fileName": "1786993447925_j87e5a.mp4",
+              "fileSize": 7603985,
+              "mimeType": "video/mp4",
+              "createdAt": 1786993447960
+            },
+            {
+              "id": "f_msxlrgw1_wfsq",
+              "name": "2.mp4",
+              "type": "video",
+              "url": "/uploads/resources/1786993452806_yoa915.mp4",
+              "fileName": "1786993452806_yoa915.mp4",
+              "fileSize": 8294128,
+              "mimeType": "video/mp4",
+              "createdAt": 1786993452865
+            },
+            {
+              "id": "f_msxlrixz_1i9g",
+              "name": "3.mp4",
+              "type": "video",
+              "url": "/uploads/resources/1786993455470_ydoigl.mp4",
+              "fileName": "1786993455470_ydoigl.mp4",
+              "fileSize": 8262224,
+              "mimeType": "video/mp4",
+              "createdAt": 1786993455527
+            }
+          ]
+        }
+      ],
+      "carouselImages": [
+        {
+          "id": "car_muya_dist",
+          "imageUrl": "/uploads/resources/1786942032081_vw0v0c.jpg",
+          "title": "木雅分布区域",
+          "description": "木雅人主要分布在四川省甘孜藏族自治州康定市折多山以西、雅砻江以东、道孚县以南、九龙县以北的地区，藏文史籍称这一区域为「木雅热岗」，居住在此的藏族被称为「木雅娃」。木雅语分为东部方言（自称「木勒」，分布于九龙县湾坝、洪坝一带及石棉县部分地区）和西部方言（自称「木雅」，分布于九龙县汤古乡，康定市沙德、六巴、普沙绒、朋布西乡和雅江县祝桑乡）。木雅人大致围绕贡嘎山分布，贡嘎山因此被视为木雅人的圣山。",
+          "sourceUrl": "https://www.gzz.gov.cn/mfms/article/72457",
+          "sourceName": "甘孜州人民政府网《木雅文化》"
+        },
+        {
+          "id": "car_muya_gongga",
+          "imageUrl": "/uploads/resources/1786942036018_o5jabf.webp",
+          "title": "贡嘎山——木雅圣山",
+          "description": "贡嘎山海拔7556米，坐落于青藏高原东部边缘，位于康定市、泸定县分界处，是横断山脉大雪山的主峰、四川省第一高峰，被誉为「蜀山之王」。贡嘎山在木雅地区被称为「木雅贡嘎」，是木雅人的圣山。贡嘎山是中国冰川最发达的山峰之一，海螺沟冰川长30公里，是世界罕见的低海拔冰川。",
+          "sourceUrl": "https://www.kangding.gov.cn/kdcsjs/article/107034",
+          "sourceName": "康定市人民政府网《城市建设》栏目"
+        },
+        {
+          "id": "car_muya_jinta",
+          "imageUrl": "/uploads/resources/1786942039917_lfyq5z.webp",
+          "title": "木雅金塔（木雅尊胜塔）",
+          "description": "木雅金塔又名「木雅尊胜塔」，位于康定市新都桥镇塔公乡境内，是多吉扎西活佛为纪念十世班禅大师于此灌顶布法而修建的佛塔，为坛城式佛教寺庙建筑。金塔位于雅拉神山、夏古冬青山、文殊山、观音山等八座神山所环绕的中心，藏语称「古汝塘」，意为「莲师道场」。",
+          "sourceUrl": "https://www.kangding.gov.cn/kdcsjs/article/107034",
+          "sourceName": "康定市人民政府网《城市建设》栏目"
+        },
+        {
+          "id": "car_muya_guzhuang",
+          "imageUrl": "/uploads/resources/1786942127566_2yshxh.webp",
+          "title": "木雅锅庄——国家级非遗",
+          "description": "木雅锅庄是木雅人最具特色的舞蹈，已列入国家级非物质文化遗产。木雅人在农闲时节聚在一起祈年祷岁、歌舞娱乐，所唱跳的舞蹈便是木雅锅庄。有趣的是，锅庄的吟唱辞令全部使用康巴藏语，与木雅人平日劳作生活使用的木雅语大相径庭。在木雅圣地景区的锅庄广场上，常有身着传统服饰的村民演绎，游客可参与其中。",
+          "sourceUrl": "https://youletour.com/ganzizhou/mu-ya-sheng-di",
+          "sourceName": "游乐旅行网《木雅圣地景区》"
+        },
+        {
+          "id": "car_muya_diao",
+          "imageUrl": "/uploads/resources/1786942186999_kuopio.jpeg",
+          "title": "朋布西双碉——木雅古碉楼",
+          "description": "木雅地区是高碉文化十分发育的地区，建筑以石木结构藏房为主。今存于康定市朋布西乡和沙德乡一带的高碉，数量仅次于丹巴县的高碉。其中「朋布西双碉」（木雅双子塔）经测定有800年以上历史，是木雅地区高碉文化的代表。",
+          "sourceUrl": "https://baike.baidu.com/item/%E6%9C%A8%E9%9B%85%E4%B9%8B%E5%9C%B0/23072001",
+          "sourceName": "百度百科《木雅之地》"
+        }
+      ],
+      "carouselEnabled": true,
+      "carouselWidth": 320,
+      "labelOffsetX": 6,
+      "showTopBar": true,
+      "speakScale": 0.85,
+      "speakOffsetY": 10,
+      "waveOffsetY": -10
+    }
+  ],
+  "menu": [
+    {
+      "id": "menu_xuexi",
+      "name": "学习",
+      "icon": ""
+    }
+  ],
+  "updatedAt": 1787484217903
+}

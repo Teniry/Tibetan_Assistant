@@ -1,0 +1,3701 @@
+{
+  "version": 1,
+  "conversations": {
+    "codex-validation-web::muxiaozhi": {
+      "clientId": "codex-validation-web",
+      "agentType": "muxiaozhi",
+      "updatedAt": 1787004034298,
+      "messages": [
+        {
+          "id": "user-7e86f5e9-2ad6-447b-a3f1-a36403741732",
+          "role": "user",
+          "content": "木雅有哪些著名景点？",
+          "createdAt": 1787004034285
+        },
+        {
+          "id": "assistant-877de904-2155-41bd-89ca-cfdb098fb475",
+          "role": "assistant",
+          "content": "> 可信网页未检索到可靠来源，暂时无法确认。\n\n检索状态：fetch failed",
+          "createdAt": 1787004034297,
+          "source": "local",
+          "evidenceCount": 0,
+          "model": "知识库检索",
+          "sources": [],
+          "grounded": false
+        }
+      ]
+    },
+    "codex-validation-language::muxiaozhi": {
+      "clientId": "codex-validation-language",
+      "agentType": "muxiaozhi",
+      "updatedAt": 1787004034708,
+      "messages": [
+        {
+          "id": "user-6cf67dff-6a5f-4e40-88eb-ac4f222a5ba9",
+          "role": "user",
+          "content": "“你好”用木雅语怎么说？",
+          "createdAt": 1787004034317
+        },
+        {
+          "id": "assistant-b29d4d59-8567-4467-9d4c-476ea5d869a6",
+          "role": "assistant",
+          "content": "> 木雅语/藏语知识库未找到能够支持本次翻译或写法的可靠依据。\n\n检索状态：RAGFlow 未配置，本地知识库也未命中",
+          "createdAt": 1787004034708,
+          "source": "ragflow",
+          "evidenceCount": 0,
+          "model": "证据闸门",
+          "sources": [],
+          "warning": "RAGFlow 未配置，本地知识库也未命中",
+          "grounded": false
+        }
+      ]
+    },
+    "codex-validation-web-2::muxiaozhi": {
+      "clientId": "codex-validation-web-2",
+      "agentType": "muxiaozhi",
+      "updatedAt": 1787004118730,
+      "messages": [
+        {
+          "id": "user-490607c4-f66b-488d-8a87-12ef0afc123a",
+          "role": "user",
+          "content": "木雅有哪些著名景点？",
+          "createdAt": 1787004118556
+        },
+        {
+          "id": "assistant-88fcae91-5b14-4201-a65f-959272e980b0",
+          "role": "assistant",
+          "content": "> 可信网页未检索到可靠来源，暂时无法确认。\n\n检索状态：fetch failed",
+          "createdAt": 1787004118729,
+          "source": "web",
+          "evidenceCount": 0,
+          "model": "知识库检索",
+          "sources": [],
+          "grounded": false
+        }
+      ]
+    },
+    "codex-final-web::muxiaozhi": {
+      "clientId": "codex-final-web",
+      "agentType": "muxiaozhi",
+      "updatedAt": 1787004220485,
+      "messages": [
+        {
+          "id": "user-cf5cc784-df9f-4784-b327-14802e1a2ee6",
+          "role": "user",
+          "content": "木雅有哪些著名景点？",
+          "createdAt": 1787004220474
+        },
+        {
+          "id": "assistant-a0a00166-2f3a-46f9-8111-35bfd59766a9",
+          "role": "assistant",
+          "content": "> 可信网页未检索到可靠来源，暂时无法确认。\n\n检索状态：fetch failed",
+          "createdAt": 1787004220485,
+          "source": "web",
+          "evidenceCount": 0,
+          "model": "可信网页检索",
+          "sources": [],
+          "grounded": false
+        }
+      ]
+    },
+    "codex-final-language::muxiaozhi": {
+      "clientId": "codex-final-language",
+      "agentType": "muxiaozhi",
+      "updatedAt": 1787004220915,
+      "messages": [
+        {
+          "id": "user-6c1d9005-b2d1-49bc-a1dc-27c58a4308dc",
+          "role": "user",
+          "content": "“你好”用木雅语怎么说？",
+          "createdAt": 1787004220505
+        },
+        {
+          "id": "assistant-7339f046-fb51-4762-bd6c-364d93ec71df",
+          "role": "assistant",
+          "content": "> 木雅语/藏语知识库未找到能够支持本次翻译或写法的可靠依据。\n\n检索状态：RAGFlow 未配置，本地知识库也未命中",
+          "createdAt": 1787004220914,
+          "source": "ragflow",
+          "evidenceCount": 0,
+          "model": "证据闸门",
+          "sources": [],
+          "warning": "RAGFlow 未配置，本地知识库也未命中",
+          "grounded": false
+        }
+      ]
+    },
+    "codex-relevance-inspection::muxiaozhi": {
+      "clientId": "codex-relevance-inspection",
+      "agentType": "muxiaozhi",
+      "updatedAt": 1787004605585,
+      "messages": [
+        {
+          "id": "user-704df6e9-8e4d-499e-adc3-0d73c024886b",
+          "role": "user",
+          "content": "木雅有哪些著名景点？",
+          "createdAt": 1787004600914
+        },
+        {
+          "id": "assistant-659908db-dd3f-4bbf-9739-bbfaec3a178a",
+          "role": "assistant",
+          "content": "根据当前提供的可信网页资料，未检索到关于木雅地区著名景点的具体信息。需要更多授权访问的民族文化或旅游类资料才能回答此问题。\n\n（注：现有资料仅包含汉字\"木\"的语源学解释和五行哲学相关内容，与木雅文化无直接关联）\n\n实际使用的资料网址：\n1. https://baike.baidu.com/item/%E6%9C%A8/34131  \n2. https://baike.baidu.com/item/%E6%9C%A8/7111142",
+          "createdAt": 1787004605584,
+          "source": "web",
+          "evidenceCount": 2,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "web-rss-1",
+              "title": "木（汉语文字）_百度百科",
+              "excerpt": "木（拼音：mù），汉语一级通用规范汉字，此字始见于商代甲骨文，其古字形像树木，上为枝叶，下为树根。 “木”的本义即树木，后引申指木头、木料以及一切木制器具，又特指棺材。 木质坚韧结实，故“木”有淳朴忠厚之义。",
+              "url": "https://baike.baidu.com/item/%E6%9C%A8/34131",
+              "domain": "baike.baidu.com",
+              "similarity": 1,
+              "kind": "trusted-web"
+            },
+            {
+              "id": "web-rss-4",
+              "title": "木（五行之一）_百度百科",
+              "excerpt": "木是中国古代哲学五行之一，分阴阳两属性：甲木为阳，对应胆腑，形态为地上枝叶；乙木为阴，对应肝脏，形态为地下根系。 其代表颜色为绿色、青色，特性为生长、柔和，对应人体特征包括骨骼修长、面色青白等。",
+              "url": "https://baike.baidu.com/item/%E6%9C%A8/7111142",
+              "domain": "baike.baidu.com",
+              "similarity": 0.76,
+              "kind": "trusted-web"
+            }
+          ],
+          "grounded": true
+        }
+      ]
+    },
+    "codex-scenic-1787004863694::muxiaozhi": {
+      "clientId": "codex-scenic-1787004863694",
+      "agentType": "muxiaozhi",
+      "updatedAt": 1787004864013,
+      "messages": [
+        {
+          "id": "user-f30cc38d-2d71-4d46-99dc-089b65e92906",
+          "role": "user",
+          "content": "木雅有哪些著名景点？",
+          "createdAt": 1787004863967
+        },
+        {
+          "id": "assistant-eae5dc68-6f46-4427-88ee-1dda9c67a693",
+          "role": "assistant",
+          "content": "> 可信网页未检索到可靠来源，暂时无法确认。\n\n检索状态：fetch failed",
+          "createdAt": 1787004863980,
+          "source": "web",
+          "evidenceCount": 0,
+          "model": "可信网页检索",
+          "sources": [],
+          "grounded": false
+        },
+        {
+          "id": "user-27e5cb76-2836-44e6-b30b-e5338fdf3204",
+          "role": "user",
+          "content": "有哪些游玩的景区？",
+          "createdAt": 1787004864001
+        },
+        {
+          "id": "assistant-31bbbc1f-f343-44be-897f-ce3403699bbf",
+          "role": "assistant",
+          "content": "> 可信网页未检索到可靠来源，暂时无法确认。\n\n检索状态：fetch failed",
+          "createdAt": 1787004864012,
+          "source": "web",
+          "evidenceCount": 0,
+          "model": "可信网页检索",
+          "sources": [],
+          "grounded": false
+        }
+      ]
+    },
+    "d8a36a4c-d84a-4d78-bac6-32c8182a7476::muxiaowen": {
+      "clientId": "d8a36a4c-d84a-4d78-bac6-32c8182a7476",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787019193036,
+      "messages": [
+        {
+          "id": "user-1787017356427-ikrbds",
+          "role": "user",
+          "content": "”野猪“的藏文怎么说",
+          "createdAt": 1787017356429
+        },
+        {
+          "id": "assistant-abce2c2c-3f05-4f13-a1c2-75a0d0b3e024",
+          "role": "assistant",
+          "content": "> 整句未在知识库中直接命中，以下仅展示拆解后能够确认的词条；未命中部分不作翻译。\n\n| 中文 | 藏语 | 木雅语 | 国际音标 | 英文 | 章节分类 |\n|------|------|--------|----------|------|----------|\n| 野猪 | ཕག་རྒོད། | ཕག་རྒོད། | pʰagø | wild boar | 野生动物 |\n\n> 来源：本地知识库《木雅藏语方言词汇》（野生动物）",
+          "createdAt": 1787017359014,
+          "source": "local",
+          "evidenceCount": 1,
+          "model": "知识库五语对照直出",
+          "sources": [
+            {
+              "id": "216",
+              "title": "野生动物",
+              "excerpt": "中文：野猪；藏语：ཕག་རྒོད།；木雅语：ཕག་རྒོད།；国际音标：pʰagø；英文：wild boar",
+              "chapter": "野生动物",
+              "kind": "knowledge-base"
+            }
+          ],
+          "warning": "木小文翻译/词汇查询直接以五语对照表输出，未调用 LLM 二次改写",
+          "grounded": true
+        },
+        {
+          "id": "user-1787018480081-ls8x8x",
+          "role": "user",
+          "content": "”身体健康“的藏文怎么说",
+          "createdAt": 1787018480084
+        },
+        {
+          "id": "assistant-712c30de-50e9-4495-899c-09c7fefd0cdd",
+          "role": "assistant",
+          "content": "> 知识库没有完全同名词条，以下展示包含该检索词或经二次反查确认的完整原始词条。\n\n| 中文 | 藏语 | 木雅语 | 国际音标 | 英文 | 章节分类 |\n|------|------|--------|----------|------|----------|\n| 身体高大 | གཟུགས་རིང་། | ལུ་བོ་ཀི་ཀབ། ཀོ་ཕུང་རུ་རུ། [ཞང] | luvø kikʌ | tall | 人体部位 |\n| 身体矮小 | གཟུགས་ཐུང་། | ལུ་བོ་ཙུ་ཙ།[ཞང] ལུ་བོ་ནི་ལུས་པོ།[ཟུར] | luvø tsuɯtsa | short | 人体部位 |\n| 身体肥胖 | ཤ་རྒྱགས་པ། | ཆུ་འབུ་རུ་ཝ། ཤ་རྒྱགས་པ། | tɕʰumbuɻuɯga | fat | 人体部位 |\n| 身体瘦弱 | ཤ་ཞན་པ། | ཤ་མེད་ཀྭ་རལ། | ɕame qaɻa | thin | 人体部位 |\n| 身体健康 | གཟུགས་པོ་ཐང་པོ། ྱོག་པ་སི་བུ། | ཁྱོག་པ་སི་བུ | qʰopa sivu | fit, healthy | 人体部位 |\n\n> 来源：本地知识库《木雅藏语方言词汇》（人体部位、吉祥）",
+          "createdAt": 1787018483203,
+          "source": "local",
+          "evidenceCount": 7,
+          "model": "知识库五语对照直出",
+          "sources": [
+            {
+              "id": "153",
+              "title": "人体部位",
+              "excerpt": "中文：身体高大；藏语：གཟུགས་རིང་།；木雅语：ལུ་བོ་ཀི་ཀབ། ཀོ་ཕུང་རུ་རུ། [ཞང]；国际音标：luvø kikʌ；英文：tall",
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "154",
+              "title": "人体部位",
+              "excerpt": "中文：身体矮小；藏语：གཟུགས་ཐུང་།；木雅语：ལུ་བོ་ཙུ་ཙ།[ཞང] ལུ་བོ་ནི་ལུས་པོ།[ཟུར]；国际音标：luvø tsuɯtsa；英文：short",
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "155",
+              "title": "人体部位",
+              "excerpt": "中文：身体肥胖；藏语：ཤ་རྒྱགས་པ།；木雅语：ཆུ་འབུ་རུ་ཝ། ཤ་རྒྱགས་པ།；国际音标：tɕʰumbuɻuɯga；英文：fat",
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "156",
+              "title": "人体部位",
+              "excerpt": "中文：身体瘦弱；藏语：ཤ་ཞན་པ།；木雅语：ཤ་མེད་ཀྭ་རལ།；国际音标：ɕame qaɻa；英文：thin",
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "186",
+              "title": "人体部位",
+              "excerpt": "中文：身体健康；藏语：གཟུགས་པོ་ཐང་པོ། ྱོག་པ་སི་བུ།；木雅语：ཁྱོག་པ་སི་བུ；国际音标：qʰopa sivu；英文：fit, healthy",
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "2920",
+              "title": "吉祥",
+              "excerpt": "中文：愿人人健康长寿！；藏语：མི་ལ་ན་ཚ་མེད་པའི་སྨོན་ལམ་འདེབས། །；木雅语：མི་ནི་ནའ་ངོ་ངས་སྤྱི་འདུ་པི་འ་སྨོན་ལམ། །；国际音标：muni.na ŋuŋe ŋindu pi.ɣa mulʌ；英文：Wishing everyone heath and longevity.",
+              "chapter": "吉祥",
+              "kind": "knowledge-base"
+            }
+          ],
+          "warning": "木小文翻译/词汇查询直接以五语对照表输出，未调用 LLM 二次改写",
+          "grounded": true
+        },
+        {
+          "id": "u-1787019044387",
+          "role": "user",
+          "content": "“圆规”的藏语怎么说",
+          "createdAt": 1787019044392
+        },
+        {
+          "id": "assistant-d9f567b4-5fda-4a63-962d-119be5a2d9b1",
+          "role": "assistant",
+          "content": "> 整句未在知识库中直接命中，以下仅展示拆解后能够确认的词条；未命中部分不作翻译。\n\n| 中文 | 藏语 | 木雅语 | 国际音标 | 英文 | 章节分类 |\n|------|------|--------|----------|------|----------|\n| 圆规 | དཀྱིལ་སྐོར། | ཅབ་ཀུར།[ཕྲ་འགྱུར] | teΛku | compass | 水工 |\n\n> 来源：本地知识库《木雅藏语方言词汇》（水工）",
+          "createdAt": 1787019046878,
+          "source": "local",
+          "evidenceCount": 1,
+          "model": "知识库五语对照直出",
+          "sources": [
+            {
+              "id": "3131",
+              "title": "水工",
+              "excerpt": "中文：圆规；藏语：དཀྱིལ་སྐོར།；木雅语：ཅབ་ཀུར།[ཕྲ་འགྱུར]；国际音标：teΛku；英文：compass",
+              "chapter": "水工",
+              "kind": "knowledge-base"
+            }
+          ],
+          "warning": "木小文翻译/词汇查询直接以五语对照表输出，未调用 LLM 二次改写",
+          "grounded": true
+        },
+        {
+          "id": "u-1787019190106",
+          "role": "user",
+          "content": "“石头”的藏语怎么说",
+          "createdAt": 1787019190109
+        },
+        {
+          "id": "assistant-93181417-f014-4794-b44d-c53c619e85bb",
+          "role": "assistant",
+          "content": "> 整句未在知识库中直接命中，以下仅展示拆解后能够确认的词条；未命中部分不作翻译。\n\n| 中文 | 藏语 | 木雅语 | 国际音标 | 英文 | 章节分类 |\n|------|------|--------|----------|------|----------|\n| 石头 | རྡོ། | སྡོགས། [ཉིང] | dzo | stone | 武器 |\n\n> 来源：本地知识库《木雅藏语方言词汇》（武器）",
+          "createdAt": 1787019193035,
+          "source": "local",
+          "evidenceCount": 1,
+          "model": "知识库五语对照直出",
+          "sources": [
+            {
+              "id": "2867",
+              "title": "武器",
+              "excerpt": "中文：石头；藏语：རྡོ།；木雅语：སྡོགས། [ཉིང]；国际音标：dzo；英文：stone",
+              "chapter": "武器",
+              "kind": "knowledge-base"
+            }
+          ],
+          "warning": "木小文翻译/词汇查询直接以五语对照表输出，未调用 LLM 二次改写",
+          "grounded": true
+        }
+      ]
+    },
+    "d8a36a4c-d84a-4d78-bac6-32c8182a7476::muxiaoce": {
+      "clientId": "d8a36a4c-d84a-4d78-bac6-32c8182a7476",
+      "agentType": "muxiaoce",
+      "updatedAt": 1787018615674,
+      "messages": [
+        {
+          "id": "user-1787018612983-2srcou",
+          "role": "user",
+          "content": "”圆规“的藏语怎么说",
+          "createdAt": 1787018612984
+        },
+        {
+          "id": "assistant-d4221173-5f28-41de-8812-98b26cf100ef",
+          "role": "assistant",
+          "content": "藏文：དཀྱིལ་སྐོར། [资料1]\n\n来源：资料1",
+          "createdAt": 1787018615673,
+          "source": "local",
+          "evidenceCount": 1,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "3131",
+              "title": "水工",
+              "excerpt": "中文：圆规；藏语：དཀྱིལ་སྐོར།；木雅语：ཅབ་ཀུར།[ཕྲ་འགྱུར]；国际音标：teΛku；英文：compass",
+              "chapter": "水工",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "9eede429-98af-40f1-976d-1a3d8cf6a044::muxiaowen": {
+      "clientId": "9eede429-98af-40f1-976d-1a3d8cf6a044",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787149856604,
+      "messages": [
+        {
+          "id": "u-1787149855119",
+          "role": "user",
+          "content": "你好",
+          "createdAt": 1787149855124
+        },
+        {
+          "id": "assistant-0437a91a-8084-4d1e-8487-00a65681a251",
+          "role": "assistant",
+          "content": "> 本地 muya 知识库未收录",
+          "createdAt": 1787149856603,
+          "source": "local",
+          "evidenceCount": 0,
+          "model": "知识库检索",
+          "sources": [],
+          "grounded": false
+        }
+      ]
+    },
+    "9eede429-98af-40f1-976d-1a3d8cf6a044::muxiaoce": {
+      "clientId": "9eede429-98af-40f1-976d-1a3d8cf6a044",
+      "agentType": "muxiaoce",
+      "updatedAt": 1787152154709,
+      "messages": [
+        {
+          "id": "u-1787152152758",
+          "role": "user",
+          "content": "你好",
+          "createdAt": 1787152153070
+        },
+        {
+          "id": "assistant-8c538bd1-ef9b-48b4-ac8e-9ec3f8d11922",
+          "role": "assistant",
+          "content": "> 本地 muya 知识库未收录",
+          "createdAt": 1787152154708,
+          "source": "local",
+          "evidenceCount": 0,
+          "model": "知识库检索",
+          "sources": [],
+          "grounded": false
+        }
+      ]
+    },
+    "6b117344-7ea9-4fcc-847e-7e4580276553::muxiaowen": {
+      "clientId": "6b117344-7ea9-4fcc-847e-7e4580276553",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787205718547,
+      "messages": [
+        {
+          "id": "u-1787205657765",
+          "role": "user",
+          "content": "雪山用藏语怎么说",
+          "createdAt": 1787205657845
+        },
+        {
+          "id": "assistant-1e719895-ebfc-415e-bf62-a2316075628a",
+          "role": "assistant",
+          "content": "| 中文 | 藏文 | 木雅语 | 国际音标 | 英文 | 知识库章节 |\n|---|---|---|---|---|---|\n| 雪山 | གངས་རི། | གངས་རི། | qari | snow mountain | 山脉 |\n| 雪山 | གངས་ལ། | བུ་འདའ། | vuunda | snowy pass | 雪雨 |\n| 雪山 | གངས་རི། | བུ་འབོ། གངས་རི། | vuumbo | snow mountain | 雪雨 |\n| 说 | སྨྲ་བ། | གཏི་པི།①[ཉིང] | tupi | to speak, say | 动词 |\n| 说（现在） | འཆད། | ཏི་བཤད་པིས། | tuɕəpi | to tell (prog.) | 多变 |\n\n> [资料1] QA_山脉.csv\n> [资料2] QA_雪雨.csv\n> [资料3] QA_雪雨.csv\n> [资料4] QA_动词.csv\n> [资料5] QA_多变.csv",
+          "createdAt": 1787205659187,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "知识库五语对照直出",
+          "sources": [
+            {
+              "id": "2c05a44359bbe0a0",
+              "title": "QA_山脉.csv",
+              "excerpt": "Question: 雪山 གངས་རི། snow mountain qari Answer: 中文：雪山；藏语：གངས་རི།；木雅语：གངས་རི།；音标：qari；英文：snow mountain；章节分类：山脉",
+              "similarity": 0.36905158246699366,
+              "chapter": "山脉",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "2dddae79e9352841",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་ལ། བུ་འདའ། snowy pass vuunda Answer: 中文：雪山；藏语：གངས་ལ།；木雅语：བུ་འདའ།；音标：vuunda；英文：snowy pass；章节分类：雪雨",
+              "similarity": 0.363339189646095,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "4977f7f7ab73256e",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་རི། བུ་འབོ། གངས་རི། snow mountain vuumbo Answer: 中文：雪山；藏语：གངས་རི།；木雅语：བུ་འབོ། གངས་རི།；音标：vuumbo；英文：snow mountain；章节分类：雪雨",
+              "similarity": 0.35798657201522244,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "f06d87841e4720b0",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 说 སྨྲ་བ། གཏི་པི།①[ཉིང] to speak, say tupi Answer: 中文：说；藏语：སྨྲ་བ།；木雅语：གཏི་པི།①[ཉིང]；音标：tupi；英文：to speak, say；章节分类：动词",
+              "similarity": 0.3012486894169773,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "fbe07f24f7a5f09a",
+              "title": "QA_多变.csv",
+              "excerpt": "Question: 说（现在） འཆད། ཏི་བཤད་པིས། to tell (prog.) tuɕəpi Answer: 中文：说（现在）；藏语：འཆད།；木雅语：ཏི་བཤད་པིས།；音标：tuɕəpi；英文：to tell (prog.)；章节分类：多变",
+              "similarity": 0.2957211078751587,
+              "chapter": "多变",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "e20de045c1425e5f",
+              "title": "QA_攻击.csv",
+              "excerpt": "Question: 用刀子砍 གྲི་རྒྱག་པ། རུ་གྱེ་ཡིས་ནིས་ཙྰ། to cut rutɕɛ.ji nitsa Answer: 中文：用刀子砍；藏语：གྲི་རྒྱག་པ།；木雅语：རུ་གྱེ་ཡིས་ནིས་ཙྰ།；音标：rutɕɛ.ji nitsa；英文：to cut；章节分类：攻击",
+              "similarity": 0.2906872684460793,
+              "chapter": "攻击",
+              "kind": "knowledge-base"
+            }
+          ],
+          "warning": "木小文翻译/词汇查询直接以五语对照表输出，未调用 LLM 二次改写",
+          "grounded": true
+        },
+        {
+          "id": "u-1787205696746",
+          "role": "user",
+          "content": "“雪山”用藏语怎么说",
+          "createdAt": 1787205696850
+        },
+        {
+          "id": "assistant-0f8048a5-2733-42de-8c4f-719988330b78",
+          "role": "assistant",
+          "content": "| 中文 | 藏文 | 木雅语 | 国际音标 | 英文 | 知识库章节 |\n|---|---|---|---|---|---|\n| 雪山 | གངས་རི། | གངས་རི། | qari | snow mountain | 山脉 |\n| 雪山 | གངས་རི། | བུ་འབོ། གངས་རི། | vuumbo | snow mountain | 雪雨 |\n| 雪山 | གངས་ལ། | བུ་འདའ། | vuunda | snowy pass | 雪雨 |\n| 说 | སྨྲ་བ། | གཏི་པི།①[ཉིང] | tupi | to speak, say | 动词 |\n| 说（现在） | འཆད། | ཏི་བཤད་པིས། | tuɕəpi | to tell (prog.) | 多变 |\n\n> [资料1] QA_山脉.csv\n> [资料2] QA_雪雨.csv\n> [资料3] QA_雪雨.csv\n> [资料4] QA_动词.csv\n> [资料5] QA_多变.csv",
+          "createdAt": 1787205698162,
+          "source": "ragflow",
+          "evidenceCount": 6,
+          "model": "知识库五语对照直出",
+          "sources": [
+            {
+              "id": "2c05a44359bbe0a0",
+              "title": "QA_山脉.csv",
+              "excerpt": "Question: 雪山 གངས་རི། snow mountain qari Answer: 中文：雪山；藏语：གངས་རི།；木雅语：གངས་རི།；音标：qari；英文：snow mountain；章节分类：山脉",
+              "similarity": 0.31176979090142504,
+              "chapter": "山脉",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "4977f7f7ab73256e",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་རི། བུ་འབོ། གངས་རི། snow mountain vuumbo Answer: 中文：雪山；藏语：གངས་རི།；木雅语：བུ་འབོ། གངས་རི།；音标：vuumbo；英文：snow mountain；章节分类：雪雨",
+              "similarity": 0.280076835225912,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "2dddae79e9352841",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་ལ། བུ་འདའ། snowy pass vuunda Answer: 中文：雪山；藏语：གངས་ལ།；木雅语：བུ་འདའ།；音标：vuunda；英文：snowy pass；章节分类：雪雨",
+              "similarity": 0.2786178141187148,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "f06d87841e4720b0",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 说 སྨྲ་བ། གཏི་པི།①[ཉིང] to speak, say tupi Answer: 中文：说；藏语：སྨྲ་བ།；木雅语：གཏི་པི།①[ཉིང]；音标：tupi；英文：to speak, say；章节分类：动词",
+              "similarity": 0.22985510724225358,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "fbe07f24f7a5f09a",
+              "title": "QA_多变.csv",
+              "excerpt": "Question: 说（现在） འཆད། ཏི་བཤད་པིས། to tell (prog.) tuɕəpi Answer: 中文：说（现在）；藏语：འཆད།；木雅语：ཏི་བཤད་པིས།；音标：tuɕəpi；英文：to tell (prog.)；章节分类：多变",
+              "similarity": 0.22029282148712012,
+              "chapter": "多变",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "9fa1e32afcb067b2",
+              "title": "QA_水种.csv",
+              "excerpt": "Question: 冰川水 གངས་ཆུ། གངས་རི་ཆུ། glacial melt qari tɕu Answer: 中文：冰川水；藏语：གངས་ཆུ།；木雅语：གངས་རི་ཆུ།；音标：qari tɕu；英文：glacial melt；章节分类：水种",
+              "similarity": 0.17267482523034042,
+              "chapter": "水种",
+              "kind": "knowledge-base"
+            }
+          ],
+          "warning": "木小文翻译/词汇查询直接以五语对照表输出，未调用 LLM 二次改写",
+          "grounded": true
+        },
+        {
+          "id": "u-1787205715314",
+          "role": "user",
+          "content": "学习",
+          "createdAt": 1787205715370
+        },
+        {
+          "id": "assistant-f524caa2-f36e-4e11-9987-4ab304c7931d",
+          "role": "assistant",
+          "content": "> 知识库未检索到可靠依据\n\n（当前问题\"学习\"未在知识库中明确匹配到教学指令或主题词条。如需具体词汇翻译或主题学习，请提供更明确的查询内容。）",
+          "createdAt": 1787205718547,
+          "source": "ragflow",
+          "evidenceCount": 3,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "2c05a44359bbe0a0",
+              "title": "QA_山脉.csv",
+              "excerpt": "Question: 雪山 གངས་རི། snow mountain qari Answer: 中文：雪山；藏语：གངས་རི།；木雅语：གངས་རི།；音标：qari；英文：snow mountain；章节分类：山脉",
+              "similarity": 0.32090189669797176,
+              "chapter": "山脉",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "4977f7f7ab73256e",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་རི། བུ་འབོ། གངས་རི། snow mountain vuumbo Answer: 中文：雪山；藏语：གངས་རི།；木雅语：བུ་འབོ། གངས་རི།；音标：vuumbo；英文：snow mountain；章节分类：雪雨",
+              "similarity": 0.28146435887829263,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "9fa1e32afcb067b2",
+              "title": "QA_水种.csv",
+              "excerpt": "Question: 冰川水 གངས་ཆུ། གངས་རི་ཆུ། glacial melt qari tɕu Answer: 中文：冰川水；藏语：གངས་ཆུ།；木雅语：གངས་རི་ཆུ།；音标：qari tɕu；英文：glacial melt；章节分类：水种",
+              "similarity": 0.1888637234466013,
+              "chapter": "水种",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "6b117344-7ea9-4fcc-847e-7e4580276553::muxiaozhi": {
+      "clientId": "6b117344-7ea9-4fcc-847e-7e4580276553",
+      "agentType": "muxiaozhi",
+      "updatedAt": 1787205879530,
+      "messages": [
+        {
+          "id": "u-1787205874725",
+          "role": "user",
+          "content": "贡嘎",
+          "createdAt": 1787205874790
+        },
+        {
+          "id": "assistant-fc9759c2-9f5b-4701-a8e8-50407f21499c",
+          "role": "assistant",
+          "content": "> 此回答基于模型自己的回答，请仔细辨明  \n\n贡嘎（Gongga）通常指四川省甘孜藏族自治州的贡嘎山，是横断山脉的最高峰，海拔7556米，被称为\"蜀山之王\"。该地区涉及藏族、木雅人等少数民族聚居，周边有海螺沟冰川等著名景点。  \n\n由于未提供可核验的网页资料，建议通过以下官方渠道核实：  \n1. 四川省文化和旅游厅官网  \n2. 中国国家地理权威出版物  \n3. 甘孜州政府民族宗教事务委员会  \n\n（注：未使用任何网页资料链接，回答基于模型训练知识）\n\n> 此回答基于模型自己的回答，请仔细辨明——知识库与可信网页均未命中可核验来源。",
+          "createdAt": 1787205879530,
+          "source": "web",
+          "evidenceCount": 0,
+          "model": "deepseek-v3",
+          "sources": [],
+          "warning": "可信联网检索未启用",
+          "grounded": false,
+          "modelBased": true
+        }
+      ]
+    },
+    "codex-query-test-d3787d69b615443fa9f2d8d8a2131d20::muxiaowen": {
+      "clientId": "codex-query-test-d3787d69b615443fa9f2d8d8a2131d20",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268070296,
+      "messages": [
+        {
+          "id": "133836d90aa746939ea7cc3189223947",
+          "role": "user",
+          "content": "请只按藏文字段精确查询“མིག”，返回完整五语词条。",
+          "createdAt": 1787268068087
+        },
+        {
+          "id": "assistant-24904fdc-5b2a-4bcd-a0d3-487fa5d53d1e",
+          "role": "assistant",
+          "content": "中文：眼睛  \n藏语：མིག  \n木雅语：མི་ག་ལོ།[རྙིང]  \n音标：mikølø  \n英文：eye  \n知识库章节：人体部位  \n来源文件：QA_人体部位.csv [资料2]",
+          "createdAt": 1787268070295,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.20855981904434304,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "91be30961b9af084",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 眼睛 མིག མི་ག་ལོ།[རྙིང] eye mikølø Answer: 中文：眼睛；藏语：མིག；木雅语：མི་ག་ལོ།[རྙིང]；音标：mikølø；英文：eye；章节分类：人体部位",
+              "similarity": 0.19491424108101738,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "c56a6730e79a9dfa",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 看见 རིག་པ། མིག་ཡི་ཏིང་།[ཞང] to notice, see mi.ji ta Answer: 中文：看见；藏语：རིག་པ།；木雅语：མིག་ཡི་ཏིང་།[ཞང]；音标：mi.ji ta；英文：to notice, see；章节分类：动词",
+              "similarity": 0.18908060299151894,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "92f4467c90525df6",
+              "title": "QA_疾病.csv",
+              "excerpt": "Question: 眼病 མིག་ནད། མིག་ངས། diseases/illnesses of the eyes miŋe Answer: 中文：眼病；藏语：མིག་ནད།；木雅语：མིག་ངས།；音标：miŋe；英文：diseases/illnesses of the eyes；章节分类：疾病",
+              "similarity": 0.18499524318736735,
+              "chapter": "疾病",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "e67c4a5cdab23ea1",
+              "title": "QA_疾病.csv",
+              "excerpt": "Question: 瞎眼 མིག་ལོང་བ། མིག་ནག་ཀོག མིག་ནབ་ལོང་བ། blind mi naqo Answer: 中文：瞎眼；藏语：མིག་ལོང་བ།；木雅语：མིག་ནག་ཀོག མིག་ནབ་ལོང་བ།；音标：mi naqo；英文：blind；章节分类：疾病",
+              "similarity": 0.18061458676325617,
+              "chapter": "疾病",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "2eaafc67e6ebe346",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 眼泪 མིག་ཆུ། མིག་ཅུ།[རྙིང] tears miteu Answer: 中文：眼泪；藏语：མིག་ཆུ།；木雅语：མིག་ཅུ།[རྙིང]；音标：miteu；英文：tears；章节分类：人体部位",
+              "similarity": 0.1797557378693303,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-b8ee787ff44248febb0d7d4e337201ee::muxiaowen": {
+      "clientId": "codex-query-test-b8ee787ff44248febb0d7d4e337201ee",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268070321,
+      "messages": [
+        {
+          "id": "1829687c44634043a89231570169a753",
+          "role": "user",
+          "content": "请只按音标字段精确查询“mikølø”，返回完整五语词条。",
+          "createdAt": 1787268068125
+        },
+        {
+          "id": "assistant-d92c9ad0-851c-4923-a592-f953821944e2",
+          "role": "assistant",
+          "content": "中文：眼睛  \n藏语：མིག  \n木雅语：མི་ག་ལོ།[རྙིང]  \n音标：mikølø  \n英文：eye  \n知识库章节：人体部位  \n来源文件：QA_人体部位.csv [资料1]",
+          "createdAt": 1787268070321,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "91be30961b9af084",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 眼睛 མིག མི་ག་ལོ།[རྙིང] eye mikølø Answer: 中文：眼睛；藏语：མིག；木雅语：མི་ག་ལོ།[རྙིང]；音标：mikølø；英文：eye；章节分类：人体部位",
+              "similarity": 0.19747050672360827,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "d01d5c7d2b7e667a",
+              "title": "QA_皮肉.csv",
+              "excerpt": "Question: 喉头 མོལ་སྒོ། དམིག་ཀབ། Adam's apple mikʌ Answer: 中文：喉头；藏语：མོལ་སྒོ།；木雅语：དམིག་ཀབ།；音标：mikʌ；英文：Adam's apple；章节分类：皮肉",
+              "similarity": 0.180697772675384,
+              "chapter": "皮肉",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.17577407633451805,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "5a9750c5fb65bc6f",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 喉头 ཨོལ་མདུད། མིས་གབ། Adam’s apple mikʌ Answer: 中文：喉头；藏语：ཨོལ་མདུད།；木雅语：མིས་གབ།；音标：mikʌ；英文：Adam’s apple；章节分类：人体部位",
+              "similarity": 0.16596688619221012,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "2650228ea453645a",
+              "title": "QA_皮肉.csv",
+              "excerpt": "Question: 心 སྙིང་། ཡབ་པུ་སྒོ་ལོ། heart jΛpugølø Answer: 中文：心；藏语：སྙིང་།；木雅语：ཡབ་པུ་སྒོ་ལོ།；音标：jΛpugølø；英文：heart；章节分类：皮肉",
+              "similarity": 0.1454363863927185,
+              "chapter": "皮肉",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "e1c6bfe5199f12bc",
+              "title": "QA_花草.csv",
+              "excerpt": "Question: 绢毛菊 སྲོལ་གོང་པ། སི་སི་གོ་ལོ། Soroseris hookeriana sisikølø Answer: 中文：绢毛菊；藏语：སྲོལ་གོང་པ།；木雅语：སི་སི་གོ་ལོ།；音标：sisikølø；英文：Soroseris hookeriana；章节分类：花草",
+              "similarity": 0.14161472263325078,
+              "chapter": "花草",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-0fbd39c1017e4c13aef924e794358fdc::muxiaowen": {
+      "clientId": "codex-query-test-0fbd39c1017e4c13aef924e794358fdc",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268070433,
+      "messages": [
+        {
+          "id": "e606fb0ed9dd491aac6af54e39adb085",
+          "role": "user",
+          "content": "请只按木雅语字段精确查询“མི་ག་ལོ།[རྙིང]”，返回完整五语词条。",
+          "createdAt": 1787268068206
+        },
+        {
+          "id": "assistant-799382c0-57c3-4a8b-84d0-a17580931932",
+          "role": "assistant",
+          "content": "中文：眼睛；藏语：མིག；木雅语：མི་ག་ལོ།[རྙིང]；音标：mikølø；英文：eye  \n知识库章节：人体部位  \n来源文件：QA_人体部位.csv [资料2]",
+          "createdAt": 1787268070432,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.20268425987527552,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "91be30961b9af084",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 眼睛 མིག མི་ག་ལོ།[རྙིང] eye mikølø Answer: 中文：眼睛；藏语：མིག；木雅语：མི་ག་ལོ།[རྙིང]；音标：mikølø；英文：eye；章节分类：人体部位",
+              "similarity": 0.19417752238322192,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "e39c6ca61c353202",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 脚 རྐང་མགོ། མམ་ལྡི། foot mʌdzi Answer: 中文：脚；藏语：རྐང་མགོ།；木雅语：མམ་ལྡི།；音标：mʌdzi；英文：foot；章节分类：人体部位",
+              "similarity": 0.17417696391420717,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "fcd65a90a8b74c24",
+              "title": "QA_佛教.csv",
+              "excerpt": "Question: 经幡、风马 རླུང་རྟ། prayer flags, windhorse lota Answer: 中文：经幡、风马；藏语：རླུང་རྟ།；木雅语：རླུང་རྟ།；音标：lota；英文：prayer flags, windhorse；章节分类：佛教",
+              "similarity": 0.17398645311668431,
+              "chapter": "佛教",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "d4d35ac7830e6ecd",
+              "title": "QA_反义词.csv",
+              "excerpt": "Question: 长 རིང་། རུ་རུ[ཟུར] long ruru Answer: 中文：长；藏语：རིང་།；木雅语：རུ་རུ[ཟུར]；音标：ruru；英文：long；章节分类：反义词",
+              "similarity": 0.17212955046411763,
+              "chapter": "反义词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "2eaafc67e6ebe346",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 眼泪 མིག་ཆུ། མིག་ཅུ།[རྙིང] tears miteu Answer: 中文：眼泪；藏语：མིག་ཆུ།；木雅语：མིག་ཅུ།[རྙིང]；音标：miteu；英文：tears；章节分类：人体部位",
+              "similarity": 0.17143846342148714,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-cd588b7682e249c992762b7cbf4bbb1a::muxiaowen": {
+      "clientId": "codex-query-test-cd588b7682e249c992762b7cbf4bbb1a",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268095423,
+      "messages": [
+        {
+          "id": "db6e0b178fb14772ab8b9d09b4ed5aed",
+          "role": "user",
+          "content": "请只按音标字段精确查询“va pʰoyo”，返回完整五语词条。",
+          "createdAt": 1787268092615
+        },
+        {
+          "id": "assistant-c04243c0-2545-4a75-abeb-cfa53249ab03",
+          "role": "assistant",
+          "content": "中文：酥油包子；藏语：མར་ཕོ་འོག；木雅语：བཱ་ཕོ་འོག；音标：va pʰoyo；英文：yak butter bun；章节分类：食品 [资料2]",
+          "createdAt": 1787268095422,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.18719534112682967,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "c3e972a37df1e308",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 酥油包子 མར་ཕོ་འོག བཱ་ཕོ་འོག yak butter bun va pʰoyo Answer: 中文：酥油包子；藏语：མར་ཕོ་འོག；木雅语：བཱ་ཕོ་འོག；音标：va pʰoyo；英文：yak butter bun；章节分类：食品",
+              "similarity": 0.17427437770428422,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "419807a93d741bc3",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 咸酥油包子 ཚྭ་ལྡན་ཕོ་འོག ཚྭ་ཕོ་འོག② salty yak butter bun tsʰu pʰoyo Answer: 中文：咸酥油包子；藏语：ཚྭ་ལྡན་ཕོ་འོག；木雅语：ཚྭ་ཕོ་འོག②；音标：tsʰu pʰoyo；英文：salty yak butter bun；章节分类：食品",
+              "similarity": 0.16115267718674922,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "3e9c51f8c4c08cd5",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 野葱酥油包子 སྒོག་ལྡན་ཕོ་འོག ཀུན་[ཉིང]ནུ་ཕོ་འོག③ wild onion bun kumu pʰoyo Answer: 中文：野葱酥油包子；藏语：སྒོག་ལྡན་ཕོ་འོག；木雅语：ཀུན་[ཉིང]ནུ་ཕོ་འོག③；音标：kumu pʰoyo；英文：wild onion bun；章节分类：食品",
+              "similarity": 0.1573034613077582,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "85c9abda44e85fce",
+              "title": "QA_帐篷.csv",
+              "excerpt": "Question: 碗子 ཕོར་པ། ཕོ་ལའ། bowl pʰula Answer: 中文：碗子；藏语：ཕོར་པ།；木雅语：ཕོ་ལའ།；音标：pʰula；英文：bowl；章节分类：帐篷",
+              "similarity": 0.1539367524368446,
+              "chapter": "帐篷",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "3fb720e4b5c52a9d",
+              "title": "QA_数字.csv",
+              "excerpt": "Question: 属猪/猪年 ཕག་ལོ། ཕག་འུ། year of the pig pʰayu Answer: 中文：属猪/猪年；藏语：ཕག་ལོ།；木雅语：ཕག་འུ།；音标：pʰayu；英文：year of the pig；章节分类：数字",
+              "similarity": 0.14914797796781287,
+              "chapter": "数字",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-a08448636e0f410eb8a348c956f1aa23::muxiaowen": {
+      "clientId": "codex-query-test-a08448636e0f410eb8a348c956f1aa23",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268094977,
+      "messages": [
+        {
+          "id": "eb61c62952dd41029b0db565e9a0b305",
+          "role": "user",
+          "content": "请只按木雅语字段精确查询“རུ།”，返回完整五语词条。",
+          "createdAt": 1787268092618
+        },
+        {
+          "id": "assistant-959e5e8e-963b-45af-9cc2-b8418898f758",
+          "role": "assistant",
+          "content": "中文：四；藏语：བཞི།；木雅语：རུ།；音标：ru；英文：four  \n知识库章节：数字  \n来源文件：QA_数字.csv [资料1]",
+          "createdAt": 1787268094976,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "1e255245b8b320b2",
+              "title": "QA_数字.csv",
+              "excerpt": "Question: 四 བཞི། རུ། four ru Answer: 中文：四；藏语：བཞི།；木雅语：རུ།；音标：ru；英文：four；章节分类：数字",
+              "similarity": 0.24717246040098664,
+              "chapter": "数字",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "2c797f392369feb6",
+              "title": "QA_武器.csv",
+              "excerpt": "Question: 木刀 ཤིང་གྲི། ཚྭ་རུ་གྱེ། wooden sword tsʰu rutɕe Answer: 中文：木刀；藏语：ཤིང་གྲི།；木雅语：ཚྭ་རུ་གྱེ།；音标：tsʰu rutɕe；英文：wooden sword；章节分类：武器",
+              "similarity": 0.24600730264497658,
+              "chapter": "武器",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "3e621a3b8e131a2e",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 行走 འགྲོ་བ། རུ་ཀླ། to go, walk ruqa Answer: 中文：行走；藏语：འགྲོ་བ།；木雅语：རུ་ཀླ།；音标：ruqa；英文：to go, walk；章节分类：动词",
+              "similarity": 0.2459048086629056,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "d4d35ac7830e6ecd",
+              "title": "QA_反义词.csv",
+              "excerpt": "Question: 长 རིང་། རུ་རུ[ཟུར] long ruru Answer: 中文：长；藏语：རིང་།；木雅语：རུ་རུ[ཟུར]；音标：ruru；英文：long；章节分类：反义词",
+              "similarity": 0.2439424329540611,
+              "chapter": "反义词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "75166fe189371ced",
+              "title": "QA_山脉.csv",
+              "excerpt": "Question: 小杜鹃花山 སུ་རུའི་རི། ཚུའི་འབོ། rhododendron-covered hill tsʰaryimbo Answer: 中文：小杜鹃花山；藏语：སུ་རུའི་རི།；木雅语：ཚུའི་འབོ།；音标：tsʰaryimbo；英文：rhododendron-covered hill；章节分类：山脉",
+              "similarity": 0.24308884545442483,
+              "chapter": "山脉",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "76dca0bcf705485d",
+              "title": "QA_山脉.csv",
+              "excerpt": "Question: 跑马山 རྟ་རྒྱུག་རི། རྱུག་རྟ་འབོ། horse racing mountain dzutambo Answer: 中文：跑马山；藏语：རྟ་རྒྱུག་རི།；木雅语：རྱུག་རྟ་འབོ།；音标：dzutambo；英文：horse racing mountain；章节分类：山脉",
+              "similarity": 0.24111965266992355,
+              "chapter": "山脉",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-fa1bfb27e7a042649be5edb9943ab2fd::muxiaowen": {
+      "clientId": "codex-query-test-fa1bfb27e7a042649be5edb9943ab2fd",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268095114,
+      "messages": [
+        {
+          "id": "3f64c19da3c6426bab085290173c9125",
+          "role": "user",
+          "content": "请只按藏文字段精确查询“རྒྱུག”，返回完整五语词条。",
+          "createdAt": 1787268092622
+        },
+        {
+          "id": "assistant-4fa7df1f-5e99-48c6-8029-e77bdff358a5",
+          "role": "assistant",
+          "content": "中文：跑  \n藏语：རྒྱུག  \n木雅语：ཐབ་རྒྱུག ཐབ་བབ།  \n音标：tʰʌdzʌ  \n英文：to run  \n知识库章节：动词  \n来源文件：QA_动词.csv [资料5]",
+          "createdAt": 1787268095113,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "982e2c22b4931223",
+              "title": "QA_岩石.csv",
+              "excerpt": "Question: 鬣羚岩洞 རྒྱ་གོར་རའི་བྲག་ཕུག རྒྱ་གོར་རག་བཱག serow cave ʒaqura rava Answer: 中文：鬣羚岩洞；藏语：རྒྱ་གོར་རའི་བྲག་ཕུག；木雅语：རྒྱ་གོར་རག་བཱག；音标：ʒaqura rava；英文：serow cave；章节分类：岩石",
+              "similarity": 0.22748823591787554,
+              "chapter": "岩石",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "2eebf68050c52780",
+              "title": "QA_岩石.csv",
+              "excerpt": "Question: 盘坐的岩石 བྲག་རི་ཙོག་འདུག རག་རྫུག boulder which resembles the posture of a seated human randzu Answer: 中文：盘坐的岩石；藏语：བྲག་རི་ཙོག་འདུག；木雅语：རག་རྫུག；音标：randzu；英文：boulder which resembles the posture of a seated human；章节分类：岩石",
+              "similarity": 0.2074474778413827,
+              "chapter": "岩石",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.20671856130734328,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "0aa40fdf8798fc73",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 跑 རྒྱུག་པ། ཐབ་ཙབ། ཐབ་རྒྱུག to run tʰʌtsʌ Answer: 中文：跑；藏语：རྒྱུག་པ།；木雅语：ཐབ་ཙབ། ཐབ་རྒྱུག；音标：tʰʌtsʌ；英文：to run；章节分类：动词",
+              "similarity": 0.19692031393839712,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "5247abc5ccfc16ec",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 跑 རྒྱུག ཐབ་རྒྱུག ཐབ་བབ། to run tʰʌdzʌ Answer: 中文：跑；藏语：རྒྱུག；木雅语：ཐབ་རྒྱུག ཐབ་བབ།；音标：tʰʌdzʌ；英文：to run；章节分类：动词",
+              "similarity": 0.19403220866443976,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "3efdd622402b9aad",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 咬（动物） རྒྱག་པ། ཁུ་བླབ། to bite kʰuɯvʌ Answer: 中文：咬（动物）；藏语：རྒྱག་པ།；木雅语：ཁུ་བླབ།；音标：kʰuɯvʌ；英文：to bite；章节分类：动词",
+              "similarity": 0.1761924668514778,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-ad548a383702465aa4ed071dd2ea7306::muxiaowen": {
+      "clientId": "codex-query-test-ad548a383702465aa4ed071dd2ea7306",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268127422,
+      "messages": [
+        {
+          "id": "e26f04d5a7c54b37a77dd1e239a742b2",
+          "role": "user",
+          "content": "Please search only the English field for “eyebrows” and return the complete five-language entry.",
+          "createdAt": 1787268125294
+        },
+        {
+          "id": "assistant-52b87210-45d6-46f0-b8c5-fbe14620b592",
+          "role": "assistant",
+          "content": "中文：眉毛  \n藏语：སྨིན་མ།  \n木雅语：མིག་ཕུད་རག  \n音标：miphura  \n英文：eyebrows  \n知识库章节：人体部位  \n来源文件：QA_人体部位.csv [资料1]",
+          "createdAt": 1787268127421,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "d4f76ddeff8f2a1e",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 眉毛 སྨིན་མ། མིག་ཕུད་རག eyebrows miphura Answer: 中文：眉毛；藏语：སྨིན་མ།；木雅语：མིག་ཕུད་རག；音标：miphura；英文：eyebrows；章节分类：人体部位",
+              "similarity": 0.20775689075792825,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.19741570967010358,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "863d0c709faca798",
+              "title": "QA_季节天气.csv",
+              "excerpt": "Question: 拔杂草 ཞིང་དུ་རྩྭ་ངན་དབལ། ཅ་ཁྲག་ནག་ཆ་ཐབ་ཀབ། to weed a field ruu.khu nanteʰa thʌkʌ Answer: 中文：拔杂草；藏语：ཞིང་དུ་རྩྭ་ངན་དབལ།；木雅语：ཅ་ཁྲག་ནག་ཆ་ཐབ་ཀབ།；音标：ruu.khu nanteʰa thʌkʌ；英文：to weed a field；章节分类：季节天气",
+              "similarity": 0.1562365266046172,
+              "chapter": "季节天气",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "e8341525dee95cf9",
+              "title": "QA_数字.csv",
+              "excerpt": "Question: 五 ལྔ། ངའ[ཞང] five ŋa Answer: 中文：五；藏语：ལྔ།；木雅语：ངའ[ཞང]；音标：ŋa；英文：five；章节分类：数字",
+              "similarity": 0.15477100763048385,
+              "chapter": "数字",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "07262cd4521de517",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 膝弯 ཉྭ་ཁུག འགབ་འོག་ཁུག back of the knee ŋgʌyukʰu Answer: 中文：膝弯；藏语：ཉྭ་ཁུག；木雅语：འགབ་འོག་ཁུག；音标：ŋgʌyukʰu；英文：back of the knee；章节分类：人体部位",
+              "similarity": 0.15413928309677374,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "f44a0e3a83eb7e96",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 报答 གསོབ་པ། དྲིན་ལན་ནི་གསོས། to return a favor, repay a debt of gratitude tʂile nisy Answer: 中文：报答；藏语：གསོབ་པ།；木雅语：དྲིན་ལན་ནི་གསོས།；音标：tʂile nisy；英文：to return a favor, repay a debt of gratitude；章节分类：动词",
+              "similarity": 0.15326142239380008,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-1dab29bca8ec4885bb9182315461561d::muxiaowen": {
+      "clientId": "codex-query-test-1dab29bca8ec4885bb9182315461561d",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268445833,
+      "messages": [
+        {
+          "id": "3609bbfe9a01434b8d8f654e124e2191",
+          "role": "user",
+          "content": "请只按木雅语字段精确查询“མི་ག་ལོ།[རྙིང]”，返回完整五语词条。",
+          "createdAt": 1787268443301
+        },
+        {
+          "id": "assistant-1b2ffa64-7bd4-493b-adb5-ed825a2fec12",
+          "role": "assistant",
+          "content": "中文：眼睛  \n藏语：མིག  \n木雅语：མི་ག་ལོ།[རྙིང]  \n音标：mikølø  \n英文：eye  \n知识库章节：人体部位  \n来源文件：QA_人体部位.csv [资料2]",
+          "createdAt": 1787268445832,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.20268425987527552,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "91be30961b9af084",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 眼睛 མིག མི་ག་ལོ།[རྙིང] eye mikølø Answer: 中文：眼睛；藏语：མིག；木雅语：མི་ག་ལོ།[རྙིང]；音标：mikølø；英文：eye；章节分类：人体部位",
+              "similarity": 0.19417752238322192,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "e39c6ca61c353202",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 脚 རྐང་མགོ། མམ་ལྡི། foot mʌdzi Answer: 中文：脚；藏语：རྐང་མགོ།；木雅语：མམ་ལྡི།；音标：mʌdzi；英文：foot；章节分类：人体部位",
+              "similarity": 0.17417696391420717,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "fcd65a90a8b74c24",
+              "title": "QA_佛教.csv",
+              "excerpt": "Question: 经幡、风马 རླུང་རྟ། prayer flags, windhorse lota Answer: 中文：经幡、风马；藏语：རླུང་རྟ།；木雅语：རླུང་རྟ།；音标：lota；英文：prayer flags, windhorse；章节分类：佛教",
+              "similarity": 0.17398645311668431,
+              "chapter": "佛教",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "d4d35ac7830e6ecd",
+              "title": "QA_反义词.csv",
+              "excerpt": "Question: 长 རིང་། རུ་རུ[ཟུར] long ruru Answer: 中文：长；藏语：རིང་།；木雅语：རུ་རུ[ཟུར]；音标：ruru；英文：long；章节分类：反义词",
+              "similarity": 0.17212955046411763,
+              "chapter": "反义词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "2eaafc67e6ebe346",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 眼泪 མིག་ཆུ། མིག་ཅུ།[རྙིང] tears miteu Answer: 中文：眼泪；藏语：མིག་ཆུ།；木雅语：མིག་ཅུ།[རྙིང]；音标：miteu；英文：tears；章节分类：人体部位",
+              "similarity": 0.17143846342148714,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-5dfc5de7497d4525bfb5323616988c6e::muxiaowen": {
+      "clientId": "codex-query-test-5dfc5de7497d4525bfb5323616988c6e",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268446208,
+      "messages": [
+        {
+          "id": "e98214d15c95459a99bbc7693e9d1e01",
+          "role": "user",
+          "content": "请只按木雅语字段精确查询“མི་ག་ལོ།[རྙིང]”，返回完整五语词条。",
+          "createdAt": 1787268443307
+        },
+        {
+          "id": "assistant-f5383755-9a31-4230-ba63-cb1234ffad21",
+          "role": "assistant",
+          "content": "中文：眼睛  \n藏语：མིག  \n木雅语：མི་ག་ལོ།[རྙིང]  \n音标：mikølø  \n英文：eye  \n知识库章节：人体部位  \n来源文件：QA_人体部位.csv [资料2]",
+          "createdAt": 1787268446206,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.20268425987527552,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "91be30961b9af084",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 眼睛 མིག མི་ག་ལོ།[རྙིང] eye mikølø Answer: 中文：眼睛；藏语：མིག；木雅语：མི་ག་ལོ།[རྙིང]；音标：mikølø；英文：eye；章节分类：人体部位",
+              "similarity": 0.19417752238322192,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "e39c6ca61c353202",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 脚 རྐང་མགོ། མམ་ལྡི། foot mʌdzi Answer: 中文：脚；藏语：རྐང་མགོ།；木雅语：མམ་ལྡི།；音标：mʌdzi；英文：foot；章节分类：人体部位",
+              "similarity": 0.17417696391420717,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "fcd65a90a8b74c24",
+              "title": "QA_佛教.csv",
+              "excerpt": "Question: 经幡、风马 རླུང་རྟ། prayer flags, windhorse lota Answer: 中文：经幡、风马；藏语：རླུང་རྟ།；木雅语：རླུང་རྟ།；音标：lota；英文：prayer flags, windhorse；章节分类：佛教",
+              "similarity": 0.17398645311668431,
+              "chapter": "佛教",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "d4d35ac7830e6ecd",
+              "title": "QA_反义词.csv",
+              "excerpt": "Question: 长 རིང་། རུ་རུ[ཟུར] long ruru Answer: 中文：长；藏语：རིང་།；木雅语：རུ་རུ[ཟུར]；音标：ruru；英文：long；章节分类：反义词",
+              "similarity": 0.17212955046411763,
+              "chapter": "反义词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "2eaafc67e6ebe346",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 眼泪 མིག་ཆུ། མིག་ཅུ།[རྙིང] tears miteu Answer: 中文：眼泪；藏语：མིག་ཆུ།；木雅语：མིག་ཅུ།[རྙིང]；音标：miteu；英文：tears；章节分类：人体部位",
+              "similarity": 0.17143846342148714,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-ef0d75d6788f4a5c8fb8fa69f4bfa176::muxiaowen": {
+      "clientId": "codex-query-test-ef0d75d6788f4a5c8fb8fa69f4bfa176",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268445868,
+      "messages": [
+        {
+          "id": "75a0d77a89d647cebb364656dafd34a3",
+          "role": "user",
+          "content": "请只按木雅语字段精确查询“མི་ག་ལོ།[རྙིང]”，返回完整五语词条。",
+          "createdAt": 1787268443323
+        },
+        {
+          "id": "assistant-2fd0f41d-2fdb-4d5b-9a64-d8d6bfde3f8b",
+          "role": "assistant",
+          "content": "中文：眼睛  \n藏语：མིག  \n木雅语：མི་ག་ལོ།[རྙིང]  \n音标：mikølø  \n英文：eye  \n知识库章节：人体部位  \n来源文件：QA_人体部位.csv [资料2]",
+          "createdAt": 1787268445867,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.20268425987527552,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "91be30961b9af084",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 眼睛 མིག མི་ག་ལོ།[རྙིང] eye mikølø Answer: 中文：眼睛；藏语：མིག；木雅语：མི་ག་ལོ།[རྙིང]；音标：mikølø；英文：eye；章节分类：人体部位",
+              "similarity": 0.19417752238322192,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "e39c6ca61c353202",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 脚 རྐང་མགོ། མམ་ལྡི། foot mʌdzi Answer: 中文：脚；藏语：རྐང་མགོ།；木雅语：མམ་ལྡི།；音标：mʌdzi；英文：foot；章节分类：人体部位",
+              "similarity": 0.17417696391420717,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "fcd65a90a8b74c24",
+              "title": "QA_佛教.csv",
+              "excerpt": "Question: 经幡、风马 རླུང་རྟ། prayer flags, windhorse lota Answer: 中文：经幡、风马；藏语：རླུང་རྟ།；木雅语：རླུང་རྟ།；音标：lota；英文：prayer flags, windhorse；章节分类：佛教",
+              "similarity": 0.17398645311668431,
+              "chapter": "佛教",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "d4d35ac7830e6ecd",
+              "title": "QA_反义词.csv",
+              "excerpt": "Question: 长 རིང་། རུ་རུ[ཟུར] long ruru Answer: 中文：长；藏语：རིང་།；木雅语：རུ་རུ[ཟུར]；音标：ruru；英文：long；章节分类：反义词",
+              "similarity": 0.17212955046411763,
+              "chapter": "反义词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "2eaafc67e6ebe346",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 眼泪 མིག་ཆུ། མིག་ཅུ།[རྙིང] tears miteu Answer: 中文：眼泪；藏语：མིག་ཆུ།；木雅语：མིག་ཅུ།[རྙིང]；音标：miteu；英文：tears；章节分类：人体部位",
+              "similarity": 0.17143846342148714,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-2dff446488bb410f8dc309667a0d5400::muxiaowen": {
+      "clientId": "codex-query-test-2dff446488bb410f8dc309667a0d5400",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268449360,
+      "messages": [
+        {
+          "id": "7b6e09670c2b46c08d50b5a18cd5e681",
+          "role": "user",
+          "content": "请只按木雅语字段精确查询“ཞི་ཆུ་རུབ་རུབ།”，返回完整五语词条。",
+          "createdAt": 1787268446741
+        },
+        {
+          "id": "assistant-d858b9bf-2ae6-4f1c-ba73-e9fe33379d27",
+          "role": "assistant",
+          "content": "中文：猪肉包子  \n藏语：ཕག་ཤ་མོག་མོག  \n木雅语：ཞི་ཆུ་རུབ་རུབ།  \n音标：ziteʰu ruru  \n英文：pork dumplings  \n知识库章节：食品  \n来源文件：QA_食品.csv [资料3]",
+          "createdAt": 1787268449359,
+          "source": "ragflow",
+          "evidenceCount": 7,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.20148562990897634,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "c5193d590590eccd",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 希望 རེ་བ། རེ་བ་ཁྲོ་ཅག རེ་བ་ཏི་བརྒྱབ། to wish for, hope for rewa qʰotɛa Answer: 中文：希望；藏语：རེ་བ།；木雅语：རེ་བ་ཁྲོ་ཅག རེ་བ་ཏི་བརྒྱབ།；音标：rewa qʰotɛa；英文：to wish for, hope for；章节分类：动词",
+              "similarity": 0.17139969457242069,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "bc4ffb71734cda89",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 猪肉包子 ཕག་ཤ་མོག་མོག ཞི་ཆུ་རུབ་རུབ། pork dumplings ziteʰu ruru Answer: 中文：猪肉包子；藏语：ཕག་ཤ་མོག་མོག；木雅语：ཞི་ཆུ་རུབ་རུབ།；音标：ziteʰu ruru；英文：pork dumplings；章节分类：食品",
+              "similarity": 0.16420082599680505,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "bd24b68af98148a3",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 萝卜包子 ལ་ཕུག་མོག་མོག ལ་ཕུག་རུབ་རུབ། radish dumplings lʌpʰu ruru Answer: 中文：萝卜包子；藏语：ལ་ཕུག་མོག་མོག；木雅语：ལ་ཕུག་རུབ་རུབ།；音标：lʌpʰu ruru；英文：radish dumplings；章节分类：食品",
+              "similarity": 0.1640322010286079,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "f0db7e204decb9a3",
+              "title": "QA_人格.csv",
+              "excerpt": "Question: 爱唠叨的人 བཤད་དགའ་ཚ་པོ། ཤར་རུས་རྒྱབ་རྒྱབ།① a talkative person ɕərə dzʌdzʌ Answer: 中文：爱唠叨的人；藏语：བཤད་དགའ་ཚ་པོ།；木雅语：ཤར་རུས་རྒྱབ་རྒྱབ།①；音标：ɕərə dzʌdzʌ；英文：a talkative person；章节分类：人格",
+              "similarity": 0.15196609763183647,
+              "chapter": "人格",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "5d74c63d3cac599d",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 酸菜包子 ལོ་སྐྱུར་མོག་མོག སྐྱུར་པོ་རུབ་རུབ། pickled vegetable dumplings tɕupʰu ruru Answer: 中文：酸菜包子；藏语：ལོ་སྐྱུར་མོག་མོག；木雅语：སྐྱུར་པོ་རུབ་རུབ།；音标：tɕupʰu ruru；英文：pickled vegetable dumplings；章节分类：食品",
+              "similarity": 0.14905461069338152,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-2e200c11a8cd442bb3e6ad827e598f82::muxiaowen": {
+      "clientId": "codex-query-test-2e200c11a8cd442bb3e6ad827e598f82",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268449673,
+      "messages": [
+        {
+          "id": "eefd609144be47aeb8bbfc69d5ed854b",
+          "role": "user",
+          "content": "请只按木雅语字段精确查询“ཞི་ཆུ་རུབ་རུབ།”，返回完整五语词条。",
+          "createdAt": 1787268446770
+        },
+        {
+          "id": "assistant-7b7b3b00-b07d-417c-87e8-753aa3b2d6c2",
+          "role": "assistant",
+          "content": "中文：猪肉包子  \n藏语：ཕག་ཤ་མོག་མོག  \n木雅语：ཞི་ཆུ་རུབ་རུབ།  \n音标：ziteʰu ruru  \n英文：pork dumplings  \n知识库章节：食品  \n来源文件：QA_食品.csv [资料3]",
+          "createdAt": 1787268449672,
+          "source": "ragflow",
+          "evidenceCount": 7,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.20148562990897634,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "c5193d590590eccd",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 希望 རེ་བ། རེ་བ་ཁྲོ་ཅག རེ་བ་ཏི་བརྒྱབ། to wish for, hope for rewa qʰotɛa Answer: 中文：希望；藏语：རེ་བ།；木雅语：རེ་བ་ཁྲོ་ཅག རེ་བ་ཏི་བརྒྱབ།；音标：rewa qʰotɛa；英文：to wish for, hope for；章节分类：动词",
+              "similarity": 0.17139969457242069,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "bc4ffb71734cda89",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 猪肉包子 ཕག་ཤ་མོག་མོག ཞི་ཆུ་རུབ་རུབ། pork dumplings ziteʰu ruru Answer: 中文：猪肉包子；藏语：ཕག་ཤ་མོག་མོག；木雅语：ཞི་ཆུ་རུབ་རུབ།；音标：ziteʰu ruru；英文：pork dumplings；章节分类：食品",
+              "similarity": 0.16420082599680505,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "bd24b68af98148a3",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 萝卜包子 ལ་ཕུག་མོག་མོག ལ་ཕུག་རུབ་རུབ། radish dumplings lʌpʰu ruru Answer: 中文：萝卜包子；藏语：ལ་ཕུག་མོག་མོག；木雅语：ལ་ཕུག་རུབ་རུབ།；音标：lʌpʰu ruru；英文：radish dumplings；章节分类：食品",
+              "similarity": 0.1640322010286079,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "f0db7e204decb9a3",
+              "title": "QA_人格.csv",
+              "excerpt": "Question: 爱唠叨的人 བཤད་དགའ་ཚ་པོ། ཤར་རུས་རྒྱབ་རྒྱབ།① a talkative person ɕərə dzʌdzʌ Answer: 中文：爱唠叨的人；藏语：བཤད་དགའ་ཚ་པོ།；木雅语：ཤར་རུས་རྒྱབ་རྒྱབ།①；音标：ɕərə dzʌdzʌ；英文：a talkative person；章节分类：人格",
+              "similarity": 0.15196609763183647,
+              "chapter": "人格",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "5d74c63d3cac599d",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 酸菜包子 ལོ་སྐྱུར་མོག་མོག སྐྱུར་པོ་རུབ་རུབ། pickled vegetable dumplings tɕupʰu ruru Answer: 中文：酸菜包子；藏语：ལོ་སྐྱུར་མོག་མོག；木雅语：སྐྱུར་པོ་རུབ་རུབ།；音标：tɕupʰu ruru；英文：pickled vegetable dumplings；章节分类：食品",
+              "similarity": 0.14905461069338152,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-60cab416cb6b43e9820012beda7c0ce9::muxiaowen": {
+      "clientId": "codex-query-test-60cab416cb6b43e9820012beda7c0ce9",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268449733,
+      "messages": [
+        {
+          "id": "080d4a491c434fd59cff432c096d2ee3",
+          "role": "user",
+          "content": "请只按木雅语字段精确查询“ཞི་ཆུ་རུབ་རུབ།”，返回完整五语词条。",
+          "createdAt": 1787268447103
+        },
+        {
+          "id": "assistant-ef6f7b79-cfbc-49ef-8806-ee46075ed440",
+          "role": "assistant",
+          "content": "中文：猪肉包子  \n藏语：ཕག་ཤ་མོག་མོག  \n木雅语：ཞི་ཆུ་རུབ་རུབ།  \n音标：ziteʰu ruru  \n英文：pork dumplings  \n知识库章节：食品  \n来源文件：QA_食品.csv [资料3]",
+          "createdAt": 1787268449731,
+          "source": "ragflow",
+          "evidenceCount": 7,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.20148562990897634,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "c5193d590590eccd",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 希望 རེ་བ། རེ་བ་ཁྲོ་ཅག རེ་བ་ཏི་བརྒྱབ། to wish for, hope for rewa qʰotɛa Answer: 中文：希望；藏语：རེ་བ།；木雅语：རེ་བ་ཁྲོ་ཅག རེ་བ་ཏི་བརྒྱབ།；音标：rewa qʰotɛa；英文：to wish for, hope for；章节分类：动词",
+              "similarity": 0.17139969457242069,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "bc4ffb71734cda89",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 猪肉包子 ཕག་ཤ་མོག་མོག ཞི་ཆུ་རུབ་རུབ། pork dumplings ziteʰu ruru Answer: 中文：猪肉包子；藏语：ཕག་ཤ་མོག་མོག；木雅语：ཞི་ཆུ་རུབ་རུབ།；音标：ziteʰu ruru；英文：pork dumplings；章节分类：食品",
+              "similarity": 0.16420082599680505,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "bd24b68af98148a3",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 萝卜包子 ལ་ཕུག་མོག་མོག ལ་ཕུག་རུབ་རུབ། radish dumplings lʌpʰu ruru Answer: 中文：萝卜包子；藏语：ལ་ཕུག་མོག་མོག；木雅语：ལ་ཕུག་རུབ་རུབ།；音标：lʌpʰu ruru；英文：radish dumplings；章节分类：食品",
+              "similarity": 0.1640322010286079,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "f0db7e204decb9a3",
+              "title": "QA_人格.csv",
+              "excerpt": "Question: 爱唠叨的人 བཤད་དགའ་ཚ་པོ། ཤར་རུས་རྒྱབ་རྒྱབ།① a talkative person ɕərə dzʌdzʌ Answer: 中文：爱唠叨的人；藏语：བཤད་དགའ་ཚ་པོ།；木雅语：ཤར་རུས་རྒྱབ་རྒྱབ།①；音标：ɕərə dzʌdzʌ；英文：a talkative person；章节分类：人格",
+              "similarity": 0.15196609763183647,
+              "chapter": "人格",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "5d74c63d3cac599d",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 酸菜包子 ལོ་སྐྱུར་མོག་མོག སྐྱུར་པོ་རུབ་རུབ། pickled vegetable dumplings tɕupʰu ruru Answer: 中文：酸菜包子；藏语：ལོ་སྐྱུར་མོག་མོག；木雅语：སྐྱུར་པོ་རུབ་རུབ།；音标：tɕupʰu ruru；英文：pickled vegetable dumplings；章节分类：食品",
+              "similarity": 0.14905461069338152,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-a9ee36b861f24f58b42984b2e0c79a4d::muxiaowen": {
+      "clientId": "codex-query-test-a9ee36b861f24f58b42984b2e0c79a4d",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268452333,
+      "messages": [
+        {
+          "id": "81323f6918724d7cbf3c5b8cd293d278",
+          "role": "user",
+          "content": "请只按木雅语字段精确查询“བཱ་ཕོ་འོག”，返回完整五语词条。",
+          "createdAt": 1787268450298
+        },
+        {
+          "id": "assistant-8f8236bb-bf2c-4fbc-a283-fd60ce8cd214",
+          "role": "assistant",
+          "content": "中文：酥油包子  \n藏语：མར་ཕོ་འོག  \n木雅语：བཱ་ཕོ་འོག  \n音标：va pʰoyo  \n英文：yak butter bun  \n\n知识库章节：食品  \n来源文件：QA_食品.csv [资料2]",
+          "createdAt": 1787268452332,
+          "source": "ragflow",
+          "evidenceCount": 2,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.2141131189827557,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "c3e972a37df1e308",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 酥油包子 མར་ཕོ་འོག བཱ་ཕོ་འོག yak butter bun va pʰoyo Answer: 中文：酥油包子；藏语：མར་ཕོ་འོག；木雅语：བཱ་ཕོ་འོག；音标：va pʰoyo；英文：yak butter bun；章节分类：食品",
+              "similarity": 0.19596549823340784,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-01e25d8bc96b494bb8935f113505f533::muxiaowen": {
+      "clientId": "codex-query-test-01e25d8bc96b494bb8935f113505f533",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268452605,
+      "messages": [
+        {
+          "id": "571037f2b4c64799ac9df1f76e0d9a3b",
+          "role": "user",
+          "content": "请只按木雅语字段精确查询“བཱ་ཕོ་འོག”，返回完整五语词条。",
+          "createdAt": 1787268450576
+        },
+        {
+          "id": "assistant-50567d16-9a1c-4441-a29a-45251d13ea2b",
+          "role": "assistant",
+          "content": "中文：酥油包子  \n藏语：མར་ཕོ་འོག  \n木雅语：བཱ་ཕོ་འོག  \n音标：va pʰoyo  \n英文：yak butter bun  \n\n知识库章节：食品  \n来源文件：QA_食品.csv [资料2]",
+          "createdAt": 1787268452604,
+          "source": "ragflow",
+          "evidenceCount": 2,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.2141131189827557,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "c3e972a37df1e308",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 酥油包子 མར་ཕོ་འོག བཱ་ཕོ་འོག yak butter bun va pʰoyo Answer: 中文：酥油包子；藏语：མར་ཕོ་འོག；木雅语：བཱ་ཕོ་འོག；音标：va pʰoyo；英文：yak butter bun；章节分类：食品",
+              "similarity": 0.19596549823340784,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-7db36b9bc3634f3e8322b4d1038ff842::muxiaowen": {
+      "clientId": "codex-query-test-7db36b9bc3634f3e8322b4d1038ff842",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268452808,
+      "messages": [
+        {
+          "id": "ee7ac86f96154487ba80bc12440b344f",
+          "role": "user",
+          "content": "请只按木雅语字段精确查询“བཱ་ཕོ་འོག”，返回完整五语词条。",
+          "createdAt": 1787268450672
+        },
+        {
+          "id": "assistant-f9d7f863-536e-478d-ad88-af97e1170112",
+          "role": "assistant",
+          "content": "中文：酥油包子  \n藏语：མར་ཕོ་འོག  \n木雅语：བཱ་ཕོ་འོག  \n音标：va pʰoyo  \n英文：yak butter bun  \n知识库章节：食品  \n来源文件：QA_食品.csv [资料2]",
+          "createdAt": 1787268452806,
+          "source": "ragflow",
+          "evidenceCount": 2,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.2141131189827557,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "c3e972a37df1e308",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 酥油包子 མར་ཕོ་འོག བཱ་ཕོ་འོག yak butter bun va pʰoyo Answer: 中文：酥油包子；藏语：མར་ཕོ་འོག；木雅语：བཱ་ཕོ་འོག；音标：va pʰoyo；英文：yak butter bun；章节分类：食品",
+              "similarity": 0.19596549823340784,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-44c2b1de9a634474a48ffc13be1cf809::muxiaowen": {
+      "clientId": "codex-query-test-44c2b1de9a634474a48ffc13be1cf809",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268455906,
+      "messages": [
+        {
+          "id": "28e7648633bd4657a9a16746217173e2",
+          "role": "user",
+          "content": "请只按木雅语字段精确查询“ཐབ་ཙྭབ་ཧུ། ཐབ་རྒྱུག་ཧུ།”，返回完整五语词条。",
+          "createdAt": 1787268453284
+        },
+        {
+          "id": "assistant-585b57e7-c8cc-4d35-836c-e0383bdd9d34",
+          "role": "assistant",
+          "content": "中文：跑过去  \n藏语：ཕར་རྒྱུག  \n木雅语：ཐབ་ཙྭབ་ཧུ། ཐབ་རྒྱུག་ཧུ།  \n音标：tʰʌtsʌxuu  \n英文：to run away from  \n知识库章节：动词  \n来源文件：QA_动词.csv [资料3]",
+          "createdAt": 1787268455905,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "0aa40fdf8798fc73",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 跑 རྒྱུག་པ། ཐབ་ཙབ། ཐབ་རྒྱུག to run tʰʌtsʌ Answer: 中文：跑；藏语：རྒྱུག་པ།；木雅语：ཐབ་ཙབ། ཐབ་རྒྱུག；音标：tʰʌtsʌ；英文：to run；章节分类：动词",
+              "similarity": 0.28782138974649446,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "5247abc5ccfc16ec",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 跑 རྒྱུག ཐབ་རྒྱུག ཐབ་བབ། to run tʰʌdzʌ Answer: 中文：跑；藏语：རྒྱུག；木雅语：ཐབ་རྒྱུག ཐབ་བབ།；音标：tʰʌdzʌ；英文：to run；章节分类：动词",
+              "similarity": 0.27786780705375586,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "ab22be48c1524e62",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 跑过去 ཕར་རྒྱུག ཐབ་ཙྭབ་ཧུ། ཐབ་རྒྱུག་ཧུ། to run away from tʰʌtsʌxuu Answer: 中文：跑过去；藏语：ཕར་རྒྱུག；木雅语：ཐབ་ཙྭབ་ཧུ། ཐབ་རྒྱུག་ཧུ།；音标：tʰʌtsʌxuu；英文：to run away from；章节分类：动词",
+              "similarity": 0.2729565275157709,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "32764a5a6f4990ea",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 寻找 མྱུལ་བ། ཐབ་ཙོབ་ཚོད།④ to search for tʰʌtsʌtɕʰø Answer: 中文：寻找；藏语：མྱུལ་བ།；木雅语：ཐབ་ཙོབ་ཚོད།④；音标：tʰʌtsʌtɕʰø；英文：to search for；章节分类：动词",
+              "similarity": 0.2711550357246375,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "8dba8702b46f66a2",
+              "title": "QA_牧业.csv",
+              "excerpt": "Question: 割青草 རྩྭ་སྔོན་བཅད། འུ་ཐབ་གའ། to cut green grass yu tʰʌkʌ Answer: 中文：割青草；藏语：རྩྭ་སྔོན་བཅད།；木雅语：འུ་ཐབ་གའ།；音标：yu tʰʌkʌ；英文：to cut green grass；章节分类：牧业",
+              "similarity": 0.2663035868712315,
+              "chapter": "牧业",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "e195d8613d92c194",
+              "title": "QA_农务.csv",
+              "excerpt": "Question: 割青稞 ནས་གཅད། ནས་བཟ། ཤག་ཐབ་ཀབ། ཧྲག་ཐབ་ཀབ། to harvest barley ša tʰʌkʌ Answer: 中文：割青稞；藏语：ནས་གཅད། ནས་བཟ།；木雅语：ཤག་ཐབ་ཀབ། ཧྲག་ཐབ་ཀབ།；音标：ša tʰʌkʌ；英文：to harvest barley；章节分类：农务",
+              "similarity": 0.26602212978946993,
+              "chapter": "农务",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-b27c5cb934ce47b390c7e32d7c2f71b9::muxiaowen": {
+      "clientId": "codex-query-test-b27c5cb934ce47b390c7e32d7c2f71b9",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268456175,
+      "messages": [
+        {
+          "id": "002288a39aea4fada41794caba87df39",
+          "role": "user",
+          "content": "请只按木雅语字段精确查询“ཐབ་ཙྭབ་ཧུ། ཐབ་རྒྱུག་ཧུ།”，返回完整五语词条。",
+          "createdAt": 1787268453505
+        },
+        {
+          "id": "assistant-9b57d55e-a5af-4359-bfc1-a612713d6814",
+          "role": "assistant",
+          "content": "中文：跑过去  \n藏语：ཕར་རྒྱུག  \n木雅语：ཐབ་ཙྭབ་ཧུ། ཐབ་རྒྱུག་ཧུ།  \n音标：tʰʌtsʌxuu  \n英文：to run away from  \n知识库章节：动词  \n来源文件：QA_动词.csv [资料3]",
+          "createdAt": 1787268456173,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "0aa40fdf8798fc73",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 跑 རྒྱུག་པ། ཐབ་ཙབ། ཐབ་རྒྱུག to run tʰʌtsʌ Answer: 中文：跑；藏语：རྒྱུག་པ།；木雅语：ཐབ་ཙབ། ཐབ་རྒྱུག；音标：tʰʌtsʌ；英文：to run；章节分类：动词",
+              "similarity": 0.28782138974649446,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "5247abc5ccfc16ec",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 跑 རྒྱུག ཐབ་རྒྱུག ཐབ་བབ། to run tʰʌdzʌ Answer: 中文：跑；藏语：རྒྱུག；木雅语：ཐབ་རྒྱུག ཐབ་བབ།；音标：tʰʌdzʌ；英文：to run；章节分类：动词",
+              "similarity": 0.27786780705375586,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "ab22be48c1524e62",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 跑过去 ཕར་རྒྱུག ཐབ་ཙྭབ་ཧུ། ཐབ་རྒྱུག་ཧུ། to run away from tʰʌtsʌxuu Answer: 中文：跑过去；藏语：ཕར་རྒྱུག；木雅语：ཐབ་ཙྭབ་ཧུ། ཐབ་རྒྱུག་ཧུ།；音标：tʰʌtsʌxuu；英文：to run away from；章节分类：动词",
+              "similarity": 0.2729565275157709,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "32764a5a6f4990ea",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 寻找 མྱུལ་བ། ཐབ་ཙོབ་ཚོད།④ to search for tʰʌtsʌtɕʰø Answer: 中文：寻找；藏语：མྱུལ་བ།；木雅语：ཐབ་ཙོབ་ཚོད།④；音标：tʰʌtsʌtɕʰø；英文：to search for；章节分类：动词",
+              "similarity": 0.2711550357246375,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "8dba8702b46f66a2",
+              "title": "QA_牧业.csv",
+              "excerpt": "Question: 割青草 རྩྭ་སྔོན་བཅད། འུ་ཐབ་གའ། to cut green grass yu tʰʌkʌ Answer: 中文：割青草；藏语：རྩྭ་སྔོན་བཅད།；木雅语：འུ་ཐབ་གའ།；音标：yu tʰʌkʌ；英文：to cut green grass；章节分类：牧业",
+              "similarity": 0.2663035868712315,
+              "chapter": "牧业",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "e195d8613d92c194",
+              "title": "QA_农务.csv",
+              "excerpt": "Question: 割青稞 ནས་གཅད། ནས་བཟ། ཤག་ཐབ་ཀབ། ཧྲག་ཐབ་ཀབ། to harvest barley ša tʰʌkʌ Answer: 中文：割青稞；藏语：ནས་གཅད། ནས་བཟ།；木雅语：ཤག་ཐབ་ཀབ། ཧྲག་ཐབ་ཀབ།；音标：ša tʰʌkʌ；英文：to harvest barley；章节分类：农务",
+              "similarity": 0.26602212978946993,
+              "chapter": "农务",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "codex-query-test-0c632c98b91b469d907c513862ab406d::muxiaowen": {
+      "clientId": "codex-query-test-0c632c98b91b469d907c513862ab406d",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268456301,
+      "messages": [
+        {
+          "id": "6ecbea95c86342d19af672976578e5fc",
+          "role": "user",
+          "content": "请只按木雅语字段精确查询“ཐབ་ཙྭབ་ཧུ། ཐབ་རྒྱུག་ཧུ།”，返回完整五语词条。",
+          "createdAt": 1787268453769
+        },
+        {
+          "id": "assistant-46a3799c-797c-479d-98a0-5d2efaf5f0e5",
+          "role": "assistant",
+          "content": "中文：跑过去  \n藏语：ཕར་རྒྱུག  \n木雅语：ཐབ་ཙྭབ་ཧུ། ཐབ་རྒྱུག་ཧུ།  \n音标：tʰʌtsʌxuu  \n英文：to run away from  \n知识库章节：动词  \n来源文件：QA_动词.csv [资料3]",
+          "createdAt": 1787268456300,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "0aa40fdf8798fc73",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 跑 རྒྱུག་པ། ཐབ་ཙབ། ཐབ་རྒྱུག to run tʰʌtsʌ Answer: 中文：跑；藏语：རྒྱུག་པ།；木雅语：ཐབ་ཙབ། ཐབ་རྒྱུག；音标：tʰʌtsʌ；英文：to run；章节分类：动词",
+              "similarity": 0.28782138974649446,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "5247abc5ccfc16ec",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 跑 རྒྱུག ཐབ་རྒྱུག ཐབ་བབ། to run tʰʌdzʌ Answer: 中文：跑；藏语：རྒྱུག；木雅语：ཐབ་རྒྱུག ཐབ་བབ།；音标：tʰʌdzʌ；英文：to run；章节分类：动词",
+              "similarity": 0.27786780705375586,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "ab22be48c1524e62",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 跑过去 ཕར་རྒྱུག ཐབ་ཙྭབ་ཧུ། ཐབ་རྒྱུག་ཧུ། to run away from tʰʌtsʌxuu Answer: 中文：跑过去；藏语：ཕར་རྒྱུག；木雅语：ཐབ་ཙྭབ་ཧུ། ཐབ་རྒྱུག་ཧུ།；音标：tʰʌtsʌxuu；英文：to run away from；章节分类：动词",
+              "similarity": 0.2729565275157709,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "32764a5a6f4990ea",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 寻找 མྱུལ་བ། ཐབ་ཙོབ་ཚོད།④ to search for tʰʌtsʌtɕʰø Answer: 中文：寻找；藏语：མྱུལ་བ།；木雅语：ཐབ་ཙོབ་ཚོད།④；音标：tʰʌtsʌtɕʰø；英文：to search for；章节分类：动词",
+              "similarity": 0.2711550357246375,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "8dba8702b46f66a2",
+              "title": "QA_牧业.csv",
+              "excerpt": "Question: 割青草 རྩྭ་སྔོན་བཅད། འུ་ཐབ་གའ། to cut green grass yu tʰʌkʌ Answer: 中文：割青草；藏语：རྩྭ་སྔོན་བཅད།；木雅语：འུ་ཐབ་གའ།；音标：yu tʰʌkʌ；英文：to cut green grass；章节分类：牧业",
+              "similarity": 0.2663035868712315,
+              "chapter": "牧业",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "e195d8613d92c194",
+              "title": "QA_农务.csv",
+              "excerpt": "Question: 割青稞 ནས་གཅད། ནས་བཟ། ཤག་ཐབ་ཀབ། ཧྲག་ཐབ་ཀབ། to harvest barley ša tʰʌkʌ Answer: 中文：割青稞；藏语：ནས་གཅད། ནས་བཟ།；木雅语：ཤག་ཐབ་ཀབ། ཧྲག་ཐབ་ཀབ།；音标：ša tʰʌkʌ；英文：to harvest barley；章节分类：农务",
+              "similarity": 0.26602212978946993,
+              "chapter": "农务",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "eed680ee-3898-47ba-8bba-3ecbb7fd22b6::muxiaowen": {
+      "clientId": "eed680ee-3898-47ba-8bba-3ecbb7fd22b6",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787268507915,
+      "messages": [
+        {
+          "id": "u-1787268505313",
+          "role": "user",
+          "content": "请只按木雅语字段精确查询“ཞི་ཆུ་རུབ་རུབ།”，返回完整五语词条。",
+          "createdAt": 1787268505578
+        },
+        {
+          "id": "assistant-9b5e08ad-1a08-4639-8fdb-07cc717a3fae",
+          "role": "assistant",
+          "content": "中文：猪肉包子  \n藏语：ཕག་ཤ་མོག་མོག  \n木雅语：ཞི་ཆུ་རུབ་རུབ།  \n音标：ziteʰu ruru  \n英文：pork dumplings  \n知识库章节：食品  \n来源文件：QA_食品.csv [资料3]",
+          "createdAt": 1787268507914,
+          "source": "ragflow",
+          "evidenceCount": 7,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.20148562990897634,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "c5193d590590eccd",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 希望 རེ་བ། རེ་བ་ཁྲོ་ཅག རེ་བ་ཏི་བརྒྱབ། to wish for, hope for rewa qʰotɛa Answer: 中文：希望；藏语：རེ་བ།；木雅语：རེ་བ་ཁྲོ་ཅག རེ་བ་ཏི་བརྒྱབ།；音标：rewa qʰotɛa；英文：to wish for, hope for；章节分类：动词",
+              "similarity": 0.17139969457242069,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "bc4ffb71734cda89",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 猪肉包子 ཕག་ཤ་མོག་མོག ཞི་ཆུ་རུབ་རུབ། pork dumplings ziteʰu ruru Answer: 中文：猪肉包子；藏语：ཕག་ཤ་མོག་མོག；木雅语：ཞི་ཆུ་རུབ་རུབ།；音标：ziteʰu ruru；英文：pork dumplings；章节分类：食品",
+              "similarity": 0.16420082599680505,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "bd24b68af98148a3",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 萝卜包子 ལ་ཕུག་མོག་མོག ལ་ཕུག་རུབ་རུབ། radish dumplings lʌpʰu ruru Answer: 中文：萝卜包子；藏语：ལ་ཕུག་མོག་མོག；木雅语：ལ་ཕུག་རུབ་རུབ།；音标：lʌpʰu ruru；英文：radish dumplings；章节分类：食品",
+              "similarity": 0.1640322010286079,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "f0db7e204decb9a3",
+              "title": "QA_人格.csv",
+              "excerpt": "Question: 爱唠叨的人 བཤད་དགའ་ཚ་པོ། ཤར་རུས་རྒྱབ་རྒྱབ།① a talkative person ɕərə dzʌdzʌ Answer: 中文：爱唠叨的人；藏语：བཤད་དགའ་ཚ་པོ།；木雅语：ཤར་རུས་རྒྱབ་རྒྱབ།①；音标：ɕərə dzʌdzʌ；英文：a talkative person；章节分类：人格",
+              "similarity": 0.15196609763183647,
+              "chapter": "人格",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "5d74c63d3cac599d",
+              "title": "QA_食品.csv",
+              "excerpt": "Question: 酸菜包子 ལོ་སྐྱུར་མོག་མོག སྐྱུར་པོ་རུབ་རུབ། pickled vegetable dumplings tɕupʰu ruru Answer: 中文：酸菜包子；藏语：ལོ་སྐྱུར་མོག་མོག；木雅语：སྐྱུར་པོ་རུབ་རུབ།；音标：tɕupʰu ruru；英文：pickled vegetable dumplings；章节分类：食品",
+              "similarity": 0.14905461069338152,
+              "chapter": "食品",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "feb1fa68-05c8-4eb5-a282-d57d9627b4ff::muxiaowen": {
+      "clientId": "feb1fa68-05c8-4eb5-a282-d57d9627b4ff",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787367059636,
+      "messages": [
+        {
+          "id": "u-1787285782697",
+          "role": "user",
+          "content": "“雪山”用木雅语怎么说？",
+          "createdAt": 1787285783057
+        },
+        {
+          "id": "assistant-b56ef4b4-4eb2-4ce3-a1c6-8eb5167ca203",
+          "role": "assistant",
+          "content": "| 中文 | 藏文 | 木雅语 | 国际音标 | 英文 | 知识库章节 |\n|---|---|---|---|---|---|\n| 雪山 | གངས་རི། | གངས་རི། | qari | snow mountain | 山脉 |\n| 雪山 | གངས་ལ། | བུ་འདའ། | vuunda | snowy pass | 雪雨 |\n| 雪山 | གངས་རི། | བུ་འབོ། གངས་རི། | vuumbo | snow mountain | 雪雨 |\n| 说 | སྨྲ་བ། | གཏི་པི།①[ཉིང] | tupi | to speak, say | 动词 |\n| 夸口说 | ལབ་རྒྱབ་པ། | ཉམ་ཤོས་ཤུ་བླ། ཁ་རྒྱགས་པ། | ɲəy ɕuvu | to boast, brag | 动词 |\n\n> [资料1] QA_山脉.csv\n> [资料2] QA_雪雨.csv\n> [资料3] QA_雪雨.csv\n> [资料4] QA_动词.csv\n> [资料5] QA_动词.csv",
+          "createdAt": 1787285784342,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "知识库五语对照直出",
+          "sources": [
+            {
+              "id": "2c05a44359bbe0a0",
+              "title": "QA_山脉.csv",
+              "excerpt": "Question: 雪山 གངས་རི། snow mountain qari Answer: 中文：雪山；藏语：གངས་རི།；木雅语：གངས་རི།；音标：qari；英文：snow mountain；章节分类：山脉",
+              "similarity": 0.37604436546732334,
+              "chapter": "山脉",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "2dddae79e9352841",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་ལ། བུ་འདའ། snowy pass vuunda Answer: 中文：雪山；藏语：གངས་ལ།；木雅语：བུ་འདའ།；音标：vuunda；英文：snowy pass；章节分类：雪雨",
+              "similarity": 0.3676027796009349,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "4977f7f7ab73256e",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་རི། བུ་འབོ། གངས་རི། snow mountain vuumbo Answer: 中文：雪山；藏语：གངས་རི།；木雅语：བུ་འབོ། གངས་རི།；音标：vuumbo；英文：snow mountain；章节分类：雪雨",
+              "similarity": 0.36727972337961856,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "f06d87841e4720b0",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 说 སྨྲ་བ། གཏི་པི།①[ཉིང] to speak, say tupi Answer: 中文：说；藏语：སྨྲ་བ།；木雅语：གཏི་པི།①[ཉིང]；音标：tupi；英文：to speak, say；章节分类：动词",
+              "similarity": 0.3069368989436412,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "8469ad32a4a8e913",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 夸口说 ལབ་རྒྱབ་པ། ཉམ་ཤོས་ཤུ་བླ། ཁ་རྒྱགས་པ། to boast, brag ɲəy ɕuvu Answer: 中文：夸口说；藏语：ལབ་རྒྱབ་པ།；木雅语：ཉམ་ཤོས་ཤུ་བླ། ཁ་རྒྱགས་པ།；音标：ɲəy ɕuvu；英文：to boast, brag；章节分类：动词",
+              "similarity": 0.29347611486899094,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "fbe07f24f7a5f09a",
+              "title": "QA_多变.csv",
+              "excerpt": "Question: 说（现在） འཆད། ཏི་བཤད་པིས། to tell (prog.) tuɕəpi Answer: 中文：说（现在）；藏语：འཆད།；木雅语：ཏི་བཤད་པིས།；音标：tuɕəpi；英文：to tell (prog.)；章节分类：多变",
+              "similarity": 0.292929758433398,
+              "chapter": "多变",
+              "kind": "knowledge-base"
+            }
+          ],
+          "warning": "木小文翻译/词汇查询直接以五语对照表输出，未调用 LLM 二次改写",
+          "grounded": true
+        },
+        {
+          "id": "u-1787285931287",
+          "role": "user",
+          "content": "གངས་རི། 是什么意思？",
+          "createdAt": 1787285931618
+        },
+        {
+          "id": "assistant-4209439b-c237-4877-b05f-5a249908bd0a",
+          "role": "assistant",
+          "content": "| 中文 | 藏文 | 木雅语 | 国际音标 | 英文 | 知识库章节 |\n|---|---|---|---|---|---|\n| 雪山 | གངས་རི། | གངས་རི། | qari | snow mountain | 山脉 [资料1] |\n| 雪山 | གངས་རི། | བུ་འབོ། གངས་རི། | vuumbo | snow mountain | 雪雨 [资料2] |\n\n> 来源文件：QA_山脉.csv, QA_雪雨.csv",
+          "createdAt": 1787285935904,
+          "source": "ragflow",
+          "evidenceCount": 5,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "2c05a44359bbe0a0",
+              "title": "QA_山脉.csv",
+              "excerpt": "Question: 雪山 གངས་རི། snow mountain qari Answer: 中文：雪山；藏语：གངས་རི།；木雅语：གངས་རི།；音标：qari；英文：snow mountain；章节分类：山脉",
+              "similarity": 0.33971225267677213,
+              "chapter": "山脉",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "4977f7f7ab73256e",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་རི། བུ་འབོ། གངས་རི། snow mountain vuumbo Answer: 中文：雪山；藏语：གངས་རི།；木雅语：བུ་འབོ། གངས་རི།；音标：vuumbo；英文：snow mountain；章节分类：雪雨",
+              "similarity": 0.2978117960455011,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "2dddae79e9352841",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་ལ། བུ་འདའ། snowy pass vuunda Answer: 中文：雪山；藏语：གངས་ལ།；木雅语：བུ་འདའ།；音标：vuunda；英文：snowy pass；章节分类：雪雨",
+              "similarity": 0.2789755300184648,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "8469ad32a4a8e913",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 夸口说 ལབ་རྒྱབ་པ། ཉམ་ཤོས་ཤུ་བླ། ཁ་རྒྱགས་པ། to boast, brag ɲəy ɕuvu Answer: 中文：夸口说；藏语：ལབ་རྒྱབ་པ།；木雅语：ཉམ་ཤོས་ཤུ་བླ། ཁ་རྒྱགས་པ།；音标：ɲəy ɕuvu；英文：to boast, brag；章节分类：动词",
+              "similarity": 0.2276170267466613,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "9fa1e32afcb067b2",
+              "title": "QA_水种.csv",
+              "excerpt": "Question: 冰川水 གངས་ཆུ། གངས་རི་ཆུ། glacial melt qari tɕu Answer: 中文：冰川水；藏语：གངས་ཆུ།；木雅语：གངས་རི་ཆུ།；音标：qari tɕu；英文：glacial melt；章节分类：水种",
+              "similarity": 0.2199880607931957,
+              "chapter": "水种",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        },
+        {
+          "id": "u-1787285978124",
+          "role": "user",
+          "content": "snow mountain",
+          "createdAt": 1787285978463
+        },
+        {
+          "id": "assistant-997b1c64-ccc3-4480-a7a0-5fdf228c2898",
+          "role": "assistant",
+          "content": "| 中文 | 藏文 | 木雅语 | 国际音标 | 英文 | 知识库章节 |\n|---|---|---|---|---|---|\n| 雪山 | གངས་རི། | གངས་རི། | qari | snow mountain | 山脉 [资料1] |\n| 雪山 | གངས་རི། | བུ་འབོ། གངས་རི། | vuumbo | snow mountain | 雪雨 [资料2] |\n\n> 来源文件：QA_山脉.csv, QA_雪雨.csv",
+          "createdAt": 1787285982530,
+          "source": "ragflow",
+          "evidenceCount": 4,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "2c05a44359bbe0a0",
+              "title": "QA_山脉.csv",
+              "excerpt": "Question: 雪山 གངས་རི། snow mountain qari Answer: 中文：雪山；藏语：གངས་རི།；木雅语：གངས་རི།；音标：qari；英文：snow mountain；章节分类：山脉",
+              "similarity": 0.3381339233290513,
+              "chapter": "山脉",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "4977f7f7ab73256e",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་རི། བུ་འབོ། གངས་རི། snow mountain vuumbo Answer: 中文：雪山；藏语：གངས་རི།；木雅语：བུ་འབོ། གངས་རི།；音标：vuumbo；英文：snow mountain；章节分类：雪雨",
+              "similarity": 0.2793549925556692,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "8469ad32a4a8e913",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 夸口说 ལབ་རྒྱབ་པ། ཉམ་ཤོས་ཤུ་བླ། ཁ་རྒྱགས་པ། to boast, brag ɲəy ɕuvu Answer: 中文：夸口说；藏语：ལབ་རྒྱབ་པ།；木雅语：ཉམ་ཤོས་ཤུ་བླ། ཁ་རྒྱགས་པ།；音标：ɲəy ɕuvu；英文：to boast, brag；章节分类：动词",
+              "similarity": 0.19375838537428897,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "9fa1e32afcb067b2",
+              "title": "QA_水种.csv",
+              "excerpt": "Question: 冰川水 གངས་ཆུ། གངས་རི་ཆུ། glacial melt qari tɕu Answer: 中文：冰川水；藏语：གངས་ཆུ།；木雅语：གངས་རི་ཆུ།；音标：qari tɕu；英文：glacial melt；章节分类：水种",
+              "similarity": 0.186639533774242,
+              "chapter": "水种",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        },
+        {
+          "id": "u-1787285992404",
+          "role": "user",
+          "content": "བུ་འབོ། གངས་རི།",
+          "createdAt": 1787285992748
+        },
+        {
+          "id": "assistant-cca66d17-1f9d-4534-be28-96a9b1c5ccc6",
+          "role": "assistant",
+          "content": "| 中文 | 藏文 | 木雅语 | 国际音标 | 英文 | 知识库章节 |\n|---|---|---|---|---|---|\n| 雪山 | གངས་རི། | བུ་འབོ། གངས་རི། | vuumbo | snow mountain | 雪雨 [资料2] |\n\n> 来源文件：QA_雪雨.csv",
+          "createdAt": 1787285995787,
+          "source": "ragflow",
+          "evidenceCount": 3,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "2c05a44359bbe0a0",
+              "title": "QA_山脉.csv",
+              "excerpt": "Question: 雪山 གངས་རི། snow mountain qari Answer: 中文：雪山；藏语：གངས་རི།；木雅语：གངས་རི།；音标：qari；英文：snow mountain；章节分类：山脉",
+              "similarity": 0.355824873622128,
+              "chapter": "山脉",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "4977f7f7ab73256e",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་རི། བུ་འབོ། གངས་རི། snow mountain vuumbo Answer: 中文：雪山；藏语：གངས་རི།；木雅语：བུ་འབོ། གངས་རི།；音标：vuumbo；英文：snow mountain；章节分类：雪雨",
+              "similarity": 0.3299049412656482,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "9fa1e32afcb067b2",
+              "title": "QA_水种.csv",
+              "excerpt": "Question: 冰川水 གངས་ཆུ། གངས་རི་ཆུ། glacial melt qari tɕu Answer: 中文：冰川水；藏语：གངས་ཆུ།；木雅语：གངས་རི་ཆུ།；音标：qari tɕu；英文：glacial melt；章节分类：水种",
+              "similarity": 0.20954046907391166,
+              "chapter": "水种",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        },
+        {
+          "id": "u-1787286051070",
+          "role": "user",
+          "content": "qari",
+          "createdAt": 1787286051487
+        },
+        {
+          "id": "assistant-093ed737-5323-4764-b109-55eb0d878943",
+          "role": "assistant",
+          "content": "| 中文 | 藏文 | 木雅语 | 国际音标 | 英文 | 知识库章节 |\n|---|---|---|---|---|---|\n| 雪山 | གངས་རི། | གངས་རི། | qari | snow mountain | 山脉 [资料1] |\n| 冰川水 | གངས་ཆུ། | གངས་རི་ཆུ། | qari tɕu | glacial melt | 水种 [资料3] |\n\n> 来源文件：QA_山脉.csv, QA_水种.csv",
+          "createdAt": 1787286055528,
+          "source": "ragflow",
+          "evidenceCount": 3,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "2c05a44359bbe0a0",
+              "title": "QA_山脉.csv",
+              "excerpt": "Question: 雪山 གངས་རི། snow mountain qari Answer: 中文：雪山；藏语：གངས་རི།；木雅语：གངས་རི།；音标：qari；英文：snow mountain；章节分类：山脉",
+              "similarity": 0.32282434187040626,
+              "chapter": "山脉",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "4977f7f7ab73256e",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་རི། བུ་འབོ། གངས་རི། snow mountain vuumbo Answer: 中文：雪山；藏语：གངས་རི།；木雅语：བུ་འབོ། གངས་རི།；音标：vuumbo；英文：snow mountain；章节分类：雪雨",
+              "similarity": 0.2583496841015164,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "9fa1e32afcb067b2",
+              "title": "QA_水种.csv",
+              "excerpt": "Question: 冰川水 གངས་ཆུ། གངས་རི་ཆུ། glacial melt qari tɕu Answer: 中文：冰川水；藏语：གངས་ཆུ།；木雅语：གངས་རི་ཆུ།；音标：qari tɕu；英文：glacial melt；章节分类：水种",
+              "similarity": 0.20282377939737783,
+              "chapter": "水种",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        },
+        {
+          "id": "u-1787286255621",
+          "role": "user",
+          "content": "“我在雪山放牧”用木雅语怎么说？",
+          "createdAt": 1787286255953
+        },
+        {
+          "id": "assistant-9fd497a3-575f-463c-982f-078ddc61a2dc",
+          "role": "assistant",
+          "content": "> 整句未在知识库中直接命中，以下仅展示拆解检索后能够确认的词条；不得据此拼造整句译文。\n\n| 中文 | 藏文 | 木雅语 | 国际音标 | 英文 | 知识库章节 |\n|---|---|---|---|---|---|\n| 放牧 | འཚོ་བ། | ུ་མི། | lumi | to graze | 动词 |\n| 放牧人 | རྫི་བུ། | ལུ་མི། | lumi | herder | 牧业 |\n| 放牧黄草 | ཕྱུགས་ཟོག་རྩྭ་སར་འདེད། | ཅུ་ཙོ་ནི་རྩྭ་ཁ་པུ་ཐ་བདའ།②[ཉིང] | tɕutsø.nuu tsekʰapu tʰəda | to let livestock out to graze | 季节天气 |\n| 放牧员 | རྫི་བོ། | ལུ་མི། | lumi | herder | 职业 |\n| 寺院放牧者 | ནོར་པ། | ནོར་པ། | nʌba | monastery herdsman | 佛教 |\n\n> [资料1] QA_动词.csv\n> [资料2] QA_牧业.csv\n> [资料3] QA_季节天气.csv\n> [资料4] QA_职业.csv\n> [资料5] QA_佛教.csv",
+          "createdAt": 1787286258905,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "知识库五语对照直出",
+          "sources": [
+            {
+              "id": "390f078972f6197e",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 放牧 འཚོ་བ། ུ་མི། to graze lumi Answer: 中文：放牧；藏语：འཚོ་བ།；木雅语：ུ་མི།；音标：lumi；英文：to graze；章节分类：动词",
+              "similarity": 0.9029433017733174,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "d2ea5deaa2c9708c",
+              "title": "QA_牧业.csv",
+              "excerpt": "Question: 放牧人 རྫི་བུ། ལུ་མི། herder lumi Answer: 中文：放牧人；藏语：རྫི་བུ།；木雅语：ལུ་མི།；音标：lumi；英文：herder；章节分类：牧业",
+              "similarity": 0.8934220429554101,
+              "chapter": "牧业",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "3a18e9f481a71734",
+              "title": "QA_季节天气.csv",
+              "excerpt": "Question: 放牧黄草 ཕྱུགས་ཟོག་རྩྭ་སར་འདེད། ཅུ་ཙོ་ནི་རྩྭ་ཁ་པུ་ཐ་བདའ།②[ཉིང] to let livestock out to graze tɕutsø.nuu tsekʰapu tʰəda Answer: 中文：放牧黄草；藏语：ཕྱུགས་ཟོག་རྩྭ་སར་འདེད།；木雅语：ཅུ་ཙོ་ནི་རྩྭ་ཁ་པུ་ཐ་བདའ།②[ཉིང]；音标：tɕutsø.nuu tsekʰapu tʰəda；英文：to let livestock out to graze；章节分类：季节天气",
+              "similarity": 0.8888950588323635,
+              "chapter": "季节天气",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "7e7a0f6fae403281",
+              "title": "QA_职业.csv",
+              "excerpt": "Question: 放牧员 རྫི་བོ། ལུ་མི། herder lumi Answer: 中文：放牧员；藏语：རྫི་བོ།；木雅语：ལུ་མི།；音标：lumi；英文：herder；章节分类：职业",
+              "similarity": 0.885197434187251,
+              "chapter": "职业",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "b3054055adbf2a66",
+              "title": "QA_佛教.csv",
+              "excerpt": "Question: 寺院放牧者 ནོར་པ། monastery herdsman nʌba Answer: 中文：寺院放牧者；藏语：ནོར་པ།；木雅语：ནོར་པ།；音标：nʌba；英文：monastery herdsman；章节分类：佛教",
+              "similarity": 0.8748302380077081,
+              "chapter": "佛教",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "2c05a44359bbe0a0",
+              "title": "QA_山脉.csv",
+              "excerpt": "Question: 雪山 གངས་རི། snow mountain qari Answer: 中文：雪山；藏语：གངས་རི།；木雅语：གངས་རི།；音标：qari；英文：snow mountain；章节分类：山脉",
+              "similarity": 0.8748132691960608,
+              "chapter": "山脉",
+              "kind": "knowledge-base"
+            }
+          ],
+          "warning": "木小文翻译/词汇查询直接以五语对照表输出，未调用 LLM 二次改写",
+          "grounded": true
+        },
+        {
+          "id": "u-1787286637448",
+          "role": "user",
+          "content": "གངས་རི། 是什么意思？",
+          "createdAt": 1787286637690
+        },
+        {
+          "id": "assistant-9fb89eaf-0350-4179-a453-bab6ccf16fbc",
+          "role": "assistant",
+          "content": "| 中文 | 藏文 | 木雅语 | 国际音标 | 英文 | 知识库章节 |\n|---|---|---|---|---|---|\n| 雪山 | གངས་རི། | གངས་རི། | qari | snow mountain | 山脉 [资料1] |\n| 雪山 | གངས་རི། | བུ་འབོ། གངས་རི། | vuumbo | snow mountain | 雪雨 [资料2] |\n\n> 来源文件：QA_山脉.csv, QA_雪雨.csv\n\n注：藏文\"གངས་རི།\"对应中文\"雪山\"，在木雅语中有两种表达形式（见上表）。知识库未收录该词的单独释义或例句。",
+          "createdAt": 1787286643536,
+          "source": "ragflow",
+          "evidenceCount": 4,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "9fa1e32afcb067b2",
+              "title": "QA_水种.csv",
+              "excerpt": "Question: 冰川水 གངས་ཆུ། གངས་རི་ཆུ། glacial melt qari tɕu Answer: 中文：冰川水；藏语：གངས་ཆུ།；木雅语：གངས་རི་ཆུ།；音标：qari tɕu；英文：glacial melt；章节分类：水种",
+              "similarity": 0.2305059122380829,
+              "chapter": "水种",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "d2ea5deaa2c9708c",
+              "title": "QA_牧业.csv",
+              "excerpt": "Question: 放牧人 རྫི་བུ། ལུ་མི། herder lumi Answer: 中文：放牧人；藏语：རྫི་བུ།；木雅语：ལུ་མི།；音标：lumi；英文：herder；章节分类：牧业",
+              "similarity": 0.23043037491028198,
+              "chapter": "牧业",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "7e7a0f6fae403281",
+              "title": "QA_职业.csv",
+              "excerpt": "Question: 放牧员 རྫི་བོ། ལུ་མི། herder lumi Answer: 中文：放牧员；藏语：རྫི་བོ།；木雅语：ལུ་མི།；音标：lumi；英文：herder；章节分类：职业",
+              "similarity": 0.22316288134787496,
+              "chapter": "职业",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "3a18e9f481a71734",
+              "title": "QA_季节天气.csv",
+              "excerpt": "Question: 放牧黄草 ཕྱུགས་ཟོག་རྩྭ་སར་འདེད། ཅུ་ཙོ་ནི་རྩྭ་ཁ་པུ་ཐ་བདའ།②[ཉིང] to let livestock out to graze tɕutsø.nuu tsekʰapu tʰəda Answer: 中文：放牧黄草；藏语：ཕྱུགས་ཟོག་རྩྭ་སར་འདེད།；木雅语：ཅུ་ཙོ་ནི་རྩྭ་ཁ་པུ་ཐ་བདའ།②[ཉིང]；音标：tɕutsø.nuu tsekʰapu tʰəda；英文：to let livestock out to graze；章节分类：季节天气",
+              "similarity": 0.21234209082352845,
+              "chapter": "季节天气",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        },
+        {
+          "id": "u-1787304710154",
+          "role": "user",
+          "content": "“我在草原放牧”用木雅语怎么说？",
+          "createdAt": 1787304712454
+        },
+        {
+          "id": "assistant-b998f9ef-4058-48d9-9dbb-c4be6624da8c",
+          "role": "assistant",
+          "content": "> 整句未在知识库中直接命中，以下仅展示拆解检索后能够确认的词条；不得据此拼造整句译文。\n\n| 中文 | 藏文 | 木雅语 | 国际音标 | 英文 | 知识库章节 |\n|---|---|---|---|---|---|\n| 放牧 | འཚོ་བ། | ུ་མི། | lumi | to graze | 动词 |\n| 放牧人 | རྫི་བུ། | ལུ་མི། | lumi | herder | 牧业 |\n| 放牧黄草 | ཕྱུགས་ཟོག་རྩྭ་སར་འདེད། | ཅུ་ཙོ་ནི་རྩྭ་ཁ་པུ་ཐ་བདའ།②[ཉིང] | tɕutsø.nuu tsekʰapu tʰəda | to let livestock out to graze | 季节天气 |\n| 放牧员 | རྫི་བོ། | ལུ་མི། | lumi | herder | 职业 |\n| 干草地 | སྤང་སྐམ་པོ། | སྤང་རའ་རའ། | pa rara | dry grassland | 草原 |\n\n> [资料1] QA_动词.csv\n> [资料2] QA_牧业.csv\n> [资料3] QA_季节天气.csv\n> [资料4] QA_职业.csv\n> [资料5] QA_草原.csv",
+          "createdAt": 1787304715695,
+          "source": "ragflow",
+          "evidenceCount": 12,
+          "model": "知识库五语对照直出",
+          "sources": [
+            {
+              "id": "390f078972f6197e",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 放牧 འཚོ་བ། ུ་མི། to graze lumi Answer: 中文：放牧；藏语：འཚོ་བ།；木雅语：ུ་མི།；音标：lumi；英文：to graze；章节分类：动词",
+              "similarity": 0.9029433017733174,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "d2ea5deaa2c9708c",
+              "title": "QA_牧业.csv",
+              "excerpt": "Question: 放牧人 རྫི་བུ། ལུ་མི། herder lumi Answer: 中文：放牧人；藏语：རྫི་བུ།；木雅语：ལུ་མི།；音标：lumi；英文：herder；章节分类：牧业",
+              "similarity": 0.8934220429554101,
+              "chapter": "牧业",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "3a18e9f481a71734",
+              "title": "QA_季节天气.csv",
+              "excerpt": "Question: 放牧黄草 ཕྱུགས་ཟོག་རྩྭ་སར་འདེད། ཅུ་ཙོ་ནི་རྩྭ་ཁ་པུ་ཐ་བདའ།②[ཉིང] to let livestock out to graze tɕutsø.nuu tsekʰapu tʰəda Answer: 中文：放牧黄草；藏语：ཕྱུགས་ཟོག་རྩྭ་སར་འདེད།；木雅语：ཅུ་ཙོ་ནི་རྩྭ་ཁ་པུ་ཐ་བདའ།②[ཉིང]；音标：tɕutsø.nuu tsekʰapu tʰəda；英文：to let livestock out to graze；章节分类：季节天气",
+              "similarity": 0.8888950588323635,
+              "chapter": "季节天气",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "7e7a0f6fae403281",
+              "title": "QA_职业.csv",
+              "excerpt": "Question: 放牧员 རྫི་བོ། ལུ་མི། herder lumi Answer: 中文：放牧员；藏语：རྫི་བོ།；木雅语：ལུ་མི།；音标：lumi；英文：herder；章节分类：职业",
+              "similarity": 0.885197434187251,
+              "chapter": "职业",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "dc966df54b0e8b9f",
+              "title": "QA_草原.csv",
+              "excerpt": "Question: 干草地 སྤང་སྐམ་པོ། སྤང་རའ་རའ། dry grassland pa rara Answer: 中文：干草地；藏语：སྤང་སྐམ་པོ།；木雅语：སྤང་རའ་རའ།；音标：pa rara；英文：dry grassland；章节分类：草原",
+              "similarity": 0.8750915464445288,
+              "chapter": "草原",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "b3054055adbf2a66",
+              "title": "QA_佛教.csv",
+              "excerpt": "Question: 寺院放牧者 ནོར་པ། monastery herdsman nʌba Answer: 中文：寺院放牧者；藏语：ནོར་པ།；木雅语：ནོར་པ།；音标：nʌba；英文：monastery herdsman；章节分类：佛教",
+              "similarity": 0.8748302380077081,
+              "chapter": "佛教",
+              "kind": "knowledge-base"
+            }
+          ],
+          "warning": "木小文翻译/词汇查询直接以五语对照表输出，未调用 LLM 二次改写",
+          "grounded": true
+        },
+        {
+          "id": "u-1787367057438",
+          "role": "user",
+          "content": "变形金刚",
+          "createdAt": 1787367057850
+        },
+        {
+          "id": "assistant-059065ea-712a-486a-a35e-b18625033c4c",
+          "role": "assistant",
+          "content": "> 知识库未检索到可靠依据",
+          "createdAt": 1787367059634,
+          "source": "ragflow",
+          "evidenceCount": 4,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "2c05a44359bbe0a0",
+              "title": "QA_山脉.csv",
+              "excerpt": "Question: 雪山 གངས་རི། snow mountain qari Answer: 中文：雪山；藏语：གངས་རི།；木雅语：གངས་རི།；音标：qari；英文：snow mountain；章节分类：山脉",
+              "similarity": 0.2510497580088392,
+              "chapter": "山脉",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "4977f7f7ab73256e",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་རི། བུ་འབོ། གངས་རི། snow mountain vuumbo Answer: 中文：雪山；藏语：གངས་རི།；木雅语：བུ་འབོ། གངས་རི།；音标：vuumbo；英文：snow mountain；章节分类：雪雨",
+              "similarity": 0.22403465378580303,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "3a18e9f481a71734",
+              "title": "QA_季节天气.csv",
+              "excerpt": "Question: 放牧黄草 ཕྱུགས་ཟོག་རྩྭ་སར་འདེད། ཅུ་ཙོ་ནི་རྩྭ་ཁ་པུ་ཐ་བདའ།②[ཉིང] to let livestock out to graze tɕutsø.nuu tsekʰapu tʰəda Answer: 中文：放牧黄草；藏语：ཕྱུགས་ཟོག་རྩྭ་སར་འདེད།；木雅语：ཅུ་ཙོ་ནི་རྩྭ་ཁ་པུ་ཐ་བདའ།②[ཉིང]；音标：tɕutsø.nuu tsekʰapu tʰəda；英文：to let livestock out to graze；章节分类：季节天气",
+              "similarity": 0.21867840376149805,
+              "chapter": "季节天气",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "9fa1e32afcb067b2",
+              "title": "QA_水种.csv",
+              "excerpt": "Question: 冰川水 གངས་ཆུ། གངས་རི་ཆུ། glacial melt qari tɕu Answer: 中文：冰川水；藏语：གངས་ཆུ།；木雅语：གངས་རི་ཆུ།；音标：qari tɕu；英文：glacial melt；章节分类：水种",
+              "similarity": 0.17796191336666933,
+              "chapter": "水种",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "feb1fa68-05c8-4eb5-a282-d57d9627b4ff::muxiaoce": {
+      "clientId": "feb1fa68-05c8-4eb5-a282-d57d9627b4ff",
+      "agentType": "muxiaoce",
+      "updatedAt": 1787297563881,
+      "messages": [
+        {
+          "id": "u-1787297542835",
+          "role": "user",
+          "content": "你是如何进行测试的？",
+          "createdAt": 1787297543134
+        },
+        {
+          "id": "assistant-23d09c86-3d56-45ad-b8a8-6f090fef251b",
+          "role": "assistant",
+          "content": "> RAGFlow 的 muya 知识库未检索到可靠依据",
+          "createdAt": 1787297543825,
+          "source": "ragflow",
+          "evidenceCount": 0,
+          "model": "知识库检索",
+          "sources": [],
+          "grounded": false
+        },
+        {
+          "id": "u-1787297559944",
+          "role": "user",
+          "content": "雪山",
+          "createdAt": 1787297560253
+        },
+        {
+          "id": "assistant-27470bfa-108c-4d41-90cb-e39c9bf32963",
+          "role": "assistant",
+          "content": "中文：雪山  \n藏语：གངས་རི།  \n木雅语：གངས་རི། / བུ་འདའ། / བུ་འབོ། གངས་རི།  \n音标：qari / vuunda / vuumbo  \n英文：snow mountain / snowy pass  \n章节分类：山脉、雪雨  \n\n来源依据：  \n[资料1] [资料2] [资料3]",
+          "createdAt": 1787297563880,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "2c05a44359bbe0a0",
+              "title": "QA_山脉.csv",
+              "excerpt": "Question: 雪山 གངས་རི། snow mountain qari Answer: 中文：雪山；藏语：གངས་རི།；木雅语：གངས་རི།；音标：qari；英文：snow mountain；章节分类：山脉",
+              "similarity": 0.20236266147247348,
+              "chapter": "山脉",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "2dddae79e9352841",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་ལ། བུ་འདའ། snowy pass vuunda Answer: 中文：雪山；藏语：གངས་ལ།；木雅语：བུ་འདའ།；音标：vuunda；英文：snowy pass；章节分类：雪雨",
+              "similarity": 0.19602702287559756,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "4977f7f7ab73256e",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་རི། བུ་འབོ། གངས་རི། snow mountain vuumbo Answer: 中文：雪山；藏语：གངས་རི།；木雅语：བུ་འབོ། གངས་རི།；音标：vuumbo；英文：snow mountain；章节分类：雪雨",
+              "similarity": 0.19508148751318846,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "db56a01d766f597c",
+              "title": "QA_叮嘱.csv",
+              "excerpt": "Question: 不要到河边 ཆུ་ཁར་མ་འགྲོ། ཅུ་འ་ན་བ་ཅི་ཧུས། Stay away from the water's edge. tɕuu.ya nʌ tɕuu.hu Answer: 中文：不要到河边；藏语：ཆུ་ཁར་མ་འགྲོ།；木雅语：ཅུ་འ་ན་བ་ཅི་ཧུས།；音标：tɕuu.ya nʌ tɕuu.hu；英文：Stay away from the water's edge.；章节分类：叮嘱",
+              "similarity": 0.15371565910271542,
+              "chapter": "叮嘱",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "46e3835be71f5091",
+              "title": "QA_季节天气.csv",
+              "excerpt": "Question: 鸢到 ནེ་ལེ་སྤྲེབས། ནེ་ལེ་ཀ་མ་ཁི་གྲ། for a mouse-hawk to arrive nelekama khʷutʂa Answer: 中文：鸢到；藏语：ནེ་ལེ་སྤྲེབས།；木雅语：ནེ་ལེ་ཀ་མ་ཁི་གྲ།；音标：nelekama khʷutʂa；英文：for a mouse-hawk to arrive；章节分类：季节天气",
+              "similarity": 0.14425269612268546,
+              "chapter": "季节天气",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "602d37d6e39121c6",
+              "title": "QA_农务.csv",
+              "excerpt": "Question: 搬肥料到屋外 ནང་ལུད་ཕྱིར་འཕུད། ུ་འབུ་དབའ་ཐུ། to take composted manure out yumbu atʰu Answer: 中文：搬肥料到屋外；藏语：ནང་ལུད་ཕྱིར་འཕུད།；木雅语：ུ་འབུ་དབའ་ཐུ།；音标：yumbu atʰu；英文：to take composted manure out；章节分类：农务",
+              "similarity": 0.13831441593309415,
+              "chapter": "农务",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "2f57fb8f-c04a-44d8-9b6c-85971ab99727::muxiaowen": {
+      "clientId": "2f57fb8f-c04a-44d8-9b6c-85971ab99727",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787317818591,
+      "messages": [
+        {
+          "id": "u-1787317778010",
+          "role": "user",
+          "content": "你好",
+          "createdAt": 1787317777707
+        },
+        {
+          "id": "assistant-c9c79f9a-3aed-4c9e-a779-a74b1205f9f3",
+          "role": "assistant",
+          "content": "> RAGFlow 的 muya 知识库未检索到可靠依据",
+          "createdAt": 1787317778591,
+          "source": "ragflow",
+          "evidenceCount": 0,
+          "model": "知识库检索",
+          "sources": [],
+          "grounded": false
+        },
+        {
+          "id": "u-1787317812784",
+          "role": "user",
+          "content": "学生",
+          "createdAt": 1787317812543
+        },
+        {
+          "id": "assistant-fa3deae1-26ce-43de-96a9-7d45d874cc4a",
+          "role": "assistant",
+          "content": "中文：学生、弟子  \n藏语：སློབ་མ།  \n木雅语：སློབ་མ།  \n音标：løma  \n英文：disciple, pupil  \n知识库章节：佛教  \n来源文件：QA_佛教.csv [资料1]  \n\n中文：学生、弟子  \n藏语：དགེ་ཕྲུག  \n木雅语：དགེ་ཕྲུག  \n音标：getʂʰu  \n英文：disciple, pupil  \n知识库章节：佛教  \n来源文件：QA_佛教.csv [资料3]  \n\n中文：学生: 培养(将来)  \n藏语：སློབ་མ་སོགས་བསྐྱང་།  \n木雅语：དོ་སྐྱོང་ཧིས།  \n音标：totsəxi  \n英文：to cultivate, train, foster (fut.)  \n知识库章节：多变  \n来源文件：QA_多变.csv [资料2]",
+          "createdAt": 1787317818589,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "6e7ebc7c4c8b0567",
+              "title": "QA_佛教.csv",
+              "excerpt": "Question: 学生、弟子 སློབ་མ། disciple, pupil løma Answer: 中文：学生、弟子；藏语：སློབ་མ།；木雅语：སློབ་མ།；音标：løma；英文：disciple, pupil；章节分类：佛教",
+              "similarity": 0.23123508802736215,
+              "chapter": "佛教",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "30e6e4d4e5069b7d",
+              "title": "QA_多变.csv",
+              "excerpt": "Question: 学生: 培养(将来) སློབ་མ་སོགས་བསྐྱང་། དོ་སྐྱོང་ཧིས། to cultivate, train, foster (fut.) totsəxi Answer: 中文：学生: 培养(将来)；藏语：སློབ་མ་སོགས་བསྐྱང་།；木雅语：དོ་སྐྱོང་ཧིས།；音标：totsəxi；英文：to cultivate, train, foster (fut.)；章节分类：多变",
+              "similarity": 0.22985740910075209,
+              "chapter": "多变",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "0f24c9419a4d50e6",
+              "title": "QA_佛教.csv",
+              "excerpt": "Question: 学生、弟子 དགེ་ཕྲུག disciple, pupil getʂʰu Answer: 中文：学生、弟子；藏语：དགེ་ཕྲུག；木雅语：དགེ་ཕྲུག；音标：getʂʰu；英文：disciple, pupil；章节分类：佛教",
+              "similarity": 0.22565693782066476,
+              "chapter": "佛教",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "db56a01d766f597c",
+              "title": "QA_叮嘱.csv",
+              "excerpt": "Question: 不要到河边 ཆུ་ཁར་མ་འགྲོ། ཅུ་འ་ན་བ་ཅི་ཧུས། Stay away from the water's edge. tɕuu.ya nʌ tɕuu.hu Answer: 中文：不要到河边；藏语：ཆུ་ཁར་མ་འགྲོ།；木雅语：ཅུ་འ་ན་བ་ཅི་ཧུས།；音标：tɕuu.ya nʌ tɕuu.hu；英文：Stay away from the water's edge.；章节分类：叮嘱",
+              "similarity": 0.1501321952489883,
+              "chapter": "叮嘱",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "c31b8e8fc36ad85a",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 未见 མ་ཐོང་བ། མུ་ཏིང་། [ཞང] ignorant muti Answer: 中文：未见；藏语：མ་ཐོང་བ།；木雅语：མུ་ཏིང་། [ཞང]；音标：muti；英文：ignorant；章节分类：动词",
+              "similarity": 0.1355751773557737,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "602d37d6e39121c6",
+              "title": "QA_农务.csv",
+              "excerpt": "Question: 搬肥料到屋外 ནང་ལུད་ཕྱིར་འཕུད། ུ་འབུ་དབའ་ཐུ། to take composted manure out yumbu atʰu Answer: 中文：搬肥料到屋外；藏语：ནང་ལུད་ཕྱིར་འཕུད།；木雅语：ུ་འབུ་དབའ་ཐུ།；音标：yumbu atʰu；英文：to take composted manure out；章节分类：农务",
+              "similarity": 0.12624820939247958,
+              "chapter": "农务",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "2f57fb8f-c04a-44d8-9b6c-85971ab99727::muxiaozhi": {
+      "clientId": "2f57fb8f-c04a-44d8-9b6c-85971ab99727",
+      "agentType": "muxiaozhi",
+      "updatedAt": 1787318066924,
+      "messages": [
+        {
+          "id": "u-1787317913826",
+          "role": "user",
+          "content": "你好",
+          "createdAt": 1787317913535
+        },
+        {
+          "id": "assistant-ddccfc14-fb3d-4711-9255-64a7d76dd98a",
+          "role": "assistant",
+          "content": "> 此回答基于模型自己的回答，请仔细辨明\n\n你好！我是木小知，你的木雅文化知识助手。目前我无法找到关于木雅文化的具体资料来回答你的问题。建议你可以查阅当地官方文化网站、学术研究论文或实地探访木雅地区获取更准确的信息。 \n\n关于木雅文化，一般涉及四川甘孜藏族自治州康定、雅江等地的藏族分支，包括独特的语言、服饰、建筑等特色。如需具体信息，请提供更详细的问题方向。\n\n> 此回答基于模型自己的回答，请仔细辨明——知识库与可信网页均未命中可核验来源。",
+          "createdAt": 1787317917102,
+          "source": "web",
+          "evidenceCount": 0,
+          "model": "deepseek-v3",
+          "sources": [],
+          "warning": "可信联网检索未启用",
+          "grounded": false,
+          "modelBased": true
+        },
+        {
+          "id": "u-1787318056288",
+          "role": "user",
+          "content": "介绍一下木雅文化",
+          "createdAt": 1787318056023
+        },
+        {
+          "id": "assistant-3b407ebb-ad82-4ab1-82e4-36a7951e2188",
+          "role": "assistant",
+          "content": "> 此回答基于模型自己的回答，请仔细辨明  \n\n木雅文化是中国西南地区藏族的一个分支——木雅藏族的文化体系，主要分布在四川省甘孜藏族自治州的康定、雅江、九龙等县。以下是木雅文化的一些主要特点：  \n\n### **1. 语言**  \n- **木雅语**：属于汉藏语系藏缅语族，与藏语有一定差异，保留了许多古藏语的特征。  \n- **文字**：传统上使用藏文，但木雅语口语有独特的发音和词汇。  \n\n### **2. 服饰**  \n- 木雅藏族服饰色彩鲜艳，女性常穿长袍配彩色围裙，头戴银饰或珊瑚珠串。  \n- 男性服饰以羊毛制成的长袍为主，腰间系带，风格粗犷。  \n\n### **3. 建筑**  \n- **碉楼**：木雅地区有独特的石砌碉楼，用于防御和居住，部分碉楼已有数百年历史。  \n- **民居**：多为石木结构，适应高原气候，冬暖夏凉。  \n\n### **4. 宗教信仰**  \n- 主要信仰藏传佛教（格鲁派、宁玛派等），同时保留部分原始自然崇拜习俗。  \n- 重要宗教活动包括转山、诵经、跳神舞等。  \n\n### **5. 节日与习俗**  \n- **藏历新年**：与藏族其他地区类似，但木雅人会有独特的祈福仪式。  \n- **赛马节**：康定、雅江等地常有赛马、射箭等传统活动。  \n\n### **6. 饮食**  \n- 以青稞、酥油茶、牦牛肉为主，特色食品包括糌粑、风干肉等。  \n\n> **注意**：以上信息基于模型自身的知识，建议查阅《甘孜州志》《木雅藏族文化研究》等权威资料或咨询当地文化部门核实。\n\n> 此回答基于模型自己的回答，请仔细辨明——知识库与可信网页均未命中可核验来源。",
+          "createdAt": 1787318066922,
+          "source": "web",
+          "evidenceCount": 0,
+          "model": "deepseek-v3",
+          "sources": [],
+          "warning": "可信联网检索未启用",
+          "grounded": false,
+          "modelBased": true
+        }
+      ]
+    },
+    "885043a8-d7c3-4583-9a8f-cbdecaa28c21::muxiaowen": {
+      "clientId": "885043a8-d7c3-4583-9a8f-cbdecaa28c21",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787481307962,
+      "messages": [
+        {
+          "id": "u-1787481304994",
+          "role": "user",
+          "content": "请只按中文字段精确查询“眼睛”，返回完整五语词条。",
+          "createdAt": 1787481305325
+        },
+        {
+          "id": "assistant-4eb3e9be-633d-4da8-8879-ea29f3595c07",
+          "role": "assistant",
+          "content": "中文：眼睛  \n藏语：མིག  \n木雅语：མི་ག་ལོ།[རྙིང]  \n音标：mikølø  \n英文：eye  \n\n知识库章节：人体部位  \n来源文件：QA_人体部位.csv [资料1]",
+          "createdAt": 1787481307960,
+          "source": "ragflow",
+          "evidenceCount": 2,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "91be30961b9af084",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 眼睛 མིག མི་ག་ལོ།[རྙིང] eye mikølø Answer: 中文：眼睛；藏语：མིག；木雅语：མི་ག་ལོ།[རྙིང]；音标：mikølø；英文：eye；章节分类：人体部位",
+              "similarity": 0.2942025622284379,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "6b464b4db5e0f462",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 返回 ལོག་པ། ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་། to return, go back tʰeɒo / tʰako Answer: 中文：返回；藏语：ལོག་པ།；木雅语：ཐེ་འོང་། ཐག་འོང་། འགུ་འོང་།；音标：tʰeɒo / tʰako；英文：to return, go back；章节分类：动词",
+              "similarity": 0.15557193625151683,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "3b0772c7-f291-4189-989d-8ce9a42f784b::muxiaozhi": {
+      "clientId": "3b0772c7-f291-4189-989d-8ce9a42f784b",
+      "agentType": "muxiaozhi",
+      "updatedAt": 1787502557986,
+      "messages": [
+        {
+          "id": "u-1787501854646",
+          "role": "user",
+          "content": "介绍一下“木雅金顶”",
+          "createdAt": 1787501855081
+        },
+        {
+          "id": "assistant-c6c136ab-7ad1-4301-af5c-fcab6143b93e",
+          "role": "assistant",
+          "content": "> 此回答基于模型自己的回答，请仔细辨明  \n\n“木雅金顶”通常指四川甘孜州康定市折多山以西的木雅地区（历史上“木雅”指党项羌人聚居地）的宗教建筑特色，尤以寺庙金顶为典型。其特征可能包括：  \n\n1. **建筑形式**：藏传佛教寺院常见的鎏金铜瓦顶，在阳光下金光闪耀，与雪山形成鲜明对比（如塔公寺、贡嘎山周边寺院）。  \n2. **文化象征**：金色在藏文化中象征佛法与神圣，木雅地区作为藏羌文化交融带，金顶可能融合了党项、藏式工艺。  \n3. **地理关联**：部分游客将“木雅金顶”与贡嘎山日照金山景观并称，但需注意前者为人工建筑，后者为自然现象。  \n\n建议通过甘孜州文旅局或《木雅文化志》等地方文献核实具体寺院名称与历史渊源。  \n\n（注：未检索到官方资料明确记载“木雅金顶”专指某一建筑，此回答仅为文化现象推测）\n\n> 此回答基于模型自己的回答，请仔细辨明——知识库与可信网页均未命中可核验来源。",
+          "createdAt": 1787501863417,
+          "source": "web",
+          "evidenceCount": 0,
+          "model": "deepseek-v3",
+          "sources": [],
+          "warning": "可信联网检索未启用",
+          "grounded": false,
+          "modelBased": true
+        },
+        {
+          "id": "u-1787502549104",
+          "role": "user",
+          "content": "介绍一下木雅藏区的文化",
+          "createdAt": 1787502549419
+        },
+        {
+          "id": "assistant-b0ff4c35-7c4f-4b07-8f3f-1f7c9d700cdb",
+          "role": "assistant",
+          "content": "> 此回答基于模型自己的回答，请仔细辨明  \n\n**木雅藏区文化概况**（主要分布于四川甘孜州康定、九龙、雅江等地及西藏昌都部分地区）：  \n\n1. **族群背景**  \n   - 木雅人属藏族支系，部分学者认为与古代党项羌有渊源，语言属藏语支但保留独特方言（木雅语）。  \n\n2. **信仰与宗教**  \n   - 藏传佛教（宁玛派、格鲁派为主）与本土山神崇拜结合，如贡嘎山被视为圣山。  \n\n3. **建筑特色**  \n   - 碉楼与藏式民居混合，部分寺院有鎏金屋顶（如塔公寺），体现藏羌交融风格。  \n\n4. **节庆习俗**  \n   - 传统节日包括藏历新年、赛马会，部分村落保留独特祭祀仪式（如“煨桑”祭山神）。  \n\n5. **艺术与手工艺**  \n   - 木雅藏族民歌、锅庄舞，以及手工制作的藏毯、银器具有地域特色。  \n\n**注意**：具体细节需参考《甘孜州志》《木雅藏族文化研究》等地方文献，或咨询当地文化馆。  \n\n> 此回答基于模型自己的回答，请仔细辨明——知识库与可信网页均未提供可核验资料。\n\n> 此回答基于模型自己的回答，请仔细辨明——知识库与可信网页均未命中可核验来源。",
+          "createdAt": 1787502557985,
+          "source": "web",
+          "evidenceCount": 0,
+          "model": "deepseek-v3",
+          "sources": [],
+          "warning": "可信联网检索未启用",
+          "grounded": false,
+          "modelBased": true
+        }
+      ]
+    },
+    "885043a8-d7c3-4583-9a8f-cbdecaa28c21::muxiaozhi": {
+      "clientId": "885043a8-d7c3-4583-9a8f-cbdecaa28c21",
+      "agentType": "muxiaozhi",
+      "updatedAt": 1787642081635,
+      "messages": [
+        {
+          "id": "u-1787642075701",
+          "role": "user",
+          "content": "木雅人的分布地区有哪些，请给出来源",
+          "createdAt": 1787642076474
+        },
+        {
+          "id": "assistant-3969fd40-aed9-4e7c-84c1-ecb21c792d48",
+          "role": "assistant",
+          "content": "> 此回答基于模型自己的回答，请仔细辨明\n\n根据现有研究资料，木雅人主要分布在以下地区：\n1. 四川省甘孜藏族自治州康定市折多山以西的营官、沙德、六巴等地\n2. 四川省雅安市石棉县的部分地区\n3. 四川省凉山彝族自治州冕宁县的部分地区\n\n这些地区被称为\"木雅地区\"，是历史上木雅文化的重要分布区域。建议您通过以下权威渠道进一步核实：\n- 四川省民族宗教事务委员会官网\n- 甘孜藏族自治州政府网站\n- 相关民族学研究论文\n\n请注意，具体分布范围和人口数据可能需要查阅最新的民族志调查或人口普查报告。由于未能检索到系统提供的可信网页资料，以上信息仅供参考，建议以官方发布的最新数据为准。\n\n> 此回答基于模型自己的回答，请仔细辨明——知识库与可信网页均未命中可核验来源。",
+          "createdAt": 1787642081634,
+          "source": "web",
+          "evidenceCount": 0,
+          "model": "deepseek-v3",
+          "sources": [],
+          "warning": "可信联网检索未启用",
+          "grounded": false,
+          "modelBased": true
+        }
+      ]
+    },
+    "ca71f7b6-d58f-4ef9-904e-7478b18c52ca::muxiaoce": {
+      "clientId": "ca71f7b6-d58f-4ef9-904e-7478b18c52ca",
+      "agentType": "muxiaoce",
+      "updatedAt": 1787717054828,
+      "messages": [
+        {
+          "id": "user-1787717053968-1w7dfd",
+          "role": "user",
+          "content": "你好",
+          "createdAt": 1787717054159
+        },
+        {
+          "id": "assistant-4cff918b-3fd3-4cb9-8865-8600eab51c47",
+          "role": "assistant",
+          "content": "> RAGFlow 的 muya 知识库未检索到可靠依据",
+          "createdAt": 1787717054826,
+          "source": "ragflow",
+          "evidenceCount": 0,
+          "model": "知识库检索",
+          "sources": [],
+          "grounded": false
+        }
+      ]
+    },
+    "f06bbc00-c051-4cdc-95e2-e1f6ea84b8a4::muxiaowen": {
+      "clientId": "f06bbc00-c051-4cdc-95e2-e1f6ea84b8a4",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787885888026,
+      "messages": [
+        {
+          "id": "u-1787802483245",
+          "role": "user",
+          "content": "雪山",
+          "createdAt": 1787802483330
+        },
+        {
+          "id": "assistant-7891310b-d92c-4e10-911e-c62601641cd9",
+          "role": "assistant",
+          "content": "中文：雪山  \n藏语：གངས་རི།  \n木雅语：བུ་འབོ། གངས་རི།  \n音标：vuumbo  \n英文：snow mountain  \n知识库章节：雪雨  \n来源文件：QA_雪雨.csv [资料3]  \n\n（注：知识库中存在多个\"雪山\"词条，此处优先展示藏文为གངས་རི།且木雅语完整的条目。其他变体如音标qari [资料1]、vuunda [资料2]未采用）",
+          "createdAt": 1787802487378,
+          "source": "ragflow",
+          "evidenceCount": 3,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "2c05a44359bbe0a0",
+              "title": "QA_山脉.csv",
+              "excerpt": "Question: 雪山 གངས་རི། snow mountain qari Answer: 中文：雪山；藏语：གངས་རི།；木雅语：གངས་རི།；音标：qari；英文：snow mountain；章节分类：山脉",
+              "similarity": 0.8748132691960608,
+              "chapter": "山脉",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "2dddae79e9352841",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་ལ། བུ་འདའ། snowy pass vuunda Answer: 中文：雪山；藏语：གངས་ལ།；木雅语：བུ་འདའ།；音标：vuunda；英文：snowy pass；章节分类：雪雨",
+              "similarity": 0.8685455493053508,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "4977f7f7ab73256e",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་རི། བུ་འབོ། གངས་རི། snow mountain vuumbo Answer: 中文：雪山；藏语：གངས་རི།；木雅语：བུ་འབོ། གངས་རི།；音标：vuumbo；英文：snow mountain；章节分类：雪雨",
+              "similarity": 0.8618998792021563,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        },
+        {
+          "id": "u-1787885842292",
+          "role": "user",
+          "content": "草地",
+          "createdAt": 1787885842531
+        },
+        {
+          "id": "assistant-73147493-da8a-474f-9c8f-af119e2c0654",
+          "role": "assistant",
+          "content": "> 知识库未检索到可靠依据",
+          "createdAt": 1787885843755,
+          "source": "ragflow",
+          "evidenceCount": 1,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "4977f7f7ab73256e",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་རི། བུ་འབོ། གངས་རི། snow mountain vuumbo Answer: 中文：雪山；藏语：གངས་རི།；木雅语：བུ་འབོ། གངས་རི།；音标：vuumbo；英文：snow mountain；章节分类：雪雨",
+              "similarity": 0.41124324443465465,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        },
+        {
+          "id": "u-1787885848723",
+          "role": "user",
+          "content": "野猪",
+          "createdAt": 1787885848942
+        },
+        {
+          "id": "assistant-1dd5cc31-30bc-48be-8f46-e1f289be934f",
+          "role": "assistant",
+          "content": "> 知识库未检索到可靠依据",
+          "createdAt": 1787885850148,
+          "source": "ragflow",
+          "evidenceCount": 1,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "4977f7f7ab73256e",
+              "title": "QA_雪雨.csv",
+              "excerpt": "Question: 雪山 གངས་རི། བུ་འབོ། གངས་རི། snow mountain vuumbo Answer: 中文：雪山；藏语：གངས་རི།；木雅语：བུ་འབོ། གངས་རི།；音标：vuumbo；英文：snow mountain；章节分类：雪雨",
+              "similarity": 0.37476832390250003,
+              "chapter": "雪雨",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        },
+        {
+          "id": "u-1787885866231",
+          "role": "user",
+          "content": "健康",
+          "createdAt": 1787885866479
+        },
+        {
+          "id": "assistant-64badc95-af09-49fe-a360-0f8d5ced0230",
+          "role": "assistant",
+          "content": "> 知识库未检索到可靠依据",
+          "createdAt": 1787885867693,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "64ebdf11dbfe88c2",
+              "title": "QA_野生动物.csv",
+              "excerpt": "Question: 野猪 ཕག་རྒོད། wild boar pʰagø Answer: 中文：野猪；藏语：ཕག་རྒོད།；木雅语：ཕག་རྒོད།；音标：pʰagø；英文：wild boar；章节分类：野生动物",
+              "similarity": 0.2814112040774099,
+              "chapter": "野生动物",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "3729cd6665e1fa58",
+              "title": "QA_攻击.csv",
+              "excerpt": "Question: 被野猪咬 ཕག་རྒོད་ཀྱིས་སོ་འདེབས། ཕག་རྒོད་ཡིས་ཁུ་བཱབ། to be bitten by a boar pʰagojikʰuʌ Answer: 中文：被野猪咬；藏语：ཕག་རྒོད་ཀྱིས་སོ་འདེབས།；木雅语：ཕག་རྒོད་ཡིས་ཁུ་བཱབ།；音标：pʰagojikʰuʌ；英文：to be bitten by a boar；章节分类：攻击",
+              "similarity": 0.2738168262101147,
+              "chapter": "攻击",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "5b29a791737c347c",
+              "title": "QA_蘑菇.csv",
+              "excerpt": "Question: 野猪菌 ཕག་རྒོད་ཤུ་མོ། ཕག་ཁོ། wild boar mushroom (a local variety of forest mushroom) pʰʌkʰø Answer: 中文：野猪菌；藏语：ཕག་རྒོད་ཤུ་མོ།；木雅语：ཕག་ཁོ།；音标：pʰʌkʰø；英文：wild boar mushroom (a local variety of forest mushroom)；章节分类：蘑菇",
+              "similarity": 0.26758974756904647,
+              "chapter": "蘑菇",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "db56a01d766f597c",
+              "title": "QA_叮嘱.csv",
+              "excerpt": "Question: 不要到河边 ཆུ་ཁར་མ་འགྲོ། ཅུ་འ་ན་བ་ཅི་ཧུས། Stay away from the water's edge. tɕuu.ya nʌ tɕuu.hu Answer: 中文：不要到河边；藏语：ཆུ་ཁར་མ་འགྲོ།；木雅语：ཅུ་འ་ན་བ་ཅི་ཧུས།；音标：tɕuu.ya nʌ tɕuu.hu；英文：Stay away from the water's edge.；章节分类：叮嘱",
+              "similarity": 0.1537991094556134,
+              "chapter": "叮嘱",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "602d37d6e39121c6",
+              "title": "QA_农务.csv",
+              "excerpt": "Question: 搬肥料到屋外 ནང་ལུད་ཕྱིར་འཕུད། ུ་འབུ་དབའ་ཐུ། to take composted manure out yumbu atʰu Answer: 中文：搬肥料到屋外；藏语：ནང་ལུད་ཕྱིར་འཕུད།；木雅语：ུ་འབུ་དབའ་ཐུ།；音标：yumbu atʰu；英文：to take composted manure out；章节分类：农务",
+              "similarity": 0.14808999901607925,
+              "chapter": "农务",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "d5cd929b41cf566a",
+              "title": "QA_农务.csv",
+              "excerpt": "Question: 拉肥料到田里去 ལུད་ཞིང་ཁར་འདྲེན། ཙའ་ཐབ་ཁྲི། to transport composted manure to a field tsa tʰətshʰi Answer: 中文：拉肥料到田里去；藏语：ལུད་ཞིང་ཁར་འདྲེན།；木雅语：ཙའ་ཐབ་ཁྲི།；音标：tsa tʰətshʰi；英文：to transport composted manure to a field；章节分类：农务",
+              "similarity": 0.14066697481186347,
+              "chapter": "农务",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        },
+        {
+          "id": "u-1787885878945",
+          "role": "user",
+          "content": "长寿",
+          "createdAt": 1787885879181
+        },
+        {
+          "id": "assistant-add4b3ab-1152-4a34-a58b-cb8975f56809",
+          "role": "assistant",
+          "content": "中文：长寿岩  \n藏语：བྲག་ཚེ་རིང་།  \n木雅语：བྲག་ཚེ་རིང་།  \n音标：tɕatsʰeri  \n英文：longevity rock  \n知识库章节：岩石  \n来源文件：QA_岩石.csv [资料1]  \n\n中文：跳长寿人演员  \n藏语：མི་ཚེ་རིང་འཆམ་མཁན།  \n木雅语：མི་ཚེ་རིང་ནབ་འཆམ་མི།  \n音标：muts^heri n^vnte^həmi  \n英文：Cham dancer who represents longevity  \n知识库章节：佛教  \n来源文件：QA_佛教.csv [资料2]  \n\n中文：传授长寿灌顶  \n藏语：ཚེ་དབང་གནང་།  \n木雅语：ཚེ་དབང་འོ་གནང་།  \n音标：tsʰeva wona  \n英文：to grant longevity empowerment  \n知识库章节：佛教  \n来源文件：QA_佛教.csv [资料3]  \n\n中文：接受长寿灌顶  \n藏语：ཚེ་དབང་ཞུ།  \n木雅语：ཚེ་དབང་ཁུ་ཞུ།  \n音标：tsʰeva kʰuzuu  \n英文：to receive longevity empowerment  \n知识库章节：佛教  \n来源文件：QA_佛教.csv [资料4]",
+          "createdAt": 1787885888024,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "ffc98de8a7adcab3",
+              "title": "QA_岩石.csv",
+              "excerpt": "Question: 长寿岩 བྲག་ཚེ་རིང་། longevity rock tɕatsʰeri Answer: 中文：长寿岩；藏语：བྲག་ཚེ་རིང་།；木雅语：བྲག་ཚེ་རིང་།；音标：tɕatsʰeri；英文：longevity rock；章节分类：岩石",
+              "similarity": 0.2664671601601799,
+              "chapter": "岩石",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "cfc11e818ed2595b",
+              "title": "QA_佛教.csv",
+              "excerpt": "Question: 跳长寿人演员 མི་ཚེ་རིང་འཆམ་མཁན། མི་ཚེ་རིང་ནབ་འཆམ་མི། Cham dancer who represents longevity muts^heri n^vnte^həmi Answer: 中文：跳长寿人演员；藏语：མི་ཚེ་རིང་འཆམ་མཁན།；木雅语：མི་ཚེ་རིང་ནབ་འཆམ་མི།；音标：muts^heri n^vnte^həmi；英文：Cham dancer who represents longevity；章节分类：佛教",
+              "similarity": 0.2620004373497574,
+              "chapter": "佛教",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "6496d7abf07f56c3",
+              "title": "QA_佛教.csv",
+              "excerpt": "Question: 传授长寿灌顶 ཚེ་དབང་གནང་། ཚེ་དབང་འོ་གནང་། to grant longevity empowerment tsʰeva wona Answer: 中文：传授长寿灌顶；藏语：ཚེ་དབང་གནང་།；木雅语：ཚེ་དབང་འོ་གནང་།；音标：tsʰeva wona；英文：to grant longevity empowerment；章节分类：佛教",
+              "similarity": 0.2618021277143866,
+              "chapter": "佛教",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "7ec70c2255c45538",
+              "title": "QA_佛教.csv",
+              "excerpt": "Question: 接受长寿灌顶 ཚེ་དབང་ཞུ། ཚེ་དབང་ཁུ་ཞུ། to receive longevity empowerment tsʰeva kʰuzuu Answer: 中文：接受长寿灌顶；藏语：ཚེ་དབང་ཞུ།；木雅语：ཚེ་དབང་ཁུ་ཞུ།；音标：tsʰeva kʰuzuu；英文：to receive longevity empowerment；章节分类：佛教",
+              "similarity": 0.2585213650573897,
+              "chapter": "佛教",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "db56a01d766f597c",
+              "title": "QA_叮嘱.csv",
+              "excerpt": "Question: 不要到河边 ཆུ་ཁར་མ་འགྲོ། ཅུ་འ་ན་བ་ཅི་ཧུས། Stay away from the water's edge. tɕuu.ya nʌ tɕuu.hu Answer: 中文：不要到河边；藏语：ཆུ་ཁར་མ་འགྲོ།；木雅语：ཅུ་འ་ན་བ་ཅི་ཧུས།；音标：tɕuu.ya nʌ tɕuu.hu；英文：Stay away from the water's edge.；章节分类：叮嘱",
+              "similarity": 0.15096232826721864,
+              "chapter": "叮嘱",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "602d37d6e39121c6",
+              "title": "QA_农务.csv",
+              "excerpt": "Question: 搬肥料到屋外 ནང་ལུད་ཕྱིར་འཕུད། ུ་འབུ་དབའ་ཐུ། to take composted manure out yumbu atʰu Answer: 中文：搬肥料到屋外；藏语：ནང་ལུད་ཕྱིར་འཕུད།；木雅语：ུ་འབུ་དབའ་ཐུ།；音标：yumbu atʰu；英文：to take composted manure out；章节分类：农务",
+              "similarity": 0.1433017397082518,
+              "chapter": "农务",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "c0772f6a-73e6-4ab5-a64a-da4813b72b93::muxiaowen": {
+      "clientId": "c0772f6a-73e6-4ab5-a64a-da4813b72b93",
+      "agentType": "muxiaowen",
+      "updatedAt": 1787885682441,
+      "messages": [
+        {
+          "id": "u-1787885661761",
+          "role": "user",
+          "content": "我在草原放牧",
+          "createdAt": 1787885660975
+        },
+        {
+          "id": "assistant-313de5a9-0aa8-4e48-a06e-ee6b52f9a28d",
+          "role": "assistant",
+          "content": "> 知识库未检索到可靠依据\n\n（注：检索证据中未收录\"放牧\"相关词条，且\"在草原\"作为整句未直接命中。可尝试拆分查询\"草原\"和\"放牧\"）",
+          "createdAt": 1787885663629,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "d3c8ef6729f794ff",
+              "title": "QA_草原.csv",
+              "excerpt": "Question: 草地上 སྤང་ཐོག སྤང་པུ། on the grassland pa.pu Answer: 中文：草地上；藏语：སྤང་ཐོག；木雅语：སྤང་པུ།；音标：pa.pu；英文：on the grassland；章节分类：草原",
+              "similarity": 0.4298493738353931,
+              "chapter": "草原",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "5187be2dbbd334a7",
+              "title": "QA_草原.csv",
+              "excerpt": "Question: 大草原 སྤང་ཆེན་པོ། སྤང་ཀི་ཀབ། large grassland pa kikʌ Answer: 中文：大草原；藏语：སྤང་ཆེན་པོ།；木雅语：སྤང་ཀི་ཀབ།；音标：pa kikʌ；英文：large grassland；章节分类：草原",
+              "similarity": 0.4257186533858657,
+              "chapter": "草原",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "8c8a74abe39909ed",
+              "title": "QA_草原.csv",
+              "excerpt": "Question: 草原 རྩྭ་ཐང་། སྤང་། grassland pa Answer: 中文：草原；藏语：རྩྭ་ཐང་།；木雅语：སྤང་།；音标：pa；英文：grassland；章节分类：草原",
+              "similarity": 0.42421642266142445,
+              "chapter": "草原",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "52bc5362d985c2a4",
+              "title": "QA_草原.csv",
+              "excerpt": "Question: 绿草地 སྤང་ལྗང་། སྤང་ལྗང་ཁུ། green grassland pa dzaŋkʰu Answer: 中文：绿草地；藏语：སྤང་ལྗང་།；木雅语：སྤང་ལྗང་ཁུ།；音标：pa dzaŋkʰu；英文：green grassland；章节分类：草原",
+              "similarity": 0.42148208338509574,
+              "chapter": "草原",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "86c6e8e7a8ae3446",
+              "title": "QA_火种.csv",
+              "excerpt": "Question: 草原发生火灾 སྤང་མེ་ལ་ཤོར་བ། སྤང་པུ་མུ་ཏི་ཤོར། for a grassland to catch fire papu mɑtuey Answer: 中文：草原发生火灾；藏语：སྤང་མེ་ལ་ཤོར་བ།；木雅语：སྤང་པུ་མུ་ཏི་ཤོར།；音标：papu mɑtuey；英文：for a grassland to catch fire；章节分类：火种",
+              "similarity": 0.4201107182083008,
+              "chapter": "火种",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "97465342ec033400",
+              "title": "QA_草原.csv",
+              "excerpt": "Question: 青草地 སྤང་སྔོན་ོ། སྤང་སྔོ་ཏོག་ཏོག green grassland pa ŋutoto Answer: 中文：青草地；藏语：སྤང་སྔོན་ོ།；木雅语：སྤང་སྔོ་ཏོག་ཏོག；音标：pa ŋutoto；英文：green grassland；章节分类：草原",
+              "similarity": 0.41682841085829037,
+              "chapter": "草原",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        },
+        {
+          "id": "u-1787885681864",
+          "role": "user",
+          "content": "眼睛",
+          "createdAt": 1787885681078
+        },
+        {
+          "id": "assistant-2b9c610d-3262-4868-831e-5a8870861e1e",
+          "role": "assistant",
+          "content": "> 知识库未检索到可靠依据",
+          "createdAt": 1787885682439,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "d3c8ef6729f794ff",
+              "title": "QA_草原.csv",
+              "excerpt": "Question: 草地上 སྤང་ཐོག སྤང་པུ། on the grassland pa.pu Answer: 中文：草地上；藏语：སྤང་ཐོག；木雅语：སྤང་པུ།；音标：pa.pu；英文：on the grassland；章节分类：草原",
+              "similarity": 0.22678800810326366,
+              "chapter": "草原",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "86c6e8e7a8ae3446",
+              "title": "QA_火种.csv",
+              "excerpt": "Question: 草原发生火灾 སྤང་མེ་ལ་ཤོར་བ། སྤང་པུ་མུ་ཏི་ཤོར། for a grassland to catch fire papu mɑtuey Answer: 中文：草原发生火灾；藏语：སྤང་མེ་ལ་ཤོར་བ།；木雅语：སྤང་པུ་མུ་ཏི་ཤོར།；音标：papu mɑtuey；英文：for a grassland to catch fire；章节分类：火种",
+              "similarity": 0.2211670068625245,
+              "chapter": "火种",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "ba822a23efa86ac3",
+              "title": "QA_草原.csv",
+              "excerpt": "Question: 马圈草地 རྟ་ར་ཐང་། རྟ་འ་སྤང་། རྟ་ར་ཐང་། meadow for stabling horses ta.yə pa Answer: 中文：马圈草地；藏语：རྟ་ར་ཐང་།；木雅语：རྟ་འ་སྤང་། རྟ་ར་ཐང་།；音标：ta.yə pa；英文：meadow for stabling horses；章节分类：草原",
+              "similarity": 0.22028536792331516,
+              "chapter": "草原",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "52bc5362d985c2a4",
+              "title": "QA_草原.csv",
+              "excerpt": "Question: 绿草地 སྤང་ལྗང་། སྤང་ལྗང་ཁུ། green grassland pa dzaŋkʰu Answer: 中文：绿草地；藏语：སྤང་ལྗང་།；木雅语：སྤང་ལྗང་ཁུ།；音标：pa dzaŋkʰu；英文：green grassland；章节分类：草原",
+              "similarity": 0.21545223836528632,
+              "chapter": "草原",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "8c8a74abe39909ed",
+              "title": "QA_草原.csv",
+              "excerpt": "Question: 草原 རྩྭ་ཐང་། སྤང་། grassland pa Answer: 中文：草原；藏语：རྩྭ་ཐང་།；木雅语：སྤང་།；音标：pa；英文：grassland；章节分类：草原",
+              "similarity": 0.21393564829889178,
+              "chapter": "草原",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "97465342ec033400",
+              "title": "QA_草原.csv",
+              "excerpt": "Question: 青草地 སྤང་སྔོན་ོ། སྤང་སྔོ་ཏོག་ཏོག green grassland pa ŋutoto Answer: 中文：青草地；藏语：སྤང་སྔོན་ོ།；木雅语：སྤང་སྔོ་ཏོག་ཏོག；音标：pa ŋutoto；英文：green grassland；章节分类：草原",
+              "similarity": 0.21330179146344286,
+              "chapter": "草原",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        }
+      ]
+    },
+    "f06bbc00-c051-4cdc-95e2-e1f6ea84b8a4::muxiaozhi": {
+      "clientId": "f06bbc00-c051-4cdc-95e2-e1f6ea84b8a4",
+      "agentType": "muxiaozhi",
+      "updatedAt": 1787885832001,
+      "messages": [
+        {
+          "id": "u-1787885824483",
+          "role": "user",
+          "content": "木雅人",
+          "createdAt": 1787885824719
+        },
+        {
+          "id": "assistant-54b61a6c-70d5-4c3e-b91c-f6b808c0e319",
+          "role": "assistant",
+          "content": "> 此回答基于模型自己的回答，请仔细辨明\n\n木雅人是中国的一个少数民族群体，主要分布在四川省甘孜藏族自治州的康定、雅江、道孚、九龙等县，以及凉山彝族自治州的木里藏族自治县等地。木雅人有着独特的语言和文化传统，他们的语言属于藏缅语族，与藏语有一定的关联但也有显著差异。\n\n木雅文化具有鲜明的民族特色，包括独特的服饰、建筑、音乐和舞蹈等。木雅人的传统服饰色彩鲜艳，图案丰富，反映了他们的审美和文化认同。在建筑方面，木雅人的房屋多为石木结构，具有坚固耐用的特点。\n\n木雅人信仰藏传佛教，同时也保留了一些原始宗教信仰的元素。他们的节日和庆典活动丰富多彩，如藏历新年、转山会等，体现了他们对自然和神灵的敬畏与崇拜。\n\n由于木雅人分布较为分散，且与其他民族如藏族、彝族等长期共处，他们的文化也受到了周边民族的影响，形成了独特的文化融合现象。\n\n建议用户到本地知识库或官方渠道核对更多详细信息。\n\n> 此回答基于模型自己的回答，请仔细辨明——知识库与可信网页均未命中可核验来源。",
+          "createdAt": 1787885831999,
+          "source": "web",
+          "evidenceCount": 0,
+          "model": "deepseek-v3",
+          "sources": [],
+          "warning": "可信联网检索未启用",
+          "grounded": false,
+          "modelBased": true
+        }
+      ]
+    },
+    "ca71f7b6-d58f-4ef9-904e-7478b18c52ca::muxiaowen": {
+      "clientId": "ca71f7b6-d58f-4ef9-904e-7478b18c52ca",
+      "agentType": "muxiaowen",
+      "updatedAt": 1788186687836,
+      "messages": [
+        {
+          "id": "u-1788186574471",
+          "role": "user",
+          "content": "野猪",
+          "createdAt": 1788186574536
+        },
+        {
+          "id": "assistant-8b5a1f53-6ac7-4401-a093-e2a5c7c76672",
+          "role": "assistant",
+          "content": "中文：野猪  \n藏语：ཕག་རྒོད།  \n木雅语：ཕག་རྒོད།  \n音标：pʰagø  \n英文：wild boar  \n\n知识库章节：野生动物  \n来源文件：QA_野生动物.csv [资料1]",
+          "createdAt": 1788186577513,
+          "source": "ragflow",
+          "evidenceCount": 3,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "64ebdf11dbfe88c2",
+              "title": "QA_野生动物.csv",
+              "excerpt": "Question: 野猪 ཕག་རྒོད། wild boar pʰagø Answer: 中文：野猪；藏语：ཕག་རྒོད།；木雅语：ཕག་རྒོད།；音标：pʰagø；英文：wild boar；章节分类：野生动物",
+              "similarity": 0.8910954070529551,
+              "chapter": "野生动物",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "5b29a791737c347c",
+              "title": "QA_蘑菇.csv",
+              "excerpt": "Question: 野猪菌 ཕག་རྒོད་ཤུ་མོ། ཕག་ཁོ། wild boar mushroom (a local variety of forest mushroom) pʰʌkʰø Answer: 中文：野猪菌；藏语：ཕག་རྒོད་ཤུ་མོ།；木雅语：ཕག་ཁོ།；音标：pʰʌkʰø；英文：wild boar mushroom (a local variety of forest mushroom)；章节分类：蘑菇",
+              "similarity": 0.881370226079105,
+              "chapter": "蘑菇",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "3729cd6665e1fa58",
+              "title": "QA_攻击.csv",
+              "excerpt": "Question: 被野猪咬 ཕག་རྒོད་ཀྱིས་སོ་འདེབས། ཕག་རྒོད་ཡིས་ཁུ་བཱབ། to be bitten by a boar pʰagojikʰuʌ Answer: 中文：被野猪咬；藏语：ཕག་རྒོད་ཀྱིས་སོ་འདེབས།；木雅语：ཕག་རྒོད་ཡིས་ཁུ་བཱབ།；音标：pʰagojikʰuʌ；英文：to be bitten by a boar；章节分类：攻击",
+              "similarity": 0.8669723278055782,
+              "chapter": "攻击",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        },
+        {
+          "id": "u-1788186584973",
+          "role": "user",
+          "content": "雪山",
+          "createdAt": 1788186585017
+        },
+        {
+          "id": "assistant-ae3b8f37-d2b3-4bf3-8ab5-81e5ea3b05e9",
+          "role": "assistant",
+          "content": "> 知识库未检索到可靠依据",
+          "createdAt": 1788186586401,
+          "source": "ragflow",
+          "evidenceCount": 2,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "64ebdf11dbfe88c2",
+              "title": "QA_野生动物.csv",
+              "excerpt": "Question: 野猪 ཕག་རྒོད། wild boar pʰagø Answer: 中文：野猪；藏语：ཕག་རྒོད།；木雅语：ཕག་རྒོད།；音标：pʰagø；英文：wild boar；章节分类：野生动物",
+              "similarity": 0.45861070992956177,
+              "chapter": "野生动物",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "5b29a791737c347c",
+              "title": "QA_蘑菇.csv",
+              "excerpt": "Question: 野猪菌 ཕག་རྒོད་ཤུ་མོ། ཕག་ཁོ། wild boar mushroom (a local variety of forest mushroom) pʰʌkʰø Answer: 中文：野猪菌；藏语：ཕག་རྒོད་ཤུ་མོ།；木雅语：ཕག་ཁོ།；音标：pʰʌkʰø；英文：wild boar mushroom (a local variety of forest mushroom)；章节分类：蘑菇",
+              "similarity": 0.3963739558745004,
+              "chapter": "蘑菇",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        },
+        {
+          "id": "u-1788186597984",
+          "role": "user",
+          "content": "草原",
+          "createdAt": 1788186598028
+        },
+        {
+          "id": "assistant-b37b0efa-e582-4477-b493-cfa8a1c3224c",
+          "role": "assistant",
+          "content": "> 知识库未检索到可靠依据",
+          "createdAt": 1788186599149,
+          "source": "ragflow",
+          "evidenceCount": 1,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "64ebdf11dbfe88c2",
+              "title": "QA_野生动物.csv",
+              "excerpt": "Question: 野猪 ཕག་རྒོད། wild boar pʰagø Answer: 中文：野猪；藏语：ཕག་རྒོད།；木雅语：ཕག་རྒོད།；音标：pʰagø；英文：wild boar；章节分类：野生动物",
+              "similarity": 0.37282435202481895,
+              "chapter": "野生动物",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        },
+        {
+          "id": "u-1788186612378",
+          "role": "user",
+          "content": "树木",
+          "createdAt": 1788186612421
+        },
+        {
+          "id": "assistant-d0101aa4-b936-442d-9b70-63df0c4665b5",
+          "role": "assistant",
+          "content": "中文：树木  \n藏语：ཤིང་ཕུང་།  \n木雅语：ཚུ་ཕུང་།  \n音标：tsʰupʰo  \n英文：tree trunk  \n\n知识库章节：树木  \n来源文件：QA_树木.csv [资料5]",
+          "createdAt": 1788186614974,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "aa5c958ae74f6953",
+              "title": "QA_树木.csv",
+              "excerpt": "Question: 做背架子的一种灌木 སྐྱེར་བ། ཁུར་སྒ་ཚུ་རོས། a kind of shrub used for making pack saddles khugatsʰurø Answer: 中文：做背架子的一种灌木；藏语：སྐྱེར་བ།；木雅语：ཁུར་སྒ་ཚུ་རོས།；音标：khugatsʰurø；英文：a kind of shrub used for making pack saddles；章节分类：树木",
+              "similarity": 0.24990044094892705,
+              "chapter": "树木",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "8c8a74abe39909ed",
+              "title": "QA_草原.csv",
+              "excerpt": "Question: 草原 རྩྭ་ཐང་། སྤང་། grassland pa Answer: 中文：草原；藏语：རྩྭ་ཐང་།；木雅语：སྤང་།；音标：pa；英文：grassland；章节分类：草原",
+              "similarity": 0.24740833465360215,
+              "chapter": "草原",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "3054022e7774e248",
+              "title": "QA_树木.csv",
+              "excerpt": "Question: 树根 ཤིང་གི་རྩ་བ། ཚུ་ཀུ་ལོ། tree root tsʰʌ qʌlø Answer: 中文：树根；藏语：ཤིང་གི་རྩ་བ།；木雅语：ཚུ་ཀུ་ལོ།；音标：tsʰʌ qʌlø；英文：tree root；章节分类：树木",
+              "similarity": 0.24531986943619932,
+              "chapter": "树木",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "7f22e5728e9995be",
+              "title": "QA_树木.csv",
+              "excerpt": "Question: 竹根 སྨུག་རྩ། རུ་ཀླ་ལོ། bamboo root ruu qʌlɔ Answer: 中文：竹根；藏语：སྨུག་རྩ།；木雅语：རུ་ཀླ་ལོ།；音标：ruu qʌlɔ；英文：bamboo root；章节分类：树木",
+              "similarity": 0.2441594276603185,
+              "chapter": "树木",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "946456d0df04ff18",
+              "title": "QA_树木.csv",
+              "excerpt": "Question: 树木 ཤིང་ཕུང་། ཚུ་ཕུང་། tree trunk tsʰupʰo Answer: 中文：树木；藏语：ཤིང་ཕུང་།；木雅语：ཚུ་ཕུང་།；音标：tsʰupʰo；英文：tree trunk；章节分类：树木",
+              "similarity": 0.24343375507410042,
+              "chapter": "树木",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "dc966df54b0e8b9f",
+              "title": "QA_草原.csv",
+              "excerpt": "Question: 干草地 སྤང་སྐམ་པོ། སྤང་རའ་རའ། dry grassland pa rara Answer: 中文：干草地；藏语：སྤང་སྐམ་པོ།；木雅语：སྤང་རའ་རའ།；音标：pa rara；英文：dry grassland；章节分类：草原",
+              "similarity": 0.242849356907051,
+              "chapter": "草原",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        },
+        {
+          "id": "u-1788186629319",
+          "role": "user",
+          "content": "干草地",
+          "createdAt": 1788186629361
+        },
+        {
+          "id": "assistant-9beb66e3-2ed7-4ea7-8e2e-b3b482ed8536",
+          "role": "assistant",
+          "content": "> 知识库未检索到可靠依据",
+          "createdAt": 1788186630621,
+          "source": "ragflow",
+          "evidenceCount": 2,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "946456d0df04ff18",
+              "title": "QA_树木.csv",
+              "excerpt": "Question: 树木 ཤིང་ཕུང་། ཚུ་ཕུང་། tree trunk tsʰupʰo Answer: 中文：树木；藏语：ཤིང་ཕུང་།；木雅语：ཚུ་ཕུང་།；音标：tsʰupʰo；英文：tree trunk；章节分类：树木",
+              "similarity": 0.3806734542414967,
+              "chapter": "树木",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "b9cf9253cd3b20c9",
+              "title": "QA_树木.csv",
+              "excerpt": "Question: 川梨树 འོ་སེ་ཤིང་། འོ་མའ་ཚྭ་ཕུང་། Pyrus pashia tree (Himalayan pear tree) woma tsʰupʰo Answer: 中文：川梨树；藏语：འོ་སེ་ཤིང་།；木雅语：འོ་མའ་ཚྭ་ཕུང་།；音标：woma tsʰupʰo；英文：Pyrus pashia tree (Himalayan pear tree)；章节分类：树木",
+              "similarity": 0.3291430453042553,
+              "chapter": "树木",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        },
+        {
+          "id": "u-1788186641400",
+          "role": "user",
+          "content": "眼睛",
+          "createdAt": 1788186641444
+        },
+        {
+          "id": "assistant-e9654acb-bdcb-4385-84fe-db69f4af7f85",
+          "role": "assistant",
+          "content": "> 知识库未检索到可靠依据",
+          "createdAt": 1788186642583,
+          "source": "ragflow",
+          "evidenceCount": 1,
+          "model": "deepseek-v3",
+          "sources": [
+            {
+              "id": "946456d0df04ff18",
+              "title": "QA_树木.csv",
+              "excerpt": "Question: 树木 ཤིང་ཕུང་། ཚུ་ཕུང་། tree trunk tsʰupʰo Answer: 中文：树木；藏语：ཤིང་ཕུང་།；木雅语：ཚུ་ཕུང་།；音标：tsʰupʰo；英文：tree trunk；章节分类：树木",
+              "similarity": 0.33960158972605653,
+              "chapter": "树木",
+              "kind": "knowledge-base"
+            }
+          ],
+          "grounded": true,
+          "modelBased": false
+        },
+        {
+          "id": "u-1788186658832",
+          "role": "user",
+          "content": "长寿用木雅语怎么说",
+          "createdAt": 1788186658874
+        },
+        {
+          "id": "assistant-b1ac1bb1-520f-454f-b46d-9357e5e7d83d",
+          "role": "assistant",
+          "content": "| 中文 | 藏文 | 木雅语 | 国际音标 | 英文 | 知识库章节 |\n|---|---|---|---|---|---|\n| 眼睛 | མིག | མི་ག་ལོ།[རྙིང] | mikølø | eye | 人体部位 |\n| 长寿岩 | བྲག་ཚེ་རིང་། | བྲག་ཚེ་རིང་། | tɕatsʰeri | longevity rock | 岩石 |\n| 传授长寿灌顶 | ཚེ་དབང་གནང་། | ཚེ་དབང་འོ་གནང་། | tsʰeva wona | to grant longevity empowerment | 佛教 |\n| 接受长寿灌顶 | ཚེ་དབང་ཞུ། | ཚེ་དབང་ཁུ་ཞུ། | tsʰeva kʰuzuu | to receive longevity empowerment | 佛教 |\n| 跳长寿人演员 | མི་ཚེ་རིང་འཆམ་མཁན། | མི་ཚེ་རིང་ནབ་འཆམ་མི། | muts^heri n^vnte^həmi | Cham dancer who represents longevity | 佛教 |\n\n> [资料1] QA_人体部位.csv\n> [资料2] QA_岩石.csv\n> [资料3] QA_佛教.csv\n> [资料4] QA_佛教.csv\n> [资料5] QA_佛教.csv",
+          "createdAt": 1788186660230,
+          "source": "ragflow",
+          "evidenceCount": 8,
+          "model": "知识库五语对照直出",
+          "sources": [
+            {
+              "id": "91be30961b9af084",
+              "title": "QA_人体部位.csv",
+              "excerpt": "Question: 眼睛 མིག མི་ག་ལོ།[རྙིང] eye mikølø Answer: 中文：眼睛；藏语：མིག；木雅语：མི་ག་ལོ།[རྙིང]；音标：mikølø；英文：eye；章节分类：人体部位",
+              "similarity": 0.2737642539329796,
+              "chapter": "人体部位",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "ffc98de8a7adcab3",
+              "title": "QA_岩石.csv",
+              "excerpt": "Question: 长寿岩 བྲག་ཚེ་རིང་། longevity rock tɕatsʰeri Answer: 中文：长寿岩；藏语：བྲག་ཚེ་རིང་།；木雅语：བྲག་ཚེ་རིང་།；音标：tɕatsʰeri；英文：longevity rock；章节分类：岩石",
+              "similarity": 0.24834543407110218,
+              "chapter": "岩石",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "6496d7abf07f56c3",
+              "title": "QA_佛教.csv",
+              "excerpt": "Question: 传授长寿灌顶 ཚེ་དབང་གནང་། ཚེ་དབང་འོ་གནང་། to grant longevity empowerment tsʰeva wona Answer: 中文：传授长寿灌顶；藏语：ཚེ་དབང་གནང་།；木雅语：ཚེ་དབང་འོ་གནང་།；音标：tsʰeva wona；英文：to grant longevity empowerment；章节分类：佛教",
+              "similarity": 0.23257875474805104,
+              "chapter": "佛教",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "7ec70c2255c45538",
+              "title": "QA_佛教.csv",
+              "excerpt": "Question: 接受长寿灌顶 ཚེ་དབང་ཞུ། ཚེ་དབང་ཁུ་ཞུ། to receive longevity empowerment tsʰeva kʰuzuu Answer: 中文：接受长寿灌顶；藏语：ཚེ་དབང་ཞུ།；木雅语：ཚེ་དབང་ཁུ་ཞུ།；音标：tsʰeva kʰuzuu；英文：to receive longevity empowerment；章节分类：佛教",
+              "similarity": 0.22786144719388968,
+              "chapter": "佛教",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "cfc11e818ed2595b",
+              "title": "QA_佛教.csv",
+              "excerpt": "Question: 跳长寿人演员 མི་ཚེ་རིང་འཆམ་མཁན། མི་ཚེ་རིང་ནབ་འཆམ་མི། Cham dancer who represents longevity muts^heri n^vnte^həmi Answer: 中文：跳长寿人演员；藏语：མི་ཚེ་རིང་འཆམ་མཁན།；木雅语：མི་ཚེ་རིང་ནབ་འཆམ་མི།；音标：muts^heri n^vnte^həmi；英文：Cham dancer who represents longevity；章节分类：佛教",
+              "similarity": 0.2206937972148248,
+              "chapter": "佛教",
+              "kind": "knowledge-base"
+            },
+            {
+              "id": "8469ad32a4a8e913",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 夸口说 ལབ་རྒྱབ་པ། ཉམ་ཤོས་ཤུ་བླ། ཁ་རྒྱགས་པ། to boast, brag ɲəy ɕuvu Answer: 中文：夸口说；藏语：ལབ་རྒྱབ་པ།；木雅语：ཉམ་ཤོས་ཤུ་བླ། ཁ་རྒྱགས་པ།；音标：ɲəy ɕuvu；英文：to boast, brag；章节分类：动词",
+              "similarity": 0.18482995997464904,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            }
+          ],
+          "warning": "木小文翻译/词汇查询直接以五语对照表输出，未调用 LLM 二次改写",
+          "grounded": true
+        },
+        {
+          "id": "u-1788186680995",
+          "role": "user",
+          "content": "你好用木雅语怎么说",
+          "createdAt": 1788186681055
+        },
+        {
+          "id": "assistant-652c94e3-1e9e-46eb-8c38-a0b04f806c15",
+          "role": "assistant",
+          "content": "> 整句未在知识库中直接命中，以下仅展示拆解检索后能够确认的词条；不得据此拼造整句译文。\n\n| 中文 | 藏文 | 木雅语 | 国际音标 | 英文 | 知识库章节 |\n|---|---|---|---|---|---|\n| 请求 | ཞུ་བ། | ཁུ་ཞུ།[ཞི] | kʰuʐu | to request (hon.) | 动词 |\n\n> [资料1] QA_动词.csv",
+          "createdAt": 1788186687834,
+          "source": "ragflow",
+          "evidenceCount": 1,
+          "model": "知识库五语对照直出",
+          "sources": [
+            {
+              "id": "802cf5db86058c4c",
+              "title": "QA_动词.csv",
+              "excerpt": "Question: 请求 ཞུ་བ། ཁུ་ཞུ།[ཞི] to request (hon.) kʰuʐu Answer: 中文：请求；藏语：ཞུ་བ།；木雅语：ཁུ་ཞུ།[ཞི]；音标：kʰuʐu；英文：to request (hon.)；章节分类：动词",
+              "similarity": 0.14607330223120216,
+              "chapter": "动词",
+              "kind": "knowledge-base"
+            }
+          ],
+          "warning": "木小文翻译/词汇查询直接以五语对照表输出，未调用 LLM 二次改写",
+          "grounded": true
+        }
+      ]
+    },
+    "ca71f7b6-d58f-4ef9-904e-7478b18c52ca::muxiaozhi": {
+      "clientId": "ca71f7b6-d58f-4ef9-904e-7478b18c52ca",
+      "agentType": "muxiaozhi",
+      "updatedAt": 1788612537999,
+      "messages": [
+        {
+          "id": "u-1788612533791",
+          "role": "user",
+          "content": "地里情况如何",
+          "createdAt": 1788612533979
+        },
+        {
+          "id": "assistant-193149bd-c487-4f32-bc91-d172e74fdc1b",
+          "role": "assistant",
+          "content": "> 此回答基于模型自己的回答，请仔细辨明  \n\n关于木雅地区的\"地里情况\"，由于缺乏具体的可信网页资料，我无法提供确切的核验信息。建议您：  \n\n1. 说明具体关注方向（如农作物、土壤类型、地形特征等）  \n2. 咨询当地文旅部门或查阅《甘孜州志》《康定县志》等官方文献  \n3. 木雅传统农耕文化可能涉及青稞种植和高原农业，但需实地验证  \n\n请以权威渠道信息为准。\n\n> 此回答基于模型自己的回答，请仔细辨明——知识库与可信网页均未命中可核验来源。",
+          "createdAt": 1788612537997,
+          "source": "web",
+          "evidenceCount": 0,
+          "model": "deepseek-v3",
+          "sources": [],
+          "warning": "可信联网检索未启用",
+          "grounded": false,
+          "modelBased": true
+        }
+      ]
+    },
+    "3b0772c7-f291-4189-989d-8ce9a42f784b::muxiaowen": {
+      "clientId": "3b0772c7-f291-4189-989d-8ce9a42f784b",
+      "agentType": "muxiaowen",
+      "updatedAt": 1788921075091,
+      "messages": [
+        {
+          "id": "u-1788921074686",
+          "role": "user",
+          "content": "“幸福”的藏文怎么说",
+          "createdAt": 1788921074734
+        },
+        {
+          "id": "assistant-6d851f31-7166-4b22-b584-f7a6178d5486",
+          "role": "assistant",
+          "content": "> 知识库已命中对应词条，以下内容按原始记录展示。\n\n| 中文 | 藏语 | 木雅语 | 国际音标 | 英文 | 章节分类 |\n|------|------|--------|----------|------|----------|\n| 幸福 | སྐྱིད། | ཅི་པོ། [ཟུར] | tɕipu | happy | 反义词 |\n\n> 来源：本地知识库《木雅藏语方言词汇》（反义词）",
+          "createdAt": 1788921075089,
+          "source": "local",
+          "evidenceCount": 1,
+          "model": "知识库五语对照直出",
+          "sources": [
+            {
+              "id": "3410",
+              "title": "反义词",
+              "excerpt": "中文：幸福；藏语：སྐྱིད།；木雅语：ཅི་པོ། [ཟུར]；国际音标：tɕipu；英文：happy",
+              "chapter": "反义词",
+              "kind": "knowledge-base"
+            }
+          ],
+          "warning": "木小文翻译/词汇查询直接以五语对照表输出，未调用 LLM 二次改写",
+          "grounded": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+import { 
+  Bot, 
+  Code, 
+  Globe,
+  Sparkles,
+  FileText,
+  Lightbulb,
+  BookOpen,
+  MessageCircle,
+  Languages,
+  GraduationCap,
+  Mic,
+  Volume2,
+  VolumeX,
+  Play,
+  Square,
+  UserCircle,
+} from 'lucide-react';
+
+// Icon 映射
+export const ICON_MAP: Record<string, React.ComponentType<any>> = {
+  Bot,
+  Sparkles,
+  Code,
+  FileText,
+  Globe,
+  Lightbulb,
+  BookOpen,
+  MessageCircle,
+  Languages,
+  GraduationCap,
+  Mic,
+  Volume2,
+  VolumeX,
+  Play,
+  Square,
+  UserCircle,
+};

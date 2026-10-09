@@ -1,0 +1,11 @@
+[Unit]
+Description=Periodic cpolar public tunnel health check
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=2min
+AccuracySec=15s
+Persistent=true
+
+[Install]
+WantedBy=timers.target

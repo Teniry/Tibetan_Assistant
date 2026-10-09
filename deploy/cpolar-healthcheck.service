@@ -1,0 +1,9 @@
+[Unit]
+Description=Check cpolar public tunnel health
+After=network-online.target cpolar.service nginx.service muya-assistant.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/cpolar-healthcheck.sh
+TimeoutStartSec=240
